@@ -1,9 +1,12 @@
 import itertools
 from dataclasses import dataclass
+import random
 from typing import List, Tuple, Generator
 from collections import Counter
 from copy import deepcopy
 from ete3 import Tree, TextFace
+from concurrent.futures import ProcessPoolExecutor, as_completed
+
 
 @dataclass
 class State:
@@ -14,7 +17,7 @@ class State:
     novelty: int = None
 
 def brute_force_tree(input: List[float]) -> State:
-    print("Solving for: ", input)
+    #print("Solving for: ", input)
     init_state = State(numbers=sorted(input), successors=[])
     cur_states = [init_state]
     for i in range(3):
@@ -208,7 +211,7 @@ novelty_counts_correct = Counter([s.novelty for s in result_states if 24 in s.nu
 
 print("Novelty counts correct:", novelty_counts_correct)
 
-def prune_novelty(root_state: State, min_novelty: int, max_novelty: int) -> State:
+def prune_novelty(root_state: State, max_novelty: int, min_novelty: int = 1) -> State:
     # prune novelty using state numbers and length of state as atoms
     new_tree = deepcopy(root_state)
     prev_states = []
@@ -234,13 +237,14 @@ def prune_novelty(root_state: State, min_novelty: int, max_novelty: int) -> Stat
     return new_tree
 
 for width in range(1, MAX_WIDTH):
-    pruned_tree = prune_novelty(tree, 1, width)
+    pruned_tree = prune_novelty(tree, width)
     assert get_max_depth(pruned_tree) == 3
     assert get_num_duplicate_states(pruned_tree)[0] == 0
     print("Pruned tree width", width, ":")
     print("Number of nodes", get_num_nodes(pruned_tree))
     print("Number of leaf nodes", len(get_nodes_at_depth(pruned_tree, 3)))
     print("Number of correct leaf nodes", len([s for s in get_nodes_at_depth(pruned_tree, 3) if 24 in s.numbers]))
+
 
 def to_ete3_tree(state: State) -> str:
     t = Tree()
@@ -249,8 +253,83 @@ def to_ete3_tree(state: State) -> str:
         t.add_child(to_ete3_tree(s))
     return t
 
-p_tree = prune_novelty(tree, 1, 1)
-tree_ete3 = to_ete3_tree(p_tree)
+#p_tree = prune_novelty(tree, 1)
+#tree_ete3 = to_ete3_tree(p_tree)
 
+#tree_ete3.show()
 
-tree_ete3.show()
+def get_width_and_part_pruneable(tree: State) -> Tuple[int, int]:
+    width = 0
+    max_width = MAX_WIDTH
+    num_nodes = get_num_nodes(tree)
+    for i in range(1, max_width):
+        pruned_tree = prune_novelty(tree, i)
+        num_correct = len([s for s in get_nodes_at_depth(pruned_tree, 3) if 24 in s.numbers])
+        if num_correct > 0:
+            width = i
+            part_pruneable = (num_nodes - get_num_nodes(pruned_tree)) / num_nodes
+            return width, part_pruneable
+    return None
+
+def process_input(input):
+    tree, result_states = brute_force_tree(input)
+    tree = round_tree(tree)
+    tree = remove_zeros_after_decimal(tree)
+    tree = calc_all_novelties(tree)
+    r = get_width_and_part_pruneable(tree)
+    if r:
+        w, n_p = r
+        return w, n_p, len(result_states)
+    else:
+        return None
+
+# get average width and num pruneable states for inputs
+widths = []
+part_pruneables = []
+num_states = []
+# generate all combinations of 4 numbers from 1 to 10
+inputs = list(itertools.combinations_with_replacement(range(1, 11), 4))
+print("Total inputs:", len(inputs))
+# inputs = random.sample(inputs, 10)
+
+total_inputs = len(inputs)
+processed_count = 0
+update_interval = 10
+
+with ProcessPoolExecutor(10) as executor:
+    futures = {executor.submit(process_input, input): input for input in inputs}
+    for future in as_completed(futures):
+        r = future.result()
+        if r:
+            width, num_pruneable, n_states = r
+            widths.append(width)
+            part_pruneables.append(num_pruneable)
+            num_states.append(n_states)
+        processed_count += 1
+        if processed_count % update_interval == 0:
+            print(f"Processed {processed_count}/{total_inputs} inputs")
+
+avg_width = sum(widths) / len(widths)
+avg_part_pruneable = sum(part_pruneables) / len(part_pruneables)
+max_w = max(widths)
+min_w = min(widths)
+max_p = max(part_pruneables)
+min_p = min(part_pruneables)
+
+print("Average width:", avg_width)
+print("Average part pruneable:", avg_part_pruneable)
+print("Max width:", max_w)
+print("Min width:", min_w)
+print("Max part pruneable:", max_p)
+print("Min part pruneable:", min_p)
+
+# save data
+save_data = {
+    "widths": widths,
+    "part_pruneables": part_pruneables,
+    "num_states": num_states,
+}
+
+import json
+with open("brute_force_24.json", "w") as f:
+    json.dump(save_data, f)
