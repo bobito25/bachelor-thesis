@@ -1,0 +1,82 @@
+{
+    "results": [
+        {
+            "task_id": "instance-34.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8602,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "instance-30.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 46675,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "instance-28.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 237099,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6827,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 86766,
+            "num_times_pruned": 20
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 54253,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "instance-6.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 615452,
+            "num_times_pruned": 16
+        },
+        {
+            "task_id": "instance-46.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 226566,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 50448,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 166937,
+            "num_times_pruned": 26
+        }
+    ],
+    "summary": {
+        "total_tasks": 10,
+        "successful_tasks": 0,
+        "failed_tasks": 10,
+        "total_token_usage": 1499625,
+        "total_num_times_pruned": 125
+    },
+    "duration": "0:10:31.632410"
+}

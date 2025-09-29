@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "total_tasks": 1,
+    "successful_tasks": 0,
+    "failed_tasks": 1,
+    "total_token_usage": 33871,
+    "total_num_times_pruned": 0
+  },
+  "results": [
+    {
+      "task_id": "instance-34.pddl",
+      "success": false,
+      "answer": "No answer found.",
+      "token_usage": 33871,
+      "num_times_pruned": 0
+    }
+  ]
+}

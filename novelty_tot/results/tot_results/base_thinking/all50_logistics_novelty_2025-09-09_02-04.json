@@ -1,0 +1,362 @@
+{
+    "results": [
+        {
+            "task_id": "instance-34.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_0 at location_0_1.  \nDrive truck_0 from location_0_1 to location_0_0.  \nUnload package_0 from truck_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 6095,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-46.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_2 at location_2_1.  \nDrive truck_2 from location_2_1 to location_2_0.  \nUnload package_0 from truck_2 at location_2_0.  \n[FINISHED]",
+            "token_usage": 6233,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-30.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_1_0 (city_1) to location_0_0 (city_0).  \nLoad package_0 into airplane_0 at location_0_0.  \nFly airplane_0 from location_0_0 (city_0) to location_2_0 (city_2).  \nUnload package_0 from airplane_0 at location_2_0.  \n[FINISHED]",
+            "token_usage": 9230,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-1.pddl",
+            "success": true,
+            "answer": "Drive truck_2 from location_2_0 to location_2_1.  \nLoad package_0 into truck_2 at location_2_1.  \nDrive truck_2 from location_2_1 to location_2_0.  \nUnload package_0 from truck_2 at location_2_0.  \n[FINISHED]",
+            "token_usage": 7655,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-26.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_1 at location_1_0.  \nDrive truck_1 from location_1_0 to location_1_1.  \nUnload package_0 from truck_1 at location_1_1.  \n[FINISHED]",
+            "token_usage": 7588,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-44.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 6441,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-43.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from city_2 to city_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 7830,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-13.pddl",
+            "success": true,
+            "answer": "Drive truck_0 from location_0_1 to location_0_0.  \nLoad package_0 into truck_0 at location_0_0.  \nDrive truck_0 from location_0_0 to location_0_1.  \nUnload package_0 from truck_0 at location_0_1.  \n[FINISHED]",
+            "token_usage": 7900,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-42.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_2.  \nUnload package_0 from airplane_0 at location_2_0.  \n[FINISHED]",
+            "token_usage": 7913,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-36.pddl",
+            "success": true,
+            "answer": "Drive truck_0 from location_0_0 to location_0_1.  \nLoad package_0 into truck_0 at location_0_1.  \nDrive truck_0 from location_0_1 to location_0_0.  \nUnload package_0 from truck_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 7934,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-49.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from location_2_0 (city_2) to location_0_0 (city_0).  \nUnload package_0 from airplane_0 at location_0_0.  \nLoad package_0 into truck_0 at location_0_0.  \nDrive truck_0 from location_0_0 to location_0_1.  \nUnload package_0 from truck_0 at location_0_1.  \n[FINISHED]",
+            "token_usage": 9966,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-40.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_2 at location_2_1.  \nDrive truck_2 from location_2_1 to location_2_0.  \nUnload package_0 from truck_2 at location_2_0.  \nLoad package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from city_2 to city_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 13325,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-3.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_2_0 to location_0_0.  \nLoad package_0 into airplane_0 at location_0_0.  \nFly airplane_0 from location_0_0 to location_2_0.  \nUnload package_0 from airplane_0 at location_2_0.  \n[FINISHED]",
+            "token_usage": 9219,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-29.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_1 at location_1_1.  \nDrive truck_1 from location_1_1 to location_1_0.  \nUnload package_0 from truck_1 at location_1_0.  \nLoad package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_2.  \nUnload package_0 from airplane_0 at location_2_0.  \n[FINISHED]",
+            "token_usage": 11703,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-2.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from city_2 to city_1.  \nLoad package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_2.  \nUnload package_0 from airplane_0 at location_2_0.  \n[FINISHED]",
+            "token_usage": 9577,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-22.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_2 at location_2_1.  \nDrive truck_2 from location_2_1 to location_2_0.  \nUnload package_0 from truck_2 at location_2_0.  \nLoad package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from city_2 to city_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 13368,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-31.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_0 at location_0_0.  \nDrive truck_0 from location_0_0 to location_0_1.  \nUnload package_0 from truck_0 at location_0_1.  \n[FINISHED]",
+            "token_usage": 6125,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_2 at location_2_1.  \nDrive truck_2 from location_2_1 to location_2_0.  \nUnload package_0 from truck_2 at location_2_0.  \nLoad package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from city_2 to city_1.  \nUnload package_0 from airplane_0 at location_1_0.  \n[FINISHED]",
+            "token_usage": 13544,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-50.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_0 at location_0_0.  \nDrive truck_0 from location_0_0 to location_0_1.  \nUnload package_0 from truck_0 at location_0_1.  \n[FINISHED]",
+            "token_usage": 6221,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-8.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_1 at location_1_0.  \nDrive truck_1 from location_1_0 to location_1_1.  \nUnload package_0 from truck_1 at location_1_1.  \n[FINISHED]",
+            "token_usage": 6117,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-12.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_1_0 (city_1) to location_0_0 (city_0).  \nLoad package_0 into airplane_0 at location_0_0.  \nFly airplane_0 from location_0_0 (city_0) to location_1_0 (city_1).  \nUnload package_0 from airplane_0 at location_1_0.  \n[FINISHED]",
+            "token_usage": 10046,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-5.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_0 at location_0_1.  \nDrive truck_0 from location_0_1 to location_0_0.  \nUnload package_0 from truck_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 6150,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-21.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from city_2 to city_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 6463,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-4.pddl",
+            "success": true,
+            "answer": "Drive truck_2 from location_2_0 to location_2_1.  \nLoad package_0 into truck_2 at location_2_1.  \nDrive truck_2 from location_2_1 to location_2_0.  \nUnload package_0 from truck_2 at location_2_0.  \n[FINISHED]",
+            "token_usage": 8844,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-25.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_1 at location_1_1.  \nDrive truck_1 from location_1_1 to location_1_0.  \nUnload package_0 from truck_1 at location_1_0.  \n[FINISHED]",
+            "token_usage": 7033,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-7.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_2 at location_2_1.  \nDrive truck_2 from location_2_1 to location_2_0.  \nUnload package_0 from truck_2 at location_2_0.  \n[FINISHED]",
+            "token_usage": 7414,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_2.  \nUnload package_0 from airplane_0 at location_2_0.  \nLoad package_0 into truck_2 at location_2_0.  \nDrive truck_2 from location_2_0 to location_2_1.  \nUnload package_0 from truck_2 at location_2_1.  \n[FINISHED]",
+            "token_usage": 12252,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-45.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_0_0 (city_0) to location_1_0 (city_1).  \nLoad package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from location_1_0 (city_1) to location_0_0 (city_0).  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 9847,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_2_0 to location_1_0.  \nLoad package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from location_1_0 to location_0_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 8714,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_0_0.  \nFly airplane_0 from city_0 to city_1.  \nUnload package_0 from airplane_0 at location_1_0.  \n[FINISHED]",
+            "token_usage": 7523,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-23.pddl",
+            "success": true,
+            "answer": "Drive truck_0 from location_0_0 to location_0_1.  \nLoad package_0 into truck_0 at location_0_1.  \nDrive truck_0 from location_0_1 to location_0_0.  \nUnload package_0 from truck_0 at location_0_0. [FINISHED]",
+            "token_usage": 7896,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-18.pddl",
+            "success": true,
+            "answer": "Drive truck_0 from location_0_1 to location_0_0.  \nLoad package_0 into truck_0 at location_0_0.  \nDrive truck_0 from location_0_0 to location_0_1.  \nUnload package_0 from truck_0 at location_0_1.  \n\n[FINISHED]",
+            "token_usage": 6961,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-38.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13073,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-6.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_2_0 (city_2) to location_0_0 (city_0).  \nLoad package_0 into airplane_0 at location_0_0.  \nFly airplane_0 from location_0_0 (city_0) to location_1_0 (city_1).  \nUnload package_0 from airplane_0 at location_1_0.  \n\n[FINISHED]",
+            "token_usage": 7982,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-47.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 27214,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-17.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from location_2_0 to location_1_0.  \nUnload package_0 from airplane_0 at location_1_0.  \nLoad package_0 into truck_1 at location_1_0.  \nDrive truck_1 from location_1_0 to location_1_1.  \n[FINISHED]",
+            "token_usage": 12810,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-37.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_2.  \nUnload package_0 from airplane_0 at location_2_0.  \n[FINISHED]",
+            "token_usage": 7652,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-10.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_1_0 (city_1) to location_0_0 (city_0).  \nLoad package_0 into airplane_0 at location_0_0.  \nFly airplane_0 from location_0_0 (city_0) to location_1_0 (city_1).  \nUnload package_0 from airplane_0 at location_1_0.  \n[FINISHED]",
+            "token_usage": 8782,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-27.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_0 at location_0_0.  \nDrive truck_0 from location_0_0 to location_0_1.  \nUnload package_0 from truck_0 at location_0_1.  \n[FINISHED]",
+            "token_usage": 5915,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-39.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_2_0 (city_2) to location_0_0 (city_0).  \nLoad package_0 into airplane_0 at location_0_0.  \nFly airplane_0 from location_0_0 (city_0) to location_1_0 (city_1).  \nUnload package_0 from airplane_0 at location_1_0.  \n[FINISHED]",
+            "token_usage": 8846,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-16.pddl",
+            "success": true,
+            "answer": "Drive truck_0 from location_0_0 to location_0_1.  \nLoad package_0 into truck_0 at location_0_1.  \nDrive truck_0 from location_0_1 to location_0_0.  \nUnload package_0 from truck_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 7922,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-9.pddl",
+            "success": true,
+            "answer": "Drive truck_1 from location_1_0 to location_1_1.  \nLoad package_0 into truck_1 at location_1_1.  \nDrive truck_1 from location_1_1 to location_1_0.  \nUnload package_0 from truck_1 at location_1_0.  \n[FINISHED]",
+            "token_usage": 8413,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-35.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_0 at location_0_1.  \nDrive truck_0 from location_0_1 to location_0_0.  \nUnload package_0 from truck_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 6169,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-33.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_2_0.  \nFly airplane_0 from city_2 to city_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 6347,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-32.pddl",
+            "success": true,
+            "answer": "Drive truck_1 from location_1_1 to location_1_0.  \nLoad package_0 into truck_1 at location_1_0.  \nDrive truck_1 from location_1_0 to location_1_1.  \nUnload package_0 from truck_1 at location_1_1.  \n[FINISHED]",
+            "token_usage": 7938,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-48.pddl",
+            "success": true,
+            "answer": "Drive truck_2 from location_2_1 to location_2_0.  \nLoad package_0 into truck_2 at location_2_0.  \nDrive truck_2 from location_2_0 to location_2_1.  \nUnload package_0 from truck_2 at location_2_1.  \n[FINISHED]",
+            "token_usage": 8582,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_2.  \nUnload package_0 from airplane_0 at location_2_0.  \n[FINISHED]",
+            "token_usage": 6273,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-41.pddl",
+            "success": true,
+            "answer": "Fly airplane_0 from location_2_0 to location_1_0.  \nLoad package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from location_1_0 to location_0_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 9375,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-28.pddl",
+            "success": true,
+            "answer": "Load package_0 into truck_0 at location_0_0.  \nDrive truck_0 from location_0_0 to location_0_1.  \nUnload package_0 from truck_0 at location_0_1.  \n[FINISHED]",
+            "token_usage": 6143,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-14.pddl",
+            "success": true,
+            "answer": "Load package_0 into airplane_0 at location_1_0.  \nFly airplane_0 from city_1 to city_0.  \nUnload package_0 from airplane_0 at location_0_0.  \n[FINISHED]",
+            "token_usage": 6781,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 48,
+        "failed_tasks": 2,
+        "total_token_usage": 439344,
+        "total_num_times_pruned": 11
+    },
+    "duration": "1:03:39.795169"
+}

@@ -1,0 +1,302 @@
+[
+    {
+        "task_id": "instance-34.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the verification:\n\n1. **unstack c a**: Valid. c is on a and clear. After unstacking, c is held, and a becomes clear.\n2. **put-down c**: Valid. c is put on the table (now clear), and a remains clear.\n3. **pick-up b**: Valid. b is on the table and clear. Now held.\n4. **stack b a**: Valid. a is clear, and b is held. After stacking, **(on b a)** is achieved.\n\n**Goal met.** \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. Here's the verification:\n\n1. **unstack c a**: Valid. c is on a and clear. After unstacking, c is held, and a becomes clear.\n2. **put-down c**: Valid. c is put on the table (now clear), and a remains clear.\n3. **pick-up b**: Valid. b is on the table and clear. Now held.\n4. **stack b a**: Valid. a is clear, and b is held. After stacking, **(on b a)** is achieved.\n\n**Goal met.** \u2705"
+    },
+    {
+        "task_id": "instance-46.pddl",
+        "success": false,
+        "response": "\n\nThe given plan does not achieve the goal. After executing the steps, block **d** is picked up but not stacked on **b**. The goal requires **d** to be on **b**, which is not accomplished. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-30.pddl",
+        "success": true,
+        "response": "\n\nThe plan is valid. \n\n**Step 1: (pick-up d)**  \n- Valid: Hand is empty, d is on the table and clear.  \n- Result: Holding d, d is no longer on the table or clear.  \n\n**Step 2: (stack d c)**  \n- Valid: Holding d, and c is clear (initially clear, not modified by prior steps).  \n- Result: d is on c, c is no longer clear.  \n\n**Goal (on d c)** is achieved. \u2705",
+        "extracted_answer": "The plan is valid. \n\n**Step 1: (pick-up d)**  \n- Valid: Hand is empty, d is on the table and clear.  \n- Result: Holding d, d is no longer on the table or clear.  \n\n**Step 2: (stack d c)**  \n- Valid: Holding d, and c is clear (initially clear, not modified by prior steps).  \n- Result: d is on c, c is no longer clear.  \n\n**Goal (on d c)** is achieved. \u2705"
+    },
+    {
+        "task_id": "instance-1.pddl",
+        "success": true,
+        "response": "\n\nThe given plan does not achieve the goal. Here's the breakdown:\n\n1. **unstack a b**: Valid. a is picked up, b becomes clear.\n2. **stack a d**: Valid. a is placed on d, making d no longer clear.\n3. **pick-up b**: Valid. b is picked up (now in hand).\n4. **put-down b**: Ambiguous (assumed to be on the table). b is placed on the table, becoming clear.\n5. **pick-up b**: Valid. b is picked up again (hand is now holding b).\n\n**Final State**:\n- a is on d (not on c).\n- b is in hand (not on d).\n- d is on c (unchanged).\n\n**Goal**: (on b d) and (on a c) \u2192 **Not met**. Neither condition is satisfied. \n\n**Answer**: No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-26.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. After executing the steps:\n\n1. **Unstack a from d**: a is lifted, d becomes clear.\n2. **Put down a**: a is placed on the table.\n3. **Pick up b**: b is lifted from the table.\n4. **Stack b on d**: b is placed on d, making d no longer clear.\n5. **Pick up a**: a is lifted from the table.\n6. **Stack a on b**: a is placed on b, making b no longer clear.\n\nFinal state:\n- **a is on b** (goal condition met).\n- **b is on d** (goal condition met).\n- **d is on c** (goal condition met).\n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-44.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. \n\n**Step-by-step analysis:**\n1. **Pick-up a**: a is held, hand is not empty.\n2. **Stack a d**: a is placed on d \u2192 (on a d) is true.\n3. **Unstack b c**: b is held, c becomes clear.\n4. **Put-down b**: b is placed on the table \u2192 (ontable b), not on d.\n5. **Unstack a d**: a is removed from d \u2192 (on a d) becomes false.\n\n**Final state**: \n- (on a d) is false (a is in hand after unstacking).\n- (on d b) is false (b is on the table, not on d).\n\n**Goal not met**.",
+        "extracted_answer": "The plan does not achieve the goal. \n\n**Final state**: \n- (on a d) is false.\n- (on d b) is false."
+    },
+    {
+        "task_id": "instance-43.pddl",
+        "success": true,
+        "response": "\n\nYes. The plan successfully results in the goal state where (on c d) and (on b a) are both true. \n\n**Step-by-step verification:**\n1. **unstack a b**: Valid (a is on b and clear). Now hand holds a, b is clear.\n2. **put-down a**: Valid (a is placed on the table, now clear).\n3. **unstack b c**: Valid (b is on c and clear). Now hand holds b, c is clear.\n4. **stack b a**: Valid (b is held, a is clear on the table). Now (on b a) is true.\n\nFinal state meets the goal conditions. \u2705",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-13.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not fulfill the goal. After executing the steps, the final state has block **c** in hand (not on **a**) and **a** on the table (not on **b**). The goal requires both **on a b** and **on c a**, which are not achieved. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-42.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. After executing the steps:  \n1. **unstack a c** \u2192 a is held, c is clear.  \n2. **put-down a** \u2192 a is on the table.  \n3. **unstack c d** \u2192 c is held, d is clear.  \n4. **stack c b** \u2192 c is on b.  \n5. **pick-up d** \u2192 d is held.  \n6. **stack d c** \u2192 d is on c.  \n\nFinal state satisfies **(on c b)** and **(on d c)**. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. After executing the steps:  \n1. **unstack a c** \u2192 a is held, c is clear.  \n2. **put-down a** \u2192 a is on the table.  \n3. **unstack c d** \u2192 c is held, d is clear.  \n4. **stack c b** \u2192 c is on b.  \n5. **pick-up d** \u2192 d is held.  \n6. **stack d c** \u2192 d is on c.  \n\nFinal state satisfies **(on c b)** and **(on d c)**. \u2705"
+    },
+    {
+        "task_id": "instance-36.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After stacking **a** on **d**, the state temporarily satisfies **(on a d)**. However, the subsequent **unstack a d** and **put-down a** actions remove **a** from **d**, reverting it to the table. The goal requires **(on c a)**, but **c** remains on **b** throughout. Thus, neither goal condition is fully met. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-49.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Each action adheres to the constraints:  \n1. **unstack b c**: Valid (b is on c and clear).  \n2. **put-down b**: Valid (hand is holding b; table is clear).  \n3. **unstack c d**: Valid (c is on d and clear).  \n4. **put-down c**: Valid (hand holds c; table is clear).  \n5. **pick-up d**: Valid (d is on the table and clear).  \n6. **stack d a**: Valid (hand holds d; a is clear).  \n\nFinal state: **(on d a)** is achieved. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. Each action adheres to the constraints:  \n1. **unstack b c**: Valid (b is on c and clear).  \n2. **put-down b**: Valid (hand is holding b; table is clear).  \n3. **unstack c d**: Valid (c is on d and clear).  \n4. **put-down c**: Valid (hand holds c; table is clear).  \n5. **pick-up d**: Valid (d is on the table and clear).  \n6. **stack d a**: Valid (hand holds d; a is clear).  \n\nFinal state: **(on d a)** is achieved. \u2705"
+    },
+    {
+        "task_id": "instance-40.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps, block **c** is picked up (in hand) but not placed on **a**. The final state lacks the required **(on c a)** condition. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-3.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Each action adheres to the constraints, and the final state has block **d** on top of block **a**. \n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-29.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not fulfill the goal. After executing the steps:  \n- **on a b** is achieved (via step 2).  \n- **on d a** is achieved (via step 4).  \n- **on c d** is **not** achieved. The final state has **c** in hand (pulled up in step 5), not on **d**. Thus, the goal is unmet.  \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-2.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the breakdown:\n\n1. **unstack d a**: Valid (d is clear, hand is empty). Now d is held, a is clear (no blocks on top).\n2. **put-down d**: Valid (d is placed on the table, now clear).\n3. **unstack a b**: Valid (a is clear, as it has no blocks on top). Now a is held, b is clear.\n4. **stack a c**: Valid (c is clear). Now a is on c, c is no longer clear.\n5. **pick-up d**: Valid (d is on the table and clear).\n6. **stack d a**: Valid (a is clear). Now d is on a.\n\n**Final State**: (on d a) and (on a c) are both true. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. Here's the breakdown:\n\n1. **unstack d a**: Valid (d is clear, hand is empty). Now d is held, a is clear (no blocks on top).\n2. **put-down d**: Valid (d is placed on the table, now clear).\n3. **unstack a b**: Valid (a is clear, as it has no blocks on top). Now a is held, b is clear.\n4. **stack a c**: Valid (c is clear). Now a is on c, c is no longer clear.\n5. **pick-up d**: Valid (d is on the table and clear).\n6. **stack d a**: Valid (a is clear). Now d is on a.\n\n**Final State**: (on d a) and (on a c) are both true. \u2705"
+    },
+    {
+        "task_id": "instance-22.pddl",
+        "success": false,
+        "response": "\n\nThe plan does not achieve the goal. After executing the plan, the final state has block **b** unstacked from **a** (so **on b a** is false) and **c** remains under **a** (so **on c b** is also false). The goal requires both **on b a** and **on c b**, which are not satisfied. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-31.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the verification:\n\n1. **unstack d a**: Valid (d is clear and on a). After: d in hand, a no longer clear.\n2. **put-down d**: Valid (hand holds d). After: d on table, hand empty, d clear.\n3. **unstack a b**: Valid (a is clear). After: a in hand, b no longer clear.\n4. **stack a c**: Valid (a in hand, c clear). After: a on c, c no longer clear.\n5. **pick-up d**: Valid (d on table, clear). After: d in hand.\n6. **stack d b**: Valid (d in hand, b clear). After: d on b, b no longer clear.\n\nFinal state: **(on d b)** and **(on a c)**, satisfying the goal. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. Here's the verification:\n\n1. **unstack d a**: Valid (d is clear and on a). After: d in hand, a no longer clear.\n2. **put-down d**: Valid (hand holds d). After: d on table, hand empty, d clear.\n3. **unstack a b**: Valid (a is clear). After: a in hand, b no longer clear.\n4. **stack a c**: Valid (a in hand, c clear). After: a on c, c no longer clear.\n5. **pick-up d**: Valid (d on table, clear). After: d in hand.\n6. **stack d b**: Valid (d in hand, b clear). After: d on b, b no longer clear.\n\nFinal state: **(on d b)** and **(on a c)**, satisfying the goal. \u2705"
+    },
+    {
+        "task_id": "instance-11.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps, **d is in hand** (not on a) and **a is on the table with b on top** (not on c). The goal requires both **d on a** and **a on c**, which are not satisfied. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-50.pddl",
+        "success": true,
+        "response": "\n\nYes. The plan successfully results in (on d b) and (on a c) by following valid actions and respecting all constraints. \n\n**Step-by-Step Verification:**\n1. **unstack b c**: Valid (b is clear and on c).\n2. **put-down b**: Valid (hand is holding b; placed on table, making b clear).\n3. **unstack d a**: Valid (d is clear and on a).\n4. **stack d b**: Valid (b is clear; d is stacked on b).\n5. **pick-up a**: Valid (a is clear on the table).\n6. **stack a c**: Valid (c is clear; a is stacked on c).\n\n**Goal Achieved**: (on d b) and (on a c). \u2705",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-8.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. While the first condition (on c d) is satisfied, the second condition (on b a) is not. The plan ends with block a being picked up (not on the table), and there is no action to stack block b on top of a. Thus, the goal state is not fully met. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-12.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Each action adheres to the constraints:\n\n1. **unstack c b**: Valid (c is on b and clear).  \n2. **put-down c**: Valid (hand holds c).  \n3. **unstack b a**: Valid (b is on a and clear).  \n4. **put-down b**: Valid (hand holds b).  \n5. **unstack a d**: Valid (a is on d and clear).  \n6. **stack a c**: Valid (a is held, and c is clear on the table).  \n\nFinal state: **(on a c)** matches the goal. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. Each action adheres to the constraints:\n\n1. **unstack c b**: Valid (c is on b and clear).  \n2. **put-down c**: Valid (hand holds c).  \n3. **unstack b a**: Valid (b is on a and clear).  \n4. **put-down b**: Valid (hand holds b).  \n5. **unstack a d**: Valid (a is on d and clear).  \n6. **stack a c**: Valid (a is held, and c is clear on the table).  \n\nFinal state: **(on a c)** matches the goal. \u2705"
+    },
+    {
+        "task_id": "instance-5.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps, block c remains on the table, not on block b. The goal (on c b) is unmet. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-21.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the verification:\n\n1. **unstack d c**: Valid. d is on c and clear; hand is empty. After, d is held, c becomes clear.\n2. **put-down d**: Valid. d is placed on the table (now clear).\n3. **pick-up a**: Valid. a is on the table and clear.\n4. **stack a d**: Valid. d is clear (on table), a is held. Results in **on a d**.\n5. **pick-up c**: Valid. c is on the table and clear.\n6. **stack c b**: Valid. b is on the table and clear. Results in **on c b**.\n\n**Goal achieved**: Both (on a d) and (on c b) are satisfied. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. Here's the verification:\n\n1. **unstack d c**: Valid. d is on c and clear; hand is empty. After, d is held, c becomes clear.\n2. **put-down d**: Valid. d is placed on the table (now clear).\n3. **pick-up a**: Valid. a is on the table and clear.\n4. **stack a d**: Valid. d is clear (on table), a is held. Results in **on a d**.\n5. **pick-up c**: Valid. c is on the table and clear.\n6. **stack c b**: Valid. b is on the table and clear. Results in **on c b**.\n\n**Goal achieved**: Both (on a d) and (on c b) are satisfied. \u2705"
+    },
+    {
+        "task_id": "instance-4.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. The steps manipulate blocks b and d but leave block c on block a. The goal requires c to be on d, which is never accomplished. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-25.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the breakdown:\n\n1. **unstack a c**: Valid. a is on c and clear. After, a is held, c becomes clear.\n2. **put-down a**: Valid. a is placed on the table (clear now).\n3. **unstack b d**: Valid. b is on d and clear. After, b is held, d becomes clear.\n4. **stack b c**: Valid. b is held, and c is clear. After, b is on c, fulfilling the goal **(on b c)**.\n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-7.pddl",
+        "success": true,
+        "response": "\n\nThe plan fails to meet the goal. After step 5 (unstacking a from d), **a is no longer on d**, violating the goal condition (on a d). Although step 4 places **b on c**, the goal requires **b on a**, which is never achieved. Final state: (on b c), (on a d) is false, (on b a) is false. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-24.pddl",
+        "success": true,
+        "response": "\n\nYes, the plan achieves the goal. After picking up block **b** (valid as it's on the table and clear), stacking it on **c** (valid since **c** is clear and the hand holds **b**) results in **on(b, c)**. The existing **on(c, d)** from the starting state remains unchanged. Both goal conditions are satisfied.",
+        "extracted_answer": "Yes, the plan achieves the goal. After picking up block **b** (valid as it's on the table and clear), stacking it on **c** (valid since **c** is clear and the hand holds **b**) results in **on(b, c)**. The existing **on(c, d)** from the starting state remains unchanged. Both goal conditions are satisfied."
+    },
+    {
+        "task_id": "instance-45.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the plan:  \n- **(on d b)** is false because `d` was unstacked from `b` and put on the table.  \n- **(on b a)** is false as `b` remains on the table and `a` is unstacked from `c`, never placed on `b`.  \n\n**Goal not met.**",
+        "extracted_answer": "The plan does not achieve the goal.  \n**Goal not met.**"
+    },
+    {
+        "task_id": "instance-20.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the verification:\n\n1. **Unstack d from a**: Valid, as d is clear and on top of a. After this, a becomes clear.\n2. **Put down d**: Valid, hand is empty after this.\n3. **Unstack a from b**: Valid, a is clear and on top of b. After this, b becomes clear.\n4. **Put down a**: Valid, hand is empty after this.\n5. **Pick up b**: Valid, b is on the table and clear.\n6. **Stack b on a**: Valid, a is clear and b is held. Final state: **(on b a)**, fulfilling the goal. \n\n**Answer:** Yes, the plan achieves the goal.",
+        "extracted_answer": "Yes, the plan achieves the goal."
+    },
+    {
+        "task_id": "instance-19.pddl",
+        "success": true,
+        "response": "\n\nThe plan fails to achieve the goal. After executing the steps, the final state has **a** in hand, **c** on the table (not on **a**), and **d** on the table (not on **b**). The goal requires **d on b** and **c on a**, which are not met. **Answer: No.**",
+        "extracted_answer": "The plan fails to achieve the goal. After executing the steps, the final state has **a** in hand, **c** on the table (not on **a**), and **d** on the table (not on **b**). The goal requires **d on b** and **c on a**, which are not met. **Answer: No.**"
+    },
+    {
+        "task_id": "instance-23.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the breakdown:\n\n1. **unstack b d**: Valid (b is clear and on d). Hand holds b; d becomes clear.\n2. **put-down b**: Valid (hand holds b). b is now on the table, clear.\n3. **unstack a c**: Valid (a is clear and on c). Hand holds a; c becomes clear.\n4. **stack a b**: Valid (a is held, b is clear). a is now on b; b is no longer clear.\n5. **pick-up c**: Valid (c is clear). Hand holds c.\n6. **stack c d**: Valid (c is held, d is clear). c is now on d; d is no longer clear.\n\n**Goal achieved**: (on a b) and (on c d) are both satisfied. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal. Here's the breakdown:\n\n1. **unstack b d**: Valid (b is clear and on d). Hand holds b; d becomes clear.\n2. **put-down b**: Valid (hand holds b). b is now on the table, clear.\n3. **unstack a c**: Valid (a is clear and on c). Hand holds a; c becomes clear.\n4. **stack a b**: Valid (a is held, b is clear). a is now on b; b is no longer clear.\n5. **pick-up c**: Valid (c is clear). Hand holds c.\n6. **stack c d**: Valid (c is held, d is clear). c is now on d; d is no longer clear.\n\n**Goal achieved**: (on a b) and (on c d) are both satisfied. \u2705"
+    },
+    {
+        "task_id": "instance-18.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps, the state remains with **d on b** and **a on d**, not **b on d** and **d on a**. The plan fails to reverse the positions of **b** and **d**. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-38.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Each action adheres to the constraints:\n\n1. **Unstack a from c**: Valid since a is on c and clear.  \n2. **Put down a**: Valid (hand is holding a).  \n3. **Pick up c**: Valid (c is on the table and clear).  \n4. **Stack c on b**: Valid (b is clear).  \n5. **Pick up d**: Valid (d is on the table and clear).  \n6. **Stack d on c**: Valid (c is clear after being stacked on b).  \n\nFinal state satisfies **(on c b)** and **(on d c)**.  \n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-6.pddl",
+        "success": false,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps:  \n- (on a d) is satisfied (step 2).  \n- However, (on c a) is **not** achieved. The plan ends with c in hand (step 5), not stacked on a. The goal requires both (on a d) and (on c a), but only the first is met.  \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-47.pddl",
+        "success": true,
+        "response": "\n\nYes. The plan successfully results in the goal state (on a c). \n\n1. **unstack c a**: Valid because c is on a and clear. After this, a is clear, and c is held.\n2. **put-down c**: Valid, placing c on the table (now clear).\n3. **pick-up a**: Valid as a is on the table and clear.\n4. **stack a c**: Valid since a is held and c is clear. This achieves (on a c). \n\nAll actions comply with constraints, and the goal is met.",
+        "extracted_answer": "Yes. The plan successfully results in the goal state (on a c)."
+    },
+    {
+        "task_id": "instance-17.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps:  \n1. **pick-up d** \u2192 d is held.  \n2. **stack d a** \u2192 d is on a; a is no longer clear.  \n3. **pick-up c** \u2192 c is held.  \n4. **put-down c** \u2192 c is on the table (hand is empty).  \n5. **unstack d a** \u2192 d is removed from a (hand holds d).  \n\nFinal state:  \n- d is not on a (unstacked).  \n- a remains on b (not on c).  \n\n**Goal (on d a and on a c)** is **not fulfilled**.  \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-37.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Here's the breakdown:\n\n1. **unstack d c**: Valid (d is on c and clear). Now, d is held, c becomes clear.\n2. **put-down d**: Valid (hand is holding d). d is placed on the table (ontable(d)), hand is empty.\n3. **pick-up b**: Valid (b is on the table and clear). Hand holds b, b is no longer clear.\n4. **stack b c**: Valid (hand holds b, c is clear). b is placed on c, making c no longer clear.\n\n**Final State**:\n- (on b c) \u2705 (from step 4).\n- (on c a) \u2705 (unchanged from the starting state).\n\n**Goal Met**: Yes.",
+        "extracted_answer": "The plan successfully achieves the goal. Here's the breakdown:\n\n1. **unstack d c**: Valid (d is on c and clear). Now, d is held, c becomes clear.\n2. **put-down d**: Valid (hand is holding d). d is placed on the table (ontable(d)), hand is empty.\n3. **pick-up b**: Valid (b is on the table and clear). Hand holds b, b is no longer clear.\n4. **stack b c**: Valid (hand holds b, c is clear). b is placed on c, making c no longer clear.\n\n**Final State**:\n- (on b c) \u2705 (from step 4).\n- (on c a) \u2705 (unchanged from the starting state).\n\n**Goal Met**: Yes."
+    },
+    {
+        "task_id": "instance-10.pddl",
+        "success": true,
+        "response": "\n\nThe given plan does not achieve the goal (on a b). After executing the steps, block **a** remains on the table with **c** on top, and **b** is stacked on **c**. Thus, **a** is not on **b**. The goal state is not fulfilled. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-27.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Each action adheres to the constraints, and the final state satisfies all goal conditions: (on c d), (on d b), and (on b a). \n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-39.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps, the final state has **d in hand** (not on b) and **a on the table** (not on d). The goal requires **(on d b)** and **(on a d)**, which are both unmet. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-16.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Each action adheres to the constraints, and after executing all steps, block **c** is stacked on **b** as required. \n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-9.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps:\n\n1. **unstack d b** \u2192 d is held, b becomes clear.\n2. **stack d a** \u2192 d is on a, a is no longer clear.\n3. **pick-up b** \u2192 b is held.\n4. **put-down b** \u2192 b is on the table (clear).\n5. **unstack d a** \u2192 d is held again, a becomes clear.\n\n**Final state**:\n- `on a c` is true (unchanged).\n- `on d a` is false (d was unstacked in step 5).\n- `on b d` is false (b is on the table, d is held).\n\n**Goal conditions**:\n- `on b d` \u274c\n- `on d a` \u274c\n- `on a c` \u2705\n\n**Conclusion**: The goal is **not** fulfilled.",
+        "extracted_answer": "The plan does not achieve the goal. After executing the steps:\n\n1. **unstack d b** \u2192 d is held, b becomes clear.\n2. **stack d a** \u2192 d is on a, a is no longer clear.\n3. **pick-up b** \u2192 b is held.\n4. **put-down b** \u2192 b is on the table (clear).\n5. **unstack d a** \u2192 d is held again, a becomes clear.\n\n**Final state**:\n- `on a c` is true (unchanged).\n- `on d a` is false (d was unstacked in step 5).\n- `on b d` is false (b is on the table, d is held).\n\n**Goal conditions**:\n- `on b d` \u274c\n- `on d a` \u274c\n- `on a c` \u2705\n\n**Conclusion**: The goal is **not** fulfilled."
+    },
+    {
+        "task_id": "instance-35.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. \n\n**Step-by-Step Verification:**\n1. **unstack a b**: Valid (a is on b, clear, hand empty). Now, a is held, b becomes clear.\n2. **put-down a**: Valid (hand holds a). a is on the table, clear.\n3. **unstack b d**: Valid (b is on d, clear). Now, b is held, d becomes clear.\n4. **stack b a**: Valid (a is clear on the table). Now, b is on a, a is no longer clear.\n5. **pick-up c**: Valid (c is clear on the table). Now, c is held.\n6. **stack c d**: Valid (d is clear). Now, c is on d, d is no longer clear.\n\n**Goal Check**:  \n- **(on c d)**: Achieved in step 6.  \n- **(on b a)**: Achieved in step 4.  \n\n**Conclusion**: The plan fulfills the goal conditions. \u2705",
+        "extracted_answer": "The plan successfully achieves the goal."
+    },
+    {
+        "task_id": "instance-33.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps, block `a` remains on `d`, and `c` is on the table (or in the hand, but never stacked under `a`). The goal `(on a c)` is never fulfilled. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-32.pddl",
+        "success": true,
+        "response": "\n\nYes. The plan successfully achieves the goal. \n\n**Steps:**\n1. **Pick-up d**: Valid because d is on the table and clear, and the hand is empty. Now, d is held.\n2. **Stack d on c**: Valid because c is clear (initially clear and untouched), and the hand holds d. After stacking, d is on c, fulfilling `(on d c)`. The original `(on a b)` remains unchanged. \n\n**Goal Check**: Both `(on a b)` and `(on d c)` are satisfied. \u2705",
+        "extracted_answer": "Yes. The plan successfully achieves the goal. \n\n**Steps:**\n1. **Pick-up d**: Valid because d is on the table and clear, and the hand is empty. Now, d is held.\n2. **Stack d on c**: Valid because c is clear (initially clear and untouched), and the hand holds d. After stacking, d is on c, fulfilling `(on d c)`. The original `(on a b)` remains unchanged. \n\n**Goal Check**: Both `(on a b)` and `(on d c)` are satisfied. \u2705"
+    },
+    {
+        "task_id": "instance-48.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps:\n- **b** is stacked back on **d** (violating the goal of **a** on **d**).\n- **c** is temporarily stacked on **b**, but later unstacked, leaving **b** on **d** and **a** still on the table (goal **on a d** unmet).\n- **b** is never placed on **c** (goal **on b c** unmet).\n\n**Answer:** No.",
+        "extracted_answer": "No."
+    },
+    {
+        "task_id": "instance-15.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. Each action adheres to the constraints, and the final state satisfies both (on c a) and (on b d). \n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-41.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. \n\n**Analysis:**\n- **(on c d):** After unstacking b from c, c remains on a (original state), not on d.\n- **(on d b):** d is on the table, and b is held (not stacked under d).\n- **(on a c):** The original state has c on a (on c a), but the goal requires a on c (on a c), which is unmet.\n\n**Conclusion:** Goal conditions are not fulfilled.",
+        "extracted_answer": "The plan does not achieve the goal. \n\n**Answer:** No."
+    },
+    {
+        "task_id": "instance-28.pddl",
+        "success": true,
+        "response": "\n\nThe plan successfully achieves the goal. After executing all steps, **d is on a** (from the final stack `c -> a -> d`) and **a is on c** (from the stack `c -> a`). All actions comply with the constraints, and the final state meets the goal conditions. \n\n**Answer:** Yes.",
+        "extracted_answer": "Yes."
+    },
+    {
+        "task_id": "instance-14.pddl",
+        "success": true,
+        "response": "\n\nThe plan does not achieve the goal. After executing the steps, block **c** is in hand (not on **b** or **d**), and **a** remains on the table (not on **d**). The goal requires **on(b, c)** and **on(a, d)**, which are unmet. \n\n**Answer:** No.",
+        "extracted_answer": "No."
+    }
+]

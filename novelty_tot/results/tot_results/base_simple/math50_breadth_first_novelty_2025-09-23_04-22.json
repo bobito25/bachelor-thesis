@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 49217,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "1",
+            "success": true,
+            "answer": "The total number of balanced integers is calculated by multiplying the frequency of each possible sum (from 0 to 18) for the first two digits by the frequency of that sum for the last two digits, then summing all these products. The result is 615.",
+            "token_usage": 73873,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "4",
+            "token_usage": 47542,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "3",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 53884,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "4",
+            "success": false,
+            "answer": "Error occurred: UnboundLocalError: local variable 'response' referenced before assignment\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 563, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 232, in run\n    await self._expand_breadth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 331, in _expand_breadth_first\n    await t\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 285, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 266, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 448, in _generate_successor\n    novel = await is_novel(self.query, parsed_response, previous_states)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_novelty.py\", line 43, in is_novel\n    response = await query(prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 263, in query\n    self.total_token_usage += response.usage.total_tokens\nUnboundLocalError: local variable 'response' referenced before assignment\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "5",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 45474,
+            "num_times_pruned": 24
+        },
+        {
+            "task_id": "6",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 229611,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "7",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 178445,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "8",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 46472,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "9",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 45664,
+            "num_times_pruned": 22
+        },
+        {
+            "task_id": "10",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 49931,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "11",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3530,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "12",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2292,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "13",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 16090,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "14",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 122451,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "15",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 109993,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "16",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8431,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "17",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 30013,
+            "num_times_pruned": 16
+        },
+        {
+            "task_id": "18",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 7843,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "19",
+            "success": false,
+            "answer": "Error occurred: UnboundLocalError: local variable 'response' referenced before assignment\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 563, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 232, in run\n    await self._expand_breadth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 331, in _expand_breadth_first\n    await t\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 285, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 266, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 448, in _generate_successor\n    novel = await is_novel(self.query, parsed_response, previous_states)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_novelty.py\", line 43, in is_novel\n    response = await query(prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 263, in query\n    self.total_token_usage += response.usage.total_tokens\nUnboundLocalError: local variable 'response' referenced before assignment\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "20",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 28769,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "21",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13899,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "22",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 212001,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "23",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 18768,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "24",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 23697,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "25",
+            "success": false,
+            "answer": "Error occurred: UnboundLocalError: local variable 'response' referenced before assignment\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 563, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 232, in run\n    await self._expand_breadth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 331, in _expand_breadth_first\n    await t\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 285, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 266, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 448, in _generate_successor\n    novel = await is_novel(self.query, parsed_response, previous_states)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_novelty.py\", line 43, in is_novel\n    response = await query(prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 263, in query\n    self.total_token_usage += response.usage.total_tokens\nUnboundLocalError: local variable 'response' referenced before assignment\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 273351,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "27",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 60483,
+            "num_times_pruned": 34
+        },
+        {
+            "task_id": "28",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 53957,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "29",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 18602,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "30",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 50266,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "31",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 316789,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "32",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 53611,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "5 and 7. The product of the two digits is 35.",
+            "token_usage": 85145,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "34",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 16864,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "35",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10098,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "36",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 140141,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "37",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 22716,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "38",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 110976,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "39",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1538,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "40",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 42394,
+            "num_times_pruned": 24
+        },
+        {
+            "task_id": "41",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 44821,
+            "num_times_pruned": 16
+        },
+        {
+            "task_id": "42",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 146587,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "43",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 640520,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "44",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 19540,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "45",
+            "success": false,
+            "answer": "126",
+            "token_usage": 24846,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "46",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 228773,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "47",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4853,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "48",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 28277,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "49",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 129457,
+            "num_times_pruned": 5
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 3,
+        "failed_tasks": 47,
+        "total_token_usage": 3942495,
+        "total_num_times_pruned": 528,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 5,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 0,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:33:41.734271"
+}

@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 73183,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 17013,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "Saturday.",
+            "token_usage": 3143,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "3",
+            "success": true,
+            "answer": "-49",
+            "token_usage": 2960,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": true,
+            "answer": "$$\nAB = \\sqrt{70}\n$$",
+            "token_usage": 5593,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "5",
+            "success": true,
+            "answer": "7",
+            "token_usage": 4468,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "6",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4867,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "7",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4500,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "8",
+            "success": true,
+            "answer": "Compute the coordinates of points $A$, $B$, $C$, $D$, and $E$ using the given information and trigonometry, and then use the shoelace formula to compute the area of quadrilateral $ABCD$.",
+            "token_usage": 10018,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "9",
+            "success": true,
+            "answer": "20",
+            "token_usage": 4460,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "10",
+            "success": true,
+            "answer": "The height $ h $ of $ \\triangle PQR $ is $ 9 \\, \\text{cm} $.",
+            "token_usage": 7220,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "$$\n\\boxed{140}\n$$",
+            "token_usage": 6515,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 11473,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "$\\frac{7}{11}$",
+            "token_usage": 4882,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "14",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8199,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "15",
+            "success": true,
+            "answer": "200",
+            "token_usage": 2402,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "16",
+            "success": true,
+            "answer": "$-\\frac{33}{65}$",
+            "token_usage": 5244,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "17",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4921,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5914,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "19",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4739,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "20",
+            "success": true,
+            "answer": "$ 2\\sqrt{5} $",
+            "token_usage": 6477,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "21",
+            "success": true,
+            "answer": "95,040",
+            "token_usage": 4951,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "22",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5441,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "23",
+            "success": true,
+            "answer": "$\\boxed{\\frac{25}{3}}$",
+            "token_usage": 10850,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": true,
+            "answer": "30.",
+            "token_usage": 3264,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "25",
+            "success": true,
+            "answer": "9025",
+            "token_usage": 3122,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 9632,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "27",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6958,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "28",
+            "success": true,
+            "answer": "$\\frac{25}{8}$",
+            "token_usage": 5385,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "29",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3524,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "30",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4464,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": true,
+            "answer": "$ \\frac{48}{95} $",
+            "token_usage": 5364,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "32",
+            "success": true,
+            "answer": "$\\frac{17}{3.4}$",
+            "token_usage": 3788,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "33",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10453,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "$150^\\circ$",
+            "token_usage": 5685,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6253,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "36",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 9922,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "37",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 71778,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "38",
+            "success": true,
+            "answer": "The remainder when $ f(x) $ is divided by $ (x-1)(x-2) $ is $ x + 1 $.",
+            "token_usage": 5560,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "39",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5686,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": true,
+            "answer": "$ \\binom{5}{2} (0.6)^2 (0.4)^3 $",
+            "token_usage": 6454,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "41",
+            "success": true,
+            "answer": "12",
+            "token_usage": 6659,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "42",
+            "success": true,
+            "answer": "7",
+            "token_usage": 6161,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "43",
+            "success": true,
+            "answer": "15",
+            "token_usage": 5049,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "44",
+            "success": true,
+            "answer": "$\\frac{14}{13}$",
+            "token_usage": 2173,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5775,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "46",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4483,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6881,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "48",
+            "success": true,
+            "answer": "14",
+            "token_usage": 5305,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": true,
+            "answer": "$\\boxed{64}$",
+            "token_usage": 14015,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 28,
+        "failed_tasks": 22,
+        "total_token_usage": 443226,
+        "total_num_times_pruned": 0,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 0,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:26:02.911276"
+}

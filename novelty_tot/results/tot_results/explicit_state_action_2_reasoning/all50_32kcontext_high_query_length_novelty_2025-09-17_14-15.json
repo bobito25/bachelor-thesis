@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "instance-34.pddl",
+            "success": true,
+            "answer": "Unstack the orange block from the red block.\nPut down the orange block on the table.\nPick up the blue block.\nStack the blue block on top of the red block.\n[FINISHED]\nThe plan is valid according to the PDDL validator.",
+            "token_usage": 8707,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-30.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 33895,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "instance-28.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6335,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "Unstack yellow block from red block.\nPut down yellow block on blue block.\nStack orange block on red block.\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 8710,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2839176,
+            "num_times_pruned": 20
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 73679,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-6.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3447377,
+            "num_times_pruned": 25
+        },
+        {
+            "task_id": "instance-46.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 859446,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 448047,
+            "num_times_pruned": 16
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": true,
+            "answer": "Unstack blue block from yellow block.\nPut down blue block.\nPick up red block.\nStack red block on top of orange block.\nPick up yellow block.\nStack yellow block on top of red block.\nThe plan is valid according to the PDDL validator.",
+            "token_usage": 263117,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "instance-38.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1862641,
+            "num_times_pruned": 27
+        },
+        {
+            "task_id": "instance-2.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6179,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-42.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1941954,
+            "num_times_pruned": 35
+        },
+        {
+            "task_id": "instance-14.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 632518,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "instance-25.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 63025,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "instance-47.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 19528,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-7.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 17630,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-21.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 679706,
+            "num_times_pruned": 17
+        },
+        {
+            "task_id": "instance-10.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 148287,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-39.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1142870,
+            "num_times_pruned": 35
+        },
+        {
+            "task_id": "instance-43.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 726629,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "instance-3.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 673194,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "instance-35.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1773359,
+            "num_times_pruned": 32
+        },
+        {
+            "task_id": "instance-31.pddl",
+            "success": true,
+            "answer": "Unstack the yellow block from the red block.\nStack the yellow block on top of the blue block.\nUnstack the red block from the blue block.\nStack the red block on top of the orange block.",
+            "token_usage": 1022642,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-29.pddl",
+            "success": true,
+            "answer": "Unstack the red block from the yellow block.\nStack the red block on top of the blue block.\nUnstack the yellow block from the orange block.\nStack the yellow block on top of the red block.\nStack the orange block on top of the yellow block.",
+            "token_usage": 1520751,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-18.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2830025,
+            "num_times_pruned": 16
+        },
+        {
+            "task_id": "instance-16.pddl",
+            "success": false,
+            "answer": "Unstack the orange block from the yellow block.\nStack the orange block on top of the blue block.\n[FINISHED]\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 8349,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-27.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3293902,
+            "num_times_pruned": 29
+        },
+        {
+            "task_id": "instance-5.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13973,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-45.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 247187,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "instance-23.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 681546,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-12.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 313145,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-1.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 592788,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-41.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3983214,
+            "num_times_pruned": 16
+        },
+        {
+            "task_id": "instance-37.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 109818,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "instance-33.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 127981,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-49.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 318922,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "instance-9.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3176029,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "instance-36.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3268256,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "instance-32.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1271171,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "instance-8.pddl",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 223, in run_task_with_error_handling\n    return await self.run_task(tot, task, parallel, solution_given, breadth_first)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 175, in run_task\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 222, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 260, in process_branch\n    await self._expand_depth_first(succ, depth - 1, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 260, in process_branch\n    await self._expand_depth_first(succ, depth - 1, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 260, in process_branch\n    await self._expand_depth_first(succ, depth - 1, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 260, in process_branch\n    await self._expand_depth_first(succ, depth - 1, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 260, in process_branch\n    await self._expand_depth_first(succ, depth - 1, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 260, in process_branch\n    await self._expand_depth_first(succ, depth - 1, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 260, in process_branch\n    await self._expand_depth_first(succ, depth - 1, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 292, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 271, in _expand_node\n    results.append(await t)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 254, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 389, in _generate_successor\n    response_action = await self.query(complete_prompt_action)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 192, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 184, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 70, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-48.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 686740,
+            "num_times_pruned": 25
+        },
+        {
+            "task_id": "instance-50.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8715,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-17.pddl",
+            "success": true,
+            "answer": "Unstack the red block from on top of the blue block.\nStack the red block on top of the orange block.\nPick up the yellow block.\nStack the yellow block on top of the red block.",
+            "token_usage": 183575,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "instance-26.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3403097,
+            "num_times_pruned": 26
+        },
+        {
+            "task_id": "instance-44.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3152555,
+            "num_times_pruned": 30
+        },
+        {
+            "task_id": "instance-4.pddl",
+            "success": false,
+            "answer": "Unstack blue block from yellow block.\nUnstack orange block from red block.\nPut down blue block.\nUnstack orange block from red block.\nStack orange block on yellow block.\n[FINISHED]\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 36474,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "instance-22.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2432532,
+            "num_times_pruned": 33
+        },
+        {
+            "task_id": "instance-13.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1511031,
+            "num_times_pruned": 29
+        },
+        {
+            "task_id": "instance-40.pddl",
+            "success": false,
+            "answer": "Pick up the orange block.\nStack the orange block on top of the red block.\n[FINISHED]\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 5469,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 5,
+        "failed_tasks": 45,
+        "total_token_usage": 51875896,
+        "total_num_times_pruned": 683,
+        "num_early_stops": 9,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 9,
+        "num_truncated_queries": 1442,
+        "num_shortened_prompts": 0
+    },
+    "duration": "1:55:27.192627"
+}

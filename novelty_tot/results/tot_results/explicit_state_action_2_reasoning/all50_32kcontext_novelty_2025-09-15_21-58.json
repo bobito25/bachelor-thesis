@@ -1,0 +1,362 @@
+{
+    "results": [
+        {
+            "task_id": "instance-34.pddl",
+            "success": true,
+            "answer": "Unstack the orange block from the red block.\nPick up the blue block.\nStack the blue block on top of the red block.\n[FINISHED]",
+            "token_usage": 10021,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-30.pddl",
+            "success": true,
+            "answer": "Unstack orange block from red block.\nPut down orange block on table.\nPick up yellow block.\nStack yellow block on top of orange block.",
+            "token_usage": 450231,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "instance-28.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1350178,
+            "num_times_pruned": 20
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "Unstack yellow block from red block.\nStack yellow block on top of blue block.\nPick up orange block.\nStack orange block on top of red block.\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 20489,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1683221,
+            "num_times_pruned": 25
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 26700,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-6.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1831562,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-46.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1189390,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 795737,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1861509,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-38.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1799572,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-2.pddl",
+            "success": true,
+            "answer": "Unstack the yellow block from the red block.\nPut down the yellow block on the table.\nPick up the red block.\nStack the red block on top of the orange block.\nPick up the yellow block.\nStack the yellow block on top of the red block.\n[FINISHED]",
+            "token_usage": 15709,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-42.pddl",
+            "success": true,
+            "answer": "Unstack the red block from the orange block.  \nPut down the red block on the table.  \nUnstack the orange block from the yellow block.  \nStack the orange block on top of the blue block.  \nPick up the yellow block.  \nStack the yellow block on top of the orange block.  \n[FINISHED]",
+            "token_usage": 916644,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-14.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1632382,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-25.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 26797,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-47.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 576004,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "instance-7.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1272459,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "instance-21.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 421240,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "instance-10.pddl",
+            "success": true,
+            "answer": "Unstack the orange block from the red block.\nPut down the orange block on the table.\nPick up the red block.  \nStack the red block on top of the blue block.\n[FINISHED]",
+            "token_usage": 641214,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "instance-39.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1821399,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-43.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 507106,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "instance-3.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 377673,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "instance-35.pddl",
+            "success": false,
+            "answer": "Pick up the orange block.  \nStack the orange block on top of the yellow block.  \nUnstack the red block from the blue block.  \nStack the blue block on top of the red block.  \n[FINISHED]\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 942514,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "instance-31.pddl",
+            "success": true,
+            "answer": "Unstack the yellow block from the red block.\nUnstack the red block from the blue block.\nStack the red block on top of the orange block.\nStack the yellow block on top of the blue block.\n[FINISHED]",
+            "token_usage": 224796,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "instance-29.pddl",
+            "success": true,
+            "answer": "Unstack the red block from the yellow block.\nStack the red block on top of the blue block.\nUnstack the yellow block from the orange block.\nStack the yellow block on top of the red block.\nPick up the orange block.\nStack the orange block on top of the yellow block.\n[FINISHED]",
+            "token_usage": 228758,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-18.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1011777,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-16.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 730592,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "instance-27.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2049897,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-5.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24721,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-45.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 589752,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-23.pddl",
+            "success": true,
+            "answer": "Unstack red block from orange block.  \nStack red block on top of blue block.  \nPick up orange block.  \nStack orange block on top of yellow block.  \n[FINISHED]",
+            "token_usage": 705478,
+            "num_times_pruned": 23
+        },
+        {
+            "task_id": "instance-12.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 263534,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "instance-1.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 830758,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "instance-41.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2015017,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "instance-37.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 32840,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-33.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 940097,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "instance-49.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 354740,
+            "num_times_pruned": 14
+        },
+        {
+            "task_id": "instance-9.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1823890,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-36.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2895324,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-32.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 512119,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "instance-8.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1176418,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-48.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1178726,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-50.pddl",
+            "success": true,
+            "answer": "Unstack yellow block from on top of red block.\nStack yellow block on top of blue block.\nPick up red block from table.\nStack red block on top of orange block.\n[FINISHED]",
+            "token_usage": 17711,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-17.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1256737,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "instance-26.pddl",
+            "success": true,
+            "answer": "Pick up the blue block.  \nUnstack the red block from the yellow block.  \nPut down the red block on the table.  \nStack the blue block on top of the yellow block.  \nPick up the red block.  \nStack the red block on top of the blue block.  \n[FINISHED]",
+            "token_usage": 623306,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "instance-44.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1931823,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-4.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 49713,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-22.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 965338,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-13.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1862902,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "instance-40.pddl",
+            "success": false,
+            "answer": "Pick up the orange block.\nStack the orange block on top of the red block.\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 11873,
+            "num_times_pruned": 2
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 10,
+        "failed_tasks": 40,
+        "total_token_usage": 44478388,
+        "total_num_times_pruned": 337
+    },
+    "duration": "5:50:30.245571"
+}

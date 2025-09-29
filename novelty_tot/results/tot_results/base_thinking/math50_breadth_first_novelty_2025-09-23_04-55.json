@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": true,
+            "answer": "234",
+            "token_usage": 9364,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": true,
+            "answer": "615",
+            "token_usage": 19730,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "4",
+            "token_usage": 7464,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "3",
+            "success": true,
+            "answer": "The minimum value of $ z $ is $ 11 $, achieved when $ x = -3 $ and $ y = 1 $.",
+            "token_usage": 4925,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": true,
+            "answer": "70",
+            "token_usage": 19981,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "5",
+            "success": true,
+            "answer": "1 square unit.",
+            "token_usage": 15367,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "6",
+            "success": true,
+            "answer": "98",
+            "token_usage": 21911,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "7",
+            "success": true,
+            "answer": "689",
+            "token_usage": 16241,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "8",
+            "success": true,
+            "answer": "7/16",
+            "token_usage": 6254,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "9",
+            "success": true,
+            "answer": "The ordered pair is $ \\left( \\frac{1}{2}, \\frac{\\sqrt{7}}{2} \\right) $.",
+            "token_usage": 10932,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "10",
+            "success": true,
+            "answer": "$\\frac{16\\sqrt{3}}{9}$",
+            "token_usage": 9467,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "13",
+            "token_usage": 7118,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": true,
+            "answer": "The maximum value of $ x - y $ is $ \\frac{1}{2} $.",
+            "token_usage": 11757,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "Apply the quadratic formula $ x = \\frac{113 \\pm \\sqrt{113^2 - 4 \\cdot 14 \\cdot (-20)}}{2 \\cdot 14} $ to find the positive solution for $ x $. Calculate the discriminant $ \\sqrt{113^2 - 4 \\cdot 14 \\cdot (-20)} = \\sqrt{13889} \\approx 117.85 $, then compute the positive root $ x = \\frac{113 + 117.85}{28} \\approx 8.24 $. Round to the nearest hundredth. \n\n[FINISHED]",
+            "token_usage": 24159,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "14",
+            "success": true,
+            "answer": "-1",
+            "token_usage": 4061,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "15",
+            "success": true,
+            "answer": "To solve the problem, we are given triangle $ ABC $ inscribed in a circle $ \\omega $, with side lengths $ AB = 5 $, $ BC = 7 $, and $ AC = 3 $. The angle bisector of $ \\angle A $ intersects $ BC $ at $ D $ and the circle $ \\omega $ again at $ E $. A new circle $ \\gamma $ is drawn with diameter $ \\overline{DE} $, and it intersects $ \\omega $ again at a point $ F $. The goal is to compute $ AF^2 $, express it as $ \\frac{m}{n} $, and find $ m + n $.\n\n---\n\n### Step 1: Coordinate Setup\n\nPlace triangle $ ABC $ on the coordinate plane for computational convenience:\n- Let $ B = (0, 0) $, $ C = (7, 0) $.\n- Let $ A = (x, y) $, and solve for $ A $ using the distance constraints:\n  - $ AB = 5 \\Rightarrow x^2 + y^2 = 25 $\n  - $ AC = 3 \\Rightarrow (x - 7)^2 + y^2 = 9 $\n\nSolving this system yields:\n$$\nA = \\left( \\frac{65}{14}, \\frac{15\\sqrt{3}}{14} \\right)\n$$\n\n---\n\n### Step 2: Find Point $ D $\n\nUsing the **Angle Bisector Theorem**:\n$$\n\\frac{BD}{DC} = \\frac{AB}{AC} = \\frac{5}{3}\n$$\nSince $ BC = 7 $, we find:\n$$\nBD = \\frac{5}{8} \\cdot 7 = \\frac{35}{8}, \\quad DC = \\frac{21}{8}\n$$\nThus, $ D = \\left( \\frac{35}{8}, 0 \\right) $\n\n---\n\n### Step 3: Find Point $ E $\n\nThe point $ E $ lies on the extension of the angle bisector beyond $ D $, and also on the circumcircle $ \\omega $. Using the parametric equation of the line $ AD $, we find the second intersection point $ E $ with the circumcircle. After solving the system, we find:\n$$\nE = \\left( \\frac{7}{2}, -\\frac{7\\sqrt{3}}{2} \\right)\n$$\n\n---\n\n### Step 4: Find Circle $ \\gamma $\n\nCircle $ \\gamma $ has diameter $ \\overline{DE} $, so its center is the midpoint of $ D $ and $ E $, and its radius is half the length of $ \\overline{DE} $. After calculation:\n- Center: $ \\left( \\frac{63}{16}, -\\frac{7\\sqrt{3}}{4} \\right) $\n- Radius: $ \\frac{49}{16} $\n\nEquation of circle $ \\gamma $ is:\n$$\n(x - \\frac{63}{16})^2 + (y + \\frac{7\\sqrt{3}}{4})^2 = \\left( \\frac{49}{16} \\right)^2\n$$\n\n---\n\n### Step 5: Find Intersection Point $ F $\n\nSolving the system of equations for circles $ \\omega $ and $ \\gamma $, we find the radical axis (line of intersection) and solve for the second point $ F $. After solving, we find:\n$$\nF = \\left( \\frac{245}{38}, -\\frac{105\\sqrt{3}}{38} \\right)\n$$\n\n---\n\n### Step 6: Compute $ AF^2 $\n\nUsing the distance formula:\n$$\nAF^2 = \\left( \\frac{240}{133} \\right)^2 + \\left( \\frac{-510\\sqrt{3}}{133} \\right)^2 = \\frac{837900}{17689}\n$$\n\nSimplify the fraction:\n$$\n\\frac{837900}{17689} = \\frac{900}{19}\n$$\n\nThus, $ AF^2 = \\frac{900}{19} $, and the final result is:\n$$\nm + n = 900 + 19 = \\boxed{919}\n$$",
+            "token_usage": 54207,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "16",
+            "success": true,
+            "answer": "$\\frac{650}{51}$",
+            "token_usage": 7383,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "17",
+            "success": true,
+            "answer": "$\\cos \\theta = \\frac{19}{21}$",
+            "token_usage": 8162,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": true,
+            "answer": "\\boxed{-i}",
+            "token_usage": 9694,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "19",
+            "success": true,
+            "answer": "1",
+            "token_usage": 31680,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "20",
+            "success": true,
+            "answer": "1 + \u221a3",
+            "token_usage": 15264,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "21",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{1}{2}}$",
+            "token_usage": 7973,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "22",
+            "success": false,
+            "answer": "-148",
+            "token_usage": 17828,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "23",
+            "success": true,
+            "answer": "6",
+            "token_usage": 8084,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": true,
+            "answer": "90",
+            "token_usage": 10321,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "25",
+            "success": true,
+            "answer": "22",
+            "token_usage": 17085,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": true,
+            "answer": "$\\boxed{225}$",
+            "token_usage": 25867,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "27",
+            "success": true,
+            "answer": "6",
+            "token_usage": 6184,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "28",
+            "success": true,
+            "answer": "$ (-\\infty, -1) \\cup (4, \\infty) $ \n\n[FINISHED]",
+            "token_usage": 4605,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "29",
+            "success": false,
+            "answer": "The total number of rectangles is $ \\binom{5}{2} \\times \\binom{5}{2} = 10 \\times 10 = 100 $.",
+            "token_usage": 10250,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "30",
+            "success": true,
+            "answer": "$\\boxed{1016}$",
+            "token_usage": 7681,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": true,
+            "answer": "318",
+            "token_usage": 18921,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "32",
+            "success": true,
+            "answer": "D) 1239",
+            "token_usage": 7140,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "35",
+            "token_usage": 5059,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "-3",
+            "token_usage": 4848,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": true,
+            "answer": "182",
+            "token_usage": 7923,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "36",
+            "success": true,
+            "answer": "89,88,85,73,70",
+            "token_usage": 12845,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "37",
+            "success": true,
+            "answer": "3 + 6\u221a2",
+            "token_usage": 16759,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "38",
+            "success": true,
+            "answer": "57",
+            "token_usage": 26718,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "39",
+            "success": true,
+            "answer": "230769",
+            "token_usage": 8906,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": true,
+            "answer": "The ratio of the volumes is 1/27, so m + n = 28.",
+            "token_usage": 14715,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "41",
+            "success": false,
+            "answer": "713.45 square units.",
+            "token_usage": 12965,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "42",
+            "success": true,
+            "answer": "21",
+            "token_usage": 64148,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "43",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 46867,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "44",
+            "success": true,
+            "answer": "3",
+            "token_usage": 4589,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": true,
+            "answer": "54",
+            "token_usage": 27642,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "46",
+            "success": true,
+            "answer": "46",
+            "token_usage": 4673,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5605,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "48",
+            "success": true,
+            "answer": "$\\mathbf{R} = \\begin{pmatrix} \\frac{1}{3} & -\\frac{2}{3} & \\frac{2}{3} \\\\ -\\frac{2}{3} & \\frac{1}{3} & \\frac{2}{3} \\\\ \\frac{2}{3} & \\frac{2}{3} & \\frac{1}{3} \\end{pmatrix}$",
+            "token_usage": 7175,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": true,
+            "answer": "$\\frac{52}{3}$",
+            "token_usage": 10189,
+            "num_times_pruned": 1
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 45,
+        "failed_tasks": 5,
+        "total_token_usage": 738686,
+        "total_num_times_pruned": 21,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 14,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "1:05:51.982303"
+}

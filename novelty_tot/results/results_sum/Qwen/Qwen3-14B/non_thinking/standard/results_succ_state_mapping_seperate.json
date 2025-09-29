@@ -1,0 +1,668 @@
+[
+    {
+        "task_id": "instance-34.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear d), (clear a), (handholding c), (ontable c), (clear c)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (clear d), (clear a), (handholding c), (ontable c), (clear c)"
+    },
+    {
+        "task_id": "instance-34.pddl_1",
+        "success": true,
+        "response": "State: (ontable a), (on c a), (ontable d), (clear a), (clear d), (clear c), (holding b)",
+        "extracted_answer": "State: (ontable a), (on c a), (ontable d), (clear a), (clear d), (clear c), (holding b)"
+    },
+    {
+        "task_id": "instance-34.pddl_2",
+        "success": true,
+        "response": "State: (ontable b), (ontable a), (clear b), (on c a), (handempty), (clear c), (holding d)",
+        "extracted_answer": "State: (ontable b), (ontable a), (clear b), (on c a), (handempty), (clear c), (holding d)"
+    },
+    {
+        "task_id": "instance-46.pddl_0",
+        "success": false,
+        "response": "State after action: (on c d), (ontable a), (clear a), (ontable d), (clear c), (handempty), (holding b)",
+        "extracted_answer": "State after action: (on c d), (ontable a), (clear a), (ontable d), (clear c), (handempty), (holding b)"
+    },
+    {
+        "task_id": "instance-46.pddl_1",
+        "success": false,
+        "response": "State after action: (on c d), (ontable a), (clear b), (handempty), (clear d), (holding c)",
+        "extracted_answer": "State after action: (on c d), (ontable a), (clear b), (handempty), (clear d), (holding c)"
+    },
+    {
+        "task_id": "instance-30.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear d), (clear a), (handholding c), (ontable c), (ontable d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (clear d), (clear a), (handholding c), (ontable c)"
+    },
+    {
+        "task_id": "instance-30.pddl_1",
+        "success": true,
+        "response": "State: (ontable a), (on c a), (clear a), (clear d), (handholding b), (clear c), (ontable d)",
+        "extracted_answer": "State: (ontable a), (on c a), (clear a), (clear d), (handholding b), (clear c), (ontable d)"
+    },
+    {
+        "task_id": "instance-30.pddl_2",
+        "success": false,
+        "response": "State: (ontable b), (ontable a), (clear b), (on c a), (handempty), (clear c), (holding d)",
+        "extracted_answer": "State: (ontable b), (ontable a), (clear b), (on c a), (handempty), (clear c), (holding d)"
+    },
+    {
+        "task_id": "instance-1.pddl_0",
+        "success": false,
+        "response": "State after action:  \n(ontable b), (on d c), (ontable a), (ontable c), (handempty), (clear d), (clear b), (clear a)",
+        "extracted_answer": "State after action:  \n(ontable b), (on d c), (ontable a), (ontable c), (handempty), (clear d), (clear b), (clear a)"
+    },
+    {
+        "task_id": "instance-1.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable b), (on a b), (ontable c), (handholding d), (clear d), (clear a), (clear c)",
+        "extracted_answer": "State after action: (ontable b), (on a b), (ontable c), (handholding d), (clear a), (clear c)"
+    },
+    {
+        "task_id": "instance-26.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (clear b), (ontable c), (clear c), (handempty), (clear d), (on d c), (holding a)",
+        "extracted_answer": "State after action: (ontable b), (clear b), (ontable c), (clear c), (handempty), (clear d), (on d c), (holding a)"
+    },
+    {
+        "task_id": "instance-26.pddl_1",
+        "success": true,
+        "response": "State after action: (on d c), (ontable c), (handholding b), (clear a), (on a d)",
+        "extracted_answer": "State after action: (on d c), (ontable c), (handholding b), (clear a), (on a d)"
+    },
+    {
+        "task_id": "instance-44.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable a), (clear b), (clear d), (ontable c), (handempty), (clear a), (ontable b), (on c d)",
+        "extracted_answer": "State after action: (ontable a), (clear b), (clear d), (ontable c), (handempty), (clear a), (ontable b), (on c d)"
+    },
+    {
+        "task_id": "instance-44.pddl_1",
+        "success": false,
+        "response": "State: (handholding a), (clear b), (clear d), (ontable c), (clear a), (on b c), (ontable d)",
+        "extracted_answer": "State: (handholding a), (clear b), (clear d), (ontable c), (clear a), (on b c), (ontable d)"
+    },
+    {
+        "task_id": "instance-44.pddl_2",
+        "success": false,
+        "response": "State: (ontable a), (clear b), (clear c), (handholding d), (ontable c), (on b c), (ontable d)",
+        "extracted_answer": "State: (ontable a), (clear b), (clear c), (handholding d), (ontable c), (on b c)"
+    },
+    {
+        "task_id": "instance-43.pddl_0",
+        "success": false,
+        "response": "State after action:  \n(ontable d), (on b c), (on c d), (hand a), (clear b), (clear d)",
+        "extracted_answer": "State after action:  \n(ontable d), (on b c), (on c d), (hand a), (clear b), (clear d)"
+    },
+    {
+        "task_id": "instance-13.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable a), (on b d), (handempty), (clear a), (clear b), (ontable c), (clear d)",
+        "extracted_answer": "State after action: (ontable a), (on b d), (handempty), (clear a), (clear b), (ontable c), (clear d)"
+    },
+    {
+        "task_id": "instance-13.pddl_1",
+        "success": true,
+        "response": "State after action: (on c b), (holding a), (clear c), (on b d), (clear d), (ontable d)",
+        "extracted_answer": "State after action: (on c b), (holding a), (clear c), (on b d), (clear d), (ontable d)"
+    },
+    {
+        "task_id": "instance-42.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (on c d), (clear b), (hand a), (clear d), (ontable d) \u2192 corrected and concise:\n\n(ontable b), (on c d), (clear b), (hand a), (clear d)",
+        "extracted_answer": "(ontable b), (on c d), (clear b), (hand a), (clear d)"
+    },
+    {
+        "task_id": "instance-42.pddl_1",
+        "success": false,
+        "response": "State after action: (on a c), (on c d), (clear a), (ontable d), (handholding b), (clear d)",
+        "extracted_answer": "State after action: (on a c), (on c d), (clear a), (ontable d), (handholding b), (clear d)"
+    },
+    {
+        "task_id": "instance-36.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (on c b), (clear c), (handholding d), (clear a)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (on c b), (clear c), (handholding d), (clear a)"
+    },
+    {
+        "task_id": "instance-36.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable b), (on c b), (on d c), (clear d), (handholding a), (clear b), (clear c)",
+        "extracted_answer": "State after action: (ontable b), (on c b), (on d c), (clear d), (handholding a), (clear b), (clear c)"
+    },
+    {
+        "task_id": "instance-49.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable c), (ontable a), (clear b), (handempty), (clear a), (ontable d), (clear c), (holding b)",
+        "extracted_answer": "State after action: (ontable c), (ontable a), (clear b), (handempty), (clear a), (ontable d), (clear c), (holding b)"
+    },
+    {
+        "task_id": "instance-49.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable d), (on c d), (on b c), (clear d), (holding a), (clear b)",
+        "extracted_answer": "State after action: (ontable d), (on c d), (on b c), (clear d), (holding a), (clear b)"
+    },
+    {
+        "task_id": "instance-40.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable a), (on d a), (clear b), (ontable c), (handempty), (clear d), (holding b)",
+        "extracted_answer": "State after action: (ontable a), (on d a), (ontable c), (handempty), (clear d), (holding b)"
+    },
+    {
+        "task_id": "instance-40.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable a), (on d a), (clear b), (handholding c), (on b d), (clear d)",
+        "extracted_answer": "State after action: (ontable a), (on d a), (clear b), (handholding c), (on b d), (clear d)"
+    },
+    {
+        "task_id": "instance-3.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (clear d), (ontable c), (clear c), (handempty), (clear b)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear d), (ontable c), (clear c), (handempty), (clear b)"
+    },
+    {
+        "task_id": "instance-3.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable a), (clear d), (ontable c), (handempty), (clear c), (on d b), (holding c)",
+        "extracted_answer": "State after action: (ontable a), (clear d), (handempty), (clear c), (on d b), (holding c)"
+    },
+    {
+        "task_id": "instance-29.pddl_0",
+        "success": true,
+        "response": "State after action:  \n(ontable b), (clear b), (ontable c), (clear c), (handempty), (clear d), (holding a)",
+        "extracted_answer": "State after action:  \n(ontable b), (clear b), (ontable c), (clear c), (handempty), (clear d), (holding a)"
+    },
+    {
+        "task_id": "instance-29.pddl_1",
+        "success": true,
+        "response": "State after action: (on d c), (ontable c), (handholding b), (clear a), (on a d)",
+        "extracted_answer": "State after action: (on d c), (ontable c), (handholding b), (clear a), (on a d)"
+    },
+    {
+        "task_id": "instance-2.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (ontable c), (holding d), (clear b), (clear c), (clear a)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (ontable c), (holding d), (clear b), (clear c), (clear a)"
+    },
+    {
+        "task_id": "instance-2.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable b), (on d a), (on a b), (ontable c), (handempty), (clear d), (clear c) \u2192 (holding c), (clear c) becomes (not clear c) \u2192 (clear c) is removed, (holding c) is added. \n\nFinal state: (ontable b), (on d a), (on a b), (ontable c), (holding c), (clear d)",
+        "extracted_answer": "State after action: (ontable b), (on d a), (on a b), (ontable c), (holding c), (clear d)"
+    },
+    {
+        "task_id": "instance-22.pddl_0",
+        "success": false,
+        "response": "State after action: (on b d), (ontable d), (clear c), (ontable a), (clear b), (handempty), (clear d)",
+        "extracted_answer": "State after action: (on b d), (ontable d), (clear c), (ontable a), (clear b), (handempty), (clear d)"
+    },
+    {
+        "task_id": "instance-22.pddl_1",
+        "success": true,
+        "response": "State after action: (on a c), (clear b), (ontable c), (handempty), (clear a), (ontable b), (on b d), (ontable d) \u2192 corrected to:\n\nState after action: (on a c), (clear a), (ontable c), (handempty), (clear b), (ontable b), (ontable d)",
+        "extracted_answer": "State after action: (on a c), (clear a), (ontable c), (handempty), (clear b), (ontable b), (ontable d)"
+    },
+    {
+        "task_id": "instance-31.pddl_0",
+        "success": false,
+        "response": "State after action:  \n(ontable b), (ontable c), (on a b), (handholding d), (clear b), (clear c)",
+        "extracted_answer": "State after action:  \n(ontable b), (ontable c), (on a b), (handholding d), (clear b), (clear c)"
+    },
+    {
+        "task_id": "instance-31.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable b), (on d a), (on a b), (handholding c), (clear d), (clear b)",
+        "extracted_answer": "State after action: (ontable b), (on d a), (on a b), (handholding c), (clear d), (clear b)"
+    },
+    {
+        "task_id": "instance-11.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable a), (clear b), (ontable c), (handempty), (clear a), (clear d), (ontable d), (holding b)",
+        "extracted_answer": "State after action: (ontable a), (clear b), (ontable c), (handempty), (clear a), (clear d), (ontable d), (holding b)"
+    },
+    {
+        "task_id": "instance-11.pddl_1",
+        "success": true,
+        "response": "State: (handholding a), (clear b), (ontable c), (clear c), (ontable d), (on b d), (clear d)",
+        "extracted_answer": "State: (handholding a), (clear b), (ontable c), (clear c), (ontable d), (on b d), (clear d)"
+    },
+    {
+        "task_id": "instance-11.pddl_2",
+        "success": true,
+        "response": "State after action: (ontable a), (clear b), (handholding c), (clear a), (on b d), (clear d)",
+        "extracted_answer": "State after action: (ontable a), (clear b), (handholding c), (clear a), (on b d), (clear d)"
+    },
+    {
+        "task_id": "instance-50.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable a), (on d a), (clear b), (clear d), (ontable c), (holding b), (clear c)",
+        "extracted_answer": "State after action: (ontable a), (on d a), (clear d), (ontable c), (holding b), (clear c)"
+    },
+    {
+        "task_id": "instance-50.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable a), (clear a), (clear d), (ontable c), (handempty), (on b c), (holding d)",
+        "extracted_answer": "State after action: (ontable a), (clear a), (clear d), (ontable c), (handempty), (on b c), (holding d)"
+    },
+    {
+        "task_id": "instance-8.pddl_0",
+        "success": true,
+        "response": "State after action:  \n(ontable b), (ontable a), (on d a), (clear d), (handempty), (clear c), (holding c)",
+        "extracted_answer": "State after action:  \n(ontable b), (ontable a), (on d a), (clear d), (holding c), (clear c)"
+    },
+    {
+        "task_id": "instance-8.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (on c b), (clear b), (handholding d), (clear c)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (on c b), (clear b), (handholding d), (clear c)"
+    },
+    {
+        "task_id": "instance-12.pddl_0",
+        "success": false,
+        "response": "State after action: (on b a), (on c b), (holding c), (on a d), (clear d), (ontable d)",
+        "extracted_answer": "State after action: (on b a), (on c b), (holding c), (on a d), (clear d), (ontable d)"
+    },
+    {
+        "task_id": "instance-5.pddl_0",
+        "success": true,
+        "response": "State: (ontable b), (ontable d), (ontable c), (clear b), (clear d), (clear c), (holding a), (handnotempty)",
+        "extracted_answer": "State: (ontable b), (ontable d), (ontable c), (clear b), (clear d), (clear c), (holding a), (handnotempty)"
+    },
+    {
+        "task_id": "instance-5.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable a), (ontable c), (ontable d), (clear a), (clear c), (clear d), (handholding b), (not clear b)",
+        "extracted_answer": "State after action: (ontable a), (ontable c), (ontable d), (clear a), (clear c), (clear d), (handholding b), (not clear b)"
+    },
+    {
+        "task_id": "instance-5.pddl_2",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear d), (ontable c), (handempty), (clear a), (clear c), (ontable d) \u2192 (holding c), (not clear c)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (clear d), (ontable c), (handempty), (clear a), (clear c), (ontable d) \u2192 (holding c), (not clear c)"
+    },
+    {
+        "task_id": "instance-5.pddl_3",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear d), (ontable c), (handholding d), (clear a), (clear c)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (ontable c), (handholding d), (clear a), (clear c)"
+    },
+    {
+        "task_id": "instance-21.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear c), (clear a), (handholding d), (ontable d), (on d c) removed, (clear d) removed",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (clear c), (clear a), (handholding d), (ontable d), (on d c) removed, (clear d) removed"
+    },
+    {
+        "task_id": "instance-21.pddl_1",
+        "success": true,
+        "response": "State: (ontable b), (on d c), (ontable c), (clear b), (clear d), (hand a), (clear a)",
+        "extracted_answer": "State: (ontable b), (on d c), (ontable c), (clear b), (clear d), (hand a)"
+    },
+    {
+        "task_id": "instance-21.pddl_2",
+        "success": true,
+        "response": "State after action: (ontable a), (on b c), (clear a), (clear d), (handempty is false), (holding b)",
+        "extracted_answer": "State after action: (ontable a), (clear a), (clear d), (on b c), (handempty is false), (holding b)"
+    },
+    {
+        "task_id": "instance-4.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable a), (clear b), (handholding c), (clear a), (on b d), (ontable d), (clear d)",
+        "extracted_answer": "State after action: (ontable a), (clear b), (handholding c), (clear a), (on b d), (ontable d), (clear d)"
+    },
+    {
+        "task_id": "instance-4.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable a), (clear b), (on c a), (handempty), (clear d), (holding b), (on b d) \u2192 corrected to: (ontable a), (clear d), (on c a), (holding b), (on b d) is invalid, corrected to: (ontable a), (clear d), (on c a), (holding b), (clear b) is invalid, corrected to: (ontable a), (clear d), (on c a), (holding b)",
+        "extracted_answer": "State after action: (ontable a), (clear d), (on c a), (holding b)"
+    },
+    {
+        "task_id": "instance-25.pddl_0",
+        "success": false,
+        "response": "State after action: (on b d), (ontable d), (clear c), (clear b), (hand a), (ontable c), (clear a)",
+        "extracted_answer": "State after action: (on b d), (ontable d), (clear c), (clear b), (hand a), (ontable c), (clear a)"
+    },
+    {
+        "task_id": "instance-25.pddl_1",
+        "success": false,
+        "response": "State after action: (on a c), (clear b), (ontable c), (handempty), (clear a), (ontable b), (on b d) \u2192 becomes (on a c), (clear d), (ontable c), (holding b), (clear a), (ontable b), (ontable d)",
+        "extracted_answer": "State after action: (on a c), (clear d), (ontable c), (holding b), (clear a), (ontable b), (ontable d)"
+    },
+    {
+        "task_id": "instance-7.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (clear b), (ontable c), (handempty), (clear a), (clear d), (holding a)",
+        "extracted_answer": "State after action: (ontable b), (clear b), (ontable c), (clear a), (clear d), (holding a)"
+    },
+    {
+        "task_id": "instance-7.pddl_1",
+        "success": true,
+        "response": "State: (holding b), (clear a), (ontable c), (ontable d), (on a d), (clear c), (handnotempty)",
+        "extracted_answer": "State: (holding b), (clear a), (ontable c), (ontable d), (on a d), (clear c), (handnotempty)"
+    },
+    {
+        "task_id": "instance-7.pddl_2",
+        "success": true,
+        "response": "State: (ontable b), (clear b), (handholding c), (clear a), (on a d), (clear d)",
+        "extracted_answer": "State: (ontable b), (clear b), (handholding c), (clear a), (on a d), (clear d)"
+    },
+    {
+        "task_id": "instance-24.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (ontable d), (clear b), (clear a), (clear d), (handholding c)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (ontable d), (clear b), (clear a), (clear d), (handholding c)"
+    },
+    {
+        "task_id": "instance-24.pddl_1",
+        "success": true,
+        "response": "State: (ontable b), (on c d), (ontable d), (clear b), (holding a), (clear c)",
+        "extracted_answer": "State: (ontable b), (on c d), (ontable d), (clear b), (holding a), (clear c)"
+    },
+    {
+        "task_id": "instance-24.pddl_2",
+        "success": true,
+        "response": "State after action: (on c d), (ontable a), (handholding b), (clear a), (clear c), (ontable d)",
+        "extracted_answer": "State after action: (on c d), (ontable a), (handholding b), (clear a), (clear c), (ontable d)"
+    },
+    {
+        "task_id": "instance-45.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear d), (ontable c), (handempty), (clear a), (clear c), (clear b), (holding d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear d), (ontable c), (handempty), (clear a), (clear c), (clear b), (holding d)"
+    },
+    {
+        "task_id": "instance-45.pddl_1",
+        "success": true,
+        "response": "State: (ontable b), (ontable c), (clear d), (clear c), (handholding a), (clear b)",
+        "extracted_answer": "State: (ontable b), (ontable c), (clear d), (clear c), (handholding a), (clear b)"
+    },
+    {
+        "task_id": "instance-45.pddl_2",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear d), (ontable c), (holding c), (clear a), (clear b), (on d b)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear d), (clear a), (clear b), (holding c), (on d b)"
+    },
+    {
+        "task_id": "instance-20.pddl_0",
+        "success": false,
+        "response": "State after action:  \n(ontable b), (on d a), (on a b), (ontable c), (handempty), (clear c), (holding d), (not clear a)",
+        "extracted_answer": "State after action:  \n(ontable b), (on a b), (ontable c), (handempty), (clear c), (holding d), (not clear a)"
+    },
+    {
+        "task_id": "instance-20.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable b), (on d a), (on a b), (ontable c), (handempty), (clear d), (clear b) \u2192 becomes (holding c), (ontable b), (on d a), (on a b), (clear d), (clear b)",
+        "extracted_answer": "State after action: (holding c), (ontable b), (on d a), (on a b), (clear d), (clear b)"
+    },
+    {
+        "task_id": "instance-19.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (on a c), (ontable d), (clear b), (clear a), (ontable c), (handempty)",
+        "extracted_answer": "State after action: (ontable b), (on a c), (ontable d), (clear b), (clear a), (ontable c), (handempty)"
+    },
+    {
+        "task_id": "instance-19.pddl_1",
+        "success": true,
+        "response": "State: (ontable c), (on d a), (on a c), (clear d), (holding b)",
+        "extracted_answer": "State: (ontable c), (on d a), (on a c), (clear d), (holding b)"
+    },
+    {
+        "task_id": "instance-23.pddl_0",
+        "success": false,
+        "response": "State after action: (on b d), (ontable d), (clear c), (ontable a), (clear b), (handempty), (clear d)",
+        "extracted_answer": "State after action: (on b d), (ontable d), (clear c), (ontable a), (clear b), (handempty), (clear d)"
+    },
+    {
+        "task_id": "instance-23.pddl_1",
+        "success": false,
+        "response": "State after action: (on a c), (clear b), (ontable c), (handempty), (clear a), (ontable b), (on b d) \u2192 becomes: (on a c), (clear a), (ontable c), (holding b), (ontable b), (on b d) \u2192 final: (on a c), (clear a), (ontable c), (holding b), (ontable b), (on b d) \u2192 corrected: (on a c), (clear a), (ontable c), (holding b), (ontable b), (clear d)",
+        "extracted_answer": "State after action: (on a c), (clear a), (ontable c), (holding b), (ontable b), (clear d)"
+    },
+    {
+        "task_id": "instance-18.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable c), (handempty), (clear a), (clear d), (on d b), (holding a)",
+        "extracted_answer": "State after action: (ontable b), (ontable c), (handempty), (clear a), (clear d), (on d b), (holding a)"
+    },
+    {
+        "task_id": "instance-18.pddl_1",
+        "success": true,
+        "response": "State: (ontable b), (handempty), (clear a), (on a d), (on d b), (holding c)",
+        "extracted_answer": "State: (ontable b), (handempty), (clear a), (on a d), (on d b), (holding c)"
+    },
+    {
+        "task_id": "instance-38.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable c), (clear b), (clear d), (ontable d), (handempty), (clear c), (holding a)",
+        "extracted_answer": "State after action: (ontable b), (ontable c), (clear b), (clear d), (ontable d), (handempty), (clear c), (holding a)"
+    },
+    {
+        "task_id": "instance-38.pddl_1",
+        "success": true,
+        "response": "State after action: (on a c), (ontable c), (ontable d), (clear a), (clear d), (handholding b)",
+        "extracted_answer": "State after action: (on a c), (ontable c), (ontable d), (clear a), (clear d), (handholding b)"
+    },
+    {
+        "task_id": "instance-38.pddl_2",
+        "success": false,
+        "response": "State after action: (ontable b), (on a c), (clear b), (clear a), (ontable c), (holding d), (ontable d)",
+        "extracted_answer": "State after action: (ontable b), (on a c), (clear b), (clear a), (ontable c), (holding d), (ontable d)"
+    },
+    {
+        "task_id": "instance-6.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (on c b), (clear c), (handempty), (clear a), (holding d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (on c b), (clear c), (handempty), (clear a), (holding d)"
+    },
+    {
+        "task_id": "instance-6.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable b), (on c b), (on d c), (clear d), (hand a), (clear b), (clear c)",
+        "extracted_answer": "State after action: (ontable b), (on c b), (on d c), (clear d), (hand a), (clear b), (clear c)"
+    },
+    {
+        "task_id": "instance-47.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable a), (clear b), (handholding c), (clear a), (on b d), (ontable d), (clear d)",
+        "extracted_answer": "State after action: (ontable a), (clear b), (handholding c), (clear a), (on b d), (ontable d), (clear d)"
+    },
+    {
+        "task_id": "instance-47.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable a), (clear b), (on c a), (holding b), (on d), (clear c), (ontable d)",
+        "extracted_answer": "State after action: (ontable a), (clear d), (on c a), (holding b), (on b d), (clear c), (ontable d)"
+    },
+    {
+        "task_id": "instance-17.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (hand a), (ontable c), (clear d), (clear b), (clear c), (ontable d)",
+        "extracted_answer": "State after action: (ontable b), (hand a), (ontable c), (clear d), (clear b), (clear c), (ontable d)"
+    },
+    {
+        "task_id": "instance-17.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable b), (on a b), (ontable d), (clear d), (clear a), (handholding c), (not clear c)",
+        "extracted_answer": "State after action: (ontable b), (on a b), (ontable d), (clear d), (clear a), (handholding c), (not clear c)"
+    },
+    {
+        "task_id": "instance-17.pddl_2",
+        "success": false,
+        "response": "State after action: (ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c), (clear b)",
+        "extracted_answer": "State after action: (ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c), (clear b)"
+    },
+    {
+        "task_id": "instance-37.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (on c a), (clear c), (handholding d), (clear d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (on c a), (clear c), (handholding d), (clear d)"
+    },
+    {
+        "task_id": "instance-37.pddl_1",
+        "success": true,
+        "response": "State: (ontable a), (on d c), (clear d), (on c a), (holding b)",
+        "extracted_answer": "State: (ontable a), (on d c), (clear d), (on c a), (holding b)"
+    },
+    {
+        "task_id": "instance-10.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear d), (clear a), (handholding c), (ontable c), (clear c)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (clear d), (clear a), (handholding c), (ontable c)"
+    },
+    {
+        "task_id": "instance-10.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable a), (ontable d), (on c a), (handholding b), (clear a), (clear d), (clear c)",
+        "extracted_answer": "State after action: (ontable a), (ontable d), (on c a), (handholding b), (clear a), (clear d), (clear c)"
+    },
+    {
+        "task_id": "instance-10.pddl_2",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d), (not clear d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d), (not clear d)"
+    },
+    {
+        "task_id": "instance-27.pddl_0",
+        "success": false,
+        "response": "State after action:  \n(ontable a), (clear b), (ontable c), (handempty), (clear d), (clear a), (on d c)",
+        "extracted_answer": "State after action:  \n(ontable a), (clear b), (ontable c), (handempty), (clear d), (clear a), (on d c)"
+    },
+    {
+        "task_id": "instance-27.pddl_1",
+        "success": false,
+        "response": "State after action: (holding a), (clear b), (on d c), (ontable c), (clear d), (on b d)",
+        "extracted_answer": "State after action: (holding a), (clear b), (on d c), (ontable c), (clear d), (on b d)"
+    },
+    {
+        "task_id": "instance-39.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable a), (clear d), (ontable c), (handempty), (clear a), (on b c), (holding d), (clear b)",
+        "extracted_answer": "State after action: (ontable a), (clear d), (ontable c), (handempty), (clear a), (on b c), (holding d), (clear b)"
+    },
+    {
+        "task_id": "instance-39.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable c), (hand a), (clear d), (on b c), (on d b), (clear c)",
+        "extracted_answer": "State after action: (ontable c), (hand a), (clear d), (on b c), (on d b), (clear c)"
+    },
+    {
+        "task_id": "instance-16.pddl_0",
+        "success": true,
+        "response": "State after action:  \n(ontable b), (ontable a), (handholding c), (clear d), (clear a), (on d b)",
+        "extracted_answer": "State after action:  \n(ontable b), (ontable a), (handholding c), (clear d), (clear a), (on d b)"
+    },
+    {
+        "task_id": "instance-16.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable b), (on c d), (ontable a), (holding a), (clear c), (on d b)",
+        "extracted_answer": "State after action: (ontable b), (on c d), (holding a), (clear c), (on d b)"
+    },
+    {
+        "task_id": "instance-9.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (on a c), (clear d), (ontable c), (handempty), (clear a), (on d b) \u2192 (holding d), (clear b)",
+        "extracted_answer": "State after action: (ontable b), (on a c), (clear d), (ontable c), (handempty), (clear a), (on d b) \u2192 (holding d), (clear b)"
+    },
+    {
+        "task_id": "instance-9.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable c), (clear d), (clear a), (handempty), (on d b), (holding a)",
+        "extracted_answer": "State after action: (ontable b), (ontable c), (clear d), (clear a), (handempty), (on d b), (holding a)"
+    },
+    {
+        "task_id": "instance-35.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable a), (on b d), (ontable c), (handempty), (clear a), (clear c), (clear b)",
+        "extracted_answer": "State after action: (ontable a), (on b d), (ontable c), (handempty), (clear a), (clear c), (clear b)"
+    },
+    {
+        "task_id": "instance-35.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable c), (handempty), (clear a), (on b d), (clear c), (ontable d) \u2192 becomes: (hand c), (clear c becomes false), (ontable c becomes false) \u2192 Final state: (on a b), (hand c), (on b d), (clear a), (clear c becomes false), (ontable d)",
+        "extracted_answer": "State after action: (on a b), (hand c), (on b d), (clear a), (ontable d)"
+    },
+    {
+        "task_id": "instance-33.pddl_0",
+        "success": false,
+        "response": "State after action: (on b a), (on c b), (handempty), (on a d), (clear d), (holding c)",
+        "extracted_answer": "State after action: (on b a), (on a d), (on c b), (clear d), (holding c)"
+    },
+    {
+        "task_id": "instance-32.pddl_0",
+        "success": true,
+        "response": "State after action:  \n(ontable b), (on a b), (ontable c), (handholding c), (clear d), (clear b), (ontable d)",
+        "extracted_answer": "State after action:  \n(ontable b), (on a b), (ontable c), (handholding c), (clear d), (clear b), (ontable d)"
+    },
+    {
+        "task_id": "instance-32.pddl_1",
+        "success": true,
+        "response": "State: (ontable b), (on a b), (on c a), (holding d), (clear b), (clear c), (ontable d)",
+        "extracted_answer": "State: (ontable b), (on a b), (on c a), (holding d), (clear b), (clear c), (ontable d)"
+    },
+    {
+        "task_id": "instance-48.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable a), (clear b), (handholding c), (on b d), (clear d), (ontable d)",
+        "extracted_answer": "State after action: (ontable a), (clear b), (handholding c), (on b d), (clear d), (ontable d)"
+    },
+    {
+        "task_id": "instance-48.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable a), (clear b), (on c a), (holding b), (on d b), (clear c), (ontable d)",
+        "extracted_answer": "State after action: (ontable a), (clear b), (on c a), (holding b), (on d b), (clear c), (ontable d)"
+    },
+    {
+        "task_id": "instance-15.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (on c b), (clear d), (handempty), (clear c), (holding a)",
+        "extracted_answer": "State after action: (ontable b), (on c b), (clear d), (holding a), (clear c)"
+    },
+    {
+        "task_id": "instance-15.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable b), (on a c), (on c b), (handholding d), (clear a), (ontable d)",
+        "extracted_answer": "State after action: (ontable b), (on a c), (on c b), (handholding d), (clear a), (ontable d)"
+    },
+    {
+        "task_id": "instance-41.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (clear d), (handholding c), (clear a), (ontable d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (clear d), (handholding c), (clear a), (ontable d)"
+    },
+    {
+        "task_id": "instance-41.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable a), (ontable d), (on c a), (handholding b), (clear a), (clear d), (clear c)",
+        "extracted_answer": "State after action: (ontable a), (ontable d), (on c a), (handholding b), (clear a), (clear d), (clear c)"
+    },
+    {
+        "task_id": "instance-41.pddl_2",
+        "success": true,
+        "response": "State: (ontable b), (ontable a), (clear b), (on c a), (handempty), (clear c), (holding d)",
+        "extracted_answer": "State: (ontable b), (ontable a), (clear b), (on c a), (handempty), (clear c), (holding d)"
+    },
+    {
+        "task_id": "instance-28.pddl_0",
+        "success": true,
+        "response": "State after action: (ontable b), (ontable a), (clear b), (on c a), (clear c), (hand holding d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear b), (on c a), (clear c), (hand holding d)"
+    },
+    {
+        "task_id": "instance-28.pddl_1",
+        "success": true,
+        "response": "State after action: (ontable a), (on d c), (clear d), (on c a), (hand holding b)",
+        "extracted_answer": "State after action: (ontable a), (on d c), (clear d), (on c a), (hand holding b)"
+    },
+    {
+        "task_id": "instance-14.pddl_0",
+        "success": false,
+        "response": "State after action: (ontable b), (ontable a), (clear d), (ontable c), (handempty), (clear c), (clear b), (holding d)",
+        "extracted_answer": "State after action: (ontable b), (ontable a), (clear d), (ontable c), (handempty), (clear c), (clear b), (holding d)"
+    },
+    {
+        "task_id": "instance-14.pddl_1",
+        "success": false,
+        "response": "State after action: (ontable a), (clear d), (ontable c), (handempty), (clear c), (on d b), (holding c)",
+        "extracted_answer": "State after action: (ontable a), (clear d), (clear c), (on d b), (holding c)"
+    }
+]

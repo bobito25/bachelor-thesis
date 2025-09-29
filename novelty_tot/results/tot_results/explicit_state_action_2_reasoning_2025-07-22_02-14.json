@@ -1,0 +1,130 @@
+{
+    "results": [
+        {
+            "task_id": "instance-1.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 20351
+        },
+        {
+            "task_id": "instance-10.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24000
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 22598
+        },
+        {
+            "task_id": "instance-12.pddl",
+            "success": false,
+            "answer": "Error occurred: Thinking is not enabled, but response contains thinking tags.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-13.pddl",
+            "success": true,
+            "answer": "-START-\nPick up the orange block.\nUnstack the orange block from on top of the blue block.\nPut down the orange block.\nPick up the red block.\nStack the red block on top of the blue block.\nPick up the orange block.\nStack the orange block on top of the red block.\n-END-",
+            "token_usage": 24821
+        },
+        {
+            "task_id": "instance-14.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 23310
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21462
+        },
+        {
+            "task_id": "instance-16.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 26125
+        },
+        {
+            "task_id": "instance-17.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21801
+        },
+        {
+            "task_id": "instance-18.pddl",
+            "success": false,
+            "answer": "Error occurred: Thinking is not enabled, but response contains thinking tags.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 20866
+        },
+        {
+            "task_id": "instance-2.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 34956
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24089
+        },
+        {
+            "task_id": "instance-21.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 22190
+        },
+        {
+            "task_id": "instance-22.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21936
+        },
+        {
+            "task_id": "instance-23.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 22668
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 26157
+        },
+        {
+            "task_id": "instance-25.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24286
+        },
+        {
+            "task_id": "instance-26.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 25994
+        },
+        {
+            "task_id": "instance-27.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 23016
+        }
+    ],
+    "summary": {
+        "total_tasks": 20,
+        "successful_tasks": 1,
+        "failed_tasks": 19,
+        "total_token_usage": 430626
+    }
+}

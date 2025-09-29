@@ -1,0 +1,130 @@
+{
+    "results": [
+        {
+            "task_id": "instance-1.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 19989
+        },
+        {
+            "task_id": "instance-10.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 20425
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24286
+        },
+        {
+            "task_id": "instance-12.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24044
+        },
+        {
+            "task_id": "instance-13.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21779
+        },
+        {
+            "task_id": "instance-14.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21366
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 25546
+        },
+        {
+            "task_id": "instance-16.pddl",
+            "success": false,
+            "answer": "1. Unstack the orange block from the yellow block.\n2. Put down the orange block on the table.\n3. Unstack the yellow block from the blue block.\n4. Put down the yellow block on the table.\n5. Pick up the orange block.\n6. Stack the orange block on top of the blue block.\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 27755
+        },
+        {
+            "task_id": "instance-17.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 23575
+        },
+        {
+            "task_id": "instance-18.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 26836
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 26211
+        },
+        {
+            "task_id": "instance-2.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 23151
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 20682
+        },
+        {
+            "task_id": "instance-21.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 32472
+        },
+        {
+            "task_id": "instance-22.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21733
+        },
+        {
+            "task_id": "instance-23.pddl",
+            "success": false,
+            "answer": "Unstack red block from orange block.\nStack red block on top of blue block.\nStack orange block on top of yellow block.\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 27574
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 28973
+        },
+        {
+            "task_id": "instance-25.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21072
+        },
+        {
+            "task_id": "instance-26.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 17193
+        },
+        {
+            "task_id": "instance-27.pddl",
+            "success": false,
+            "answer": "1. Unstack the blue block from the yellow block.\n2. Stack the blue block on top of the red block.\n3. Unstack the yellow block from the orange block.\n4. Stack the yellow block on top of the blue block.\n5. Stack the orange block on top of the yellow block.\nThe plan is not valid according to the PDDL validator.",
+            "token_usage": 28936
+        }
+    ],
+    "summary": {
+        "total_tasks": 20,
+        "successful_tasks": 0,
+        "failed_tasks": 20,
+        "total_token_usage": 483598
+    }
+}

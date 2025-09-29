@@ -1,0 +1,71 @@
+{
+    "results": [
+        {
+            "task_id": "instance-34.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 57948
+        },
+        {
+            "task_id": "instance-30.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 326212
+        },
+        {
+            "task_id": "instance-28.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 14542
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 17603
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13166
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 215562
+        },
+        {
+            "task_id": "instance-6.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 674964
+        },
+        {
+            "task_id": "instance-46.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 101305
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21086
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 392793
+        }
+    ],
+    "summary": {
+        "total_tasks": 10,
+        "successful_tasks": 0,
+        "failed_tasks": 10,
+        "total_token_usage": 1835181
+    },
+    "duration": "0:13:28.235344"
+}

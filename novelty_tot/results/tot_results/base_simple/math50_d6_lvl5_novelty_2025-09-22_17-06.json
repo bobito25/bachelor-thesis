@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8040,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "1",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 322669,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "4",
+            "token_usage": 37276,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "3",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 271166,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 686306,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "5",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 121065,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "6",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 281971,
+            "num_times_pruned": 19
+        },
+        {
+            "task_id": "7",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2482,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "8",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 52262,
+            "num_times_pruned": 20
+        },
+        {
+            "task_id": "9",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 184958,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "10",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 117148,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "11",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8267,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "12",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 146056,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "13",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21090,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "14",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 122263,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "15",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 206036,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "16",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 117552,
+            "num_times_pruned": 22
+        },
+        {
+            "task_id": "17",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 39478,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "18",
+            "success": true,
+            "answer": "$z = \\frac{2}{2i} = \\frac{1}{i} = -i$",
+            "token_usage": 119165,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "19",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 684196,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "20",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 210451,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "21",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24365,
+            "num_times_pruned": 18
+        },
+        {
+            "task_id": "22",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 150676,
+            "num_times_pruned": 24
+        },
+        {
+            "task_id": "23",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 200383,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 185159,
+            "num_times_pruned": 13
+        },
+        {
+            "task_id": "25",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 559954,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 309820,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "27",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 133580,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "28",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 238701,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "29",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 3839,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "30",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 249312,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 118296,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "32",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 74937,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "The product of the two digits that go in the blanks is $ 35 $.",
+            "token_usage": 286600,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "-3",
+            "token_usage": 228083,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 215064,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "36",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 205700,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "37",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 243324,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "38",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 258266,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "39",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 14608,
+            "num_times_pruned": 17
+        },
+        {
+            "task_id": "40",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 43216,
+            "num_times_pruned": 32
+        },
+        {
+            "task_id": "41",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 364170,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "42",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 203751,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "43",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 541052,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "44",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 60439,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "45",
+            "success": false,
+            "answer": "126",
+            "token_usage": 50642,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "46",
+            "success": false,
+            "answer": "The sum of all integer values of $ x $ is 23.",
+            "token_usage": 205824,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "47",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 229261,
+            "num_times_pruned": 26
+        },
+        {
+            "task_id": "48",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 40972,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "49",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 244746,
+            "num_times_pruned": 3
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 4,
+        "failed_tasks": 46,
+        "total_token_usage": 9444637,
+        "total_num_times_pruned": 439,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 0,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:29:42.679483"
+}

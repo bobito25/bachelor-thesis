@@ -1,0 +1,668 @@
+[
+    {
+        "task_id": "instance-34.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table and clear, the yellow block is on the table and clear, the orange block is being held, the hand is holding the orange block.",
+        "extracted_answer": "'State: the blue block is on the table, the red block is on the table and clear, the yellow block is on the table and clear, the orange block is being held, the hand is holding the orange block.'"
+    },
+    {
+        "task_id": "instance-34.pddl_1",
+        "success": true,
+        "response": "State: the blue block is being held, the red block is on the table, the red block is not clear, the yellow block is on the table, the yellow block is clear, the orange block is on top of the red block, the orange block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the blue block is being held, the red block is on the table, the red block is not clear, the yellow block is on the table, the yellow block is clear, the orange block is on top of the red block, the orange block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-34.pddl_2",
+        "success": true,
+        "response": "- The yellow block is being held.  \n- The hand is holding the yellow block.  \n- The blue block is on the table and clear.  \n- The red block is on the table.  \n- The orange block is on top of the red block and clear.",
+        "extracted_answer": "- The yellow block is being held.  \n- The hand is holding the yellow block.  \n- The blue block is on the table and clear.  \n- The red block is on the table.  \n- The orange block is on top of the red block and clear."
+    },
+    {
+        "task_id": "instance-46.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table, the red block is clear, the orange block is on top of the yellow block, the yellow block is on the table, the blue block is held, the orange block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the red block is on the table, the red block is clear, the orange block is on top of the yellow block, the yellow block is on the table, the blue block is held, the orange block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-46.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on top of the red block, the red block is on the table, the yellow block is on the table, the orange block is in the hand, the blue block is clear, the yellow block is clear, the hand is holding the orange block.",
+        "extracted_answer": "State: the blue block is on top of the red block, the red block is on the table, the yellow block is on the table, the orange block is in the hand, the blue block is clear, the yellow block is clear, the hand is holding the orange block."
+    },
+    {
+        "task_id": "instance-30.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is clear, the yellow block is on the table, the orange block is being held, the red block is clear, the hand is holding the orange block.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is clear, the yellow block is on the table, the orange block is being held, the red block is clear, the hand is holding the orange block."
+    },
+    {
+        "task_id": "instance-30.pddl_1",
+        "success": true,
+        "response": "The blue block is in the hand, the red block is on the table, the orange block is on top of the red block, the yellow block is on the table, the orange block is clear, the yellow block is clear, the hand is holding the blue block.",
+        "extracted_answer": "The blue block is in the hand, the red block is on the table, the orange block is on top of the red block, the yellow block is on the table, the orange block is clear, the yellow block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-30.pddl_2",
+        "success": true,
+        "response": "- The blue block is on the table and clear.  \n- The red block is on the table with the orange block on top.  \n- The orange block is on top of the red block and clear.  \n- The yellow block is in the hand.  \n- The hand is holding the yellow block.",
+        "extracted_answer": "- The blue block is on the table and clear.  \n- The red block is on the table with the orange block on top.  \n- The orange block is on top of the red block and clear.  \n- The yellow block is in the hand.  \n- The hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-1.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the yellow block is on top of the orange block, the red block is in the hand, the orange block is on the table, the hand is holding the red block, the yellow block is clear, the blue block is clear, the orange block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the yellow block is on top of the orange block, the red block is in the hand, the orange block is on the table, the hand is holding the red block, the yellow block is clear, the blue block is clear, the orange block is not clear."
+    },
+    {
+        "task_id": "instance-1.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table (not clear), the red block is on top of the blue block (clear), the orange block is on the table (clear), the yellow block is in the hand, the hand is holding the yellow block, the red block is clear.",
+        "extracted_answer": "State: the blue block is on the table (not clear), the red block is on top of the blue block (clear), the orange block is on the table (clear), the yellow block is in the hand, the hand is holding the yellow block, the red block is clear."
+    },
+    {
+        "task_id": "instance-26.pddl_0",
+        "success": true,
+        "response": "State:  \n- Blue block is on the table, clear.  \n- Yellow block is on top of the orange block, clear.  \n- Orange block is on the table, not clear.  \n- Red block is held by the hand.  \n- Hand is holding the red block.",
+        "extracted_answer": "State:  \n- Blue block is on the table, clear.  \n- Yellow block is on top of the orange block, clear.  \n- Orange block is on the table, not clear.  \n- Red block is held by the hand.  \n- Hand is holding the red block."
+    },
+    {
+        "task_id": "instance-26.pddl_1",
+        "success": true,
+        "response": "State: the blue block is held, the hand is holding the blue block, the yellow block is on top of the orange block, the orange block is on the table, the red block is clear, the red block is on top of the yellow block.",
+        "extracted_answer": "State: the blue block is held, the hand is holding the blue block, the yellow block is on top of the orange block, the orange block is on the table, the red block is clear, the red block is on top of the yellow block."
+    },
+    {
+        "task_id": "instance-44.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is on the table, the orange block is clear, the blue block is held, the hand is holding the blue block.",
+        "extracted_answer": "'State: the red block is on the table, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is on the table, the orange block is clear, the blue block is held, the hand is holding the blue block.'"
+    },
+    {
+        "task_id": "instance-44.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on top of the orange block, the yellow block is on the table, the orange block is on the table, the red block is held by the hand, the hand is not empty, the blue block is clear, the yellow block is clear, the orange block is not clear.",
+        "extracted_answer": "State: the blue block is on top of the orange block, the yellow block is on the table, the orange block is on the table, the red block is held by the hand, the hand is not empty, the blue block is clear, the yellow block is clear, the orange block is not clear."
+    },
+    {
+        "task_id": "instance-44.pddl_2",
+        "success": true,
+        "response": "The red block is on the table and clear. The blue block is on top of the orange block and clear. The orange block is on the table and not clear. The yellow block is being held. The hand is holding the yellow block.",
+        "extracted_answer": "The red block is on the table and clear. The blue block is on top of the orange block and clear. The orange block is on the table and not clear. The yellow block is being held. The hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-43.pddl_0",
+        "success": true,
+        "response": "the orange block is on top of the yellow block, the blue block is on top of the orange block, the red block is in the hand, the hand is not empty, the blue block is clear, the yellow block is on the table, the red block is not clear",
+        "extracted_answer": "'the orange block is on top of the yellow block, the blue block is on top of the orange block, the red block is in the hand, the hand is not empty, the blue block is clear, the yellow block is on the table, the red block is not clear'"
+    },
+    {
+        "task_id": "instance-13.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table, the red block is clear, the blue block is on top of the yellow block, the blue block is clear, the yellow block is on the table, the orange block is held by the hand, the hand is holding the orange block.",
+        "extracted_answer": "State: the red block is on the table, the red block is clear, the blue block is on top of the yellow block, the blue block is clear, the yellow block is on the table, the orange block is held by the hand, the hand is holding the orange block."
+    },
+    {
+        "task_id": "instance-13.pddl_1",
+        "success": true,
+        "response": "State: the red block is being held, the orange block is on top of the blue block, the blue block is on top of the yellow block, the yellow block is on the table, the hand is not empty, the orange block is clear, the blue block is not clear, the yellow block is not clear.",
+        "extracted_answer": "State: the red block is being held, the orange block is on top of the blue block, the blue block is on top of the yellow block, the yellow block is on the table, the hand is not empty, the orange block is clear, the blue block is not clear, the yellow block is not clear."
+    },
+    {
+        "task_id": "instance-42.pddl_0",
+        "success": true,
+        "response": "State:  \n- Blue block is on the table, clear.  \n- Red block is in hand (not on table, not clear).  \n- Orange block is on top of the yellow block, clear.  \n- Yellow block is on the table, not clear.  \n- Hand is holding the red block.",
+        "extracted_answer": "State:  \n- Blue block is on the table, clear.  \n- Red block is in hand (not on table, not clear).  \n- Orange block is on top of the yellow block, clear.  \n- Yellow block is on the table, not clear.  \n- Hand is holding the red block."
+    },
+    {
+        "task_id": "instance-42.pddl_1",
+        "success": true,
+        "response": "the red block is on top of the orange block, the orange block is on top of the yellow block, the yellow block is on the table, the red block is clear, the orange block is not clear, the yellow block is not clear, the hand is holding the blue block, the blue block is not on the table.",
+        "extracted_answer": "'the red block is on top of the orange block, the orange block is on top of the yellow block, the yellow block is on the table, the red block is clear, the orange block is not clear, the yellow block is not clear, the hand is holding the blue block, the blue block is not on the table.'"
+    },
+    {
+        "task_id": "instance-36.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is being held, the yellow block is not clear, the orange block is clear, the red block is clear, the hand is holding the yellow block.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is being held, the yellow block is not clear, the orange block is clear, the red block is clear, the hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-36.pddl_1",
+        "success": true,
+        "response": "The blue block is on the table (not clear), the orange block is on top of the blue block (not clear), the yellow block is on top of the orange block (clear), the red block is in the hand, and the hand is not empty.",
+        "extracted_answer": "'The blue block is on the table (not clear), the orange block is on top of the blue block (not clear), the yellow block is on top of the orange block (clear), the red block is in the hand, and the hand is not empty.'"
+    },
+    {
+        "task_id": "instance-49.pddl_0",
+        "success": false,
+        "response": "State: the orange block is on top of the yellow block, the orange block is clear, the red block is on the table, the red block is clear, the blue block is held, the yellow block is on the table.",
+        "extracted_answer": "State: the orange block is on top of the yellow block, the orange block is clear, the red block is on the table, the red block is clear, the blue block is held, the yellow block is on the table."
+    },
+    {
+        "task_id": "instance-49.pddl_1",
+        "success": true,
+        "response": "Hand is holding the red block. The orange block is on top of the yellow block. The blue block is on top of the orange block. The yellow block is on the table. The blue block is clear.",
+        "extracted_answer": "'Hand is holding the red block. The orange block is on top of the yellow block. The blue block is on top of the orange block. The yellow block is on the table. The blue block is clear.'"
+    },
+    {
+        "task_id": "instance-40.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table, the yellow block is on top of the red block and is clear, the blue block is being held, the orange block is on the table and is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the red block is on the table, the yellow block is on top of the red block and is clear, the blue block is being held, the orange block is on the table and is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-40.pddl_1",
+        "success": true,
+        "response": "The red block is on the table, the yellow block is on top of the red block, the blue block is on top of the yellow block and is clear, the orange block is being held, and the hand is not empty.",
+        "extracted_answer": "'The red block is on the table, the yellow block is on top of the red block, the blue block is on top of the yellow block and is clear, the orange block is being held, and the hand is not empty.'"
+    },
+    {
+        "task_id": "instance-3.pddl_0",
+        "success": true,
+        "response": "the blue block is on top of the red block, the red block is on the table, the yellow block is in the hand, the orange block is on the table, the hand is not empty, the orange block is clear, the blue block is clear.",
+        "extracted_answer": "'the blue block is on top of the red block, the red block is on the table, the yellow block is in the hand, the orange block is on the table, the hand is not empty, the orange block is clear, the blue block is clear.'"
+    },
+    {
+        "task_id": "instance-3.pddl_1",
+        "success": true,
+        "response": "The blue block is on top of the red block, the red block is on the table, the yellow block is on top of the blue block and is clear, the orange block is being held by the hand, the hand is not empty, and the orange block is not clear.",
+        "extracted_answer": "'The blue block is on top of the red block, the red block is on the table, the yellow block is on top of the blue block and is clear, the orange block is being held by the hand, the hand is not empty, and the orange block is not clear.'"
+    },
+    {
+        "task_id": "instance-29.pddl_0",
+        "success": false,
+        "response": "State: the blue block is on the table, the blue block is clear, the yellow block is on top of the orange block, the yellow block is clear, the orange block is on the table, the hand is holding the red block, the red block is clear.",
+        "extracted_answer": "State: the blue block is on the table, the blue block is clear, the yellow block is on top of the orange block, the yellow block is clear, the orange block is on the table, the hand is holding the red block, the red block is clear."
+    },
+    {
+        "task_id": "instance-29.pddl_1",
+        "success": true,
+        "response": "State: the blue block is being held, the blue block is not clear, the yellow block is on top of the orange block, the orange block is on the table, the hand is holding the blue block, the red block is clear, the red block is on top of the yellow block.",
+        "extracted_answer": "State: the blue block is being held, the blue block is not clear, the yellow block is on top of the orange block, the orange block is on the table, the hand is holding the blue block, the red block is clear, the red block is on top of the yellow block."
+    },
+    {
+        "task_id": "instance-2.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the blue block, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the orange block is clear, the blue block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the blue block, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the orange block is clear, the blue block is not clear."
+    },
+    {
+        "task_id": "instance-2.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is held by the hand, the hand is holding the orange block, the yellow block is clear, the blue block is not clear, the red block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is held by the hand, the hand is holding the orange block, the yellow block is clear, the blue block is not clear, the red block is not clear."
+    },
+    {
+        "task_id": "instance-22.pddl_0",
+        "success": true,
+        "response": "State: the red block is being held, the orange block is on the table and clear, the blue block is on top of the yellow block, the yellow block is on the table and not clear, the hand is not empty.",
+        "extracted_answer": "State: the red block is being held, the orange block is on the table and clear, the blue block is on top of the yellow block, the yellow block is on the table and not clear, the hand is not empty."
+    },
+    {
+        "task_id": "instance-22.pddl_1",
+        "success": true,
+        "response": "State: the red block is on top of the orange block, the orange block is on the table, the yellow block is on the table and clear, the blue block is being held, the red block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the red block is on top of the orange block, the orange block is on the table, the yellow block is on the table and clear, the blue block is being held, the red block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-31.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the blue block, the yellow block is held by the hand, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the orange block is clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the blue block, the yellow block is held by the hand, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the orange block is clear."
+    },
+    {
+        "task_id": "instance-31.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the yellow block is clear.",
+        "extracted_answer": "State: the blue block is on the table, the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the yellow block is clear."
+    },
+    {
+        "task_id": "instance-11.pddl_0",
+        "success": false,
+        "response": "State: the red block is on the table, the blue block is being held, the orange block is on the table, the hand is holding the blue block, the red block is clear, the blue block is clear, the orange block is clear, the yellow block is on the table and clear.",
+        "extracted_answer": "State: the red block is on the table, the blue block is being held, the orange block is on the table, the hand is holding the blue block, the red block is clear, the blue block is clear, the orange block is clear, the yellow block is on the table and clear."
+    },
+    {
+        "task_id": "instance-11.pddl_1",
+        "success": true,
+        "response": "State: the red block is being held, the blue block is clear, the orange block is on the table and clear, the yellow block is on the table, the blue block is on top of the yellow block, the hand is holding the red block.",
+        "extracted_answer": "State: the red block is being held, the blue block is clear, the orange block is on the table and clear, the yellow block is on the table, the blue block is on top of the yellow block, the hand is holding the red block."
+    },
+    {
+        "task_id": "instance-11.pddl_2",
+        "success": false,
+        "response": "State: the red block is on the table, the blue block is on top of the yellow block, the yellow block is on the table, the hand is holding the orange block, the red block is clear, the blue block is clear, the orange block is being held, the yellow block is clear.",
+        "extracted_answer": "State: the red block is on the table, the blue block is on top of the yellow block, the yellow block is on the table, the hand is holding the orange block, the red block is clear, the blue block is clear, the orange block is being held, the yellow block is clear."
+    },
+    {
+        "task_id": "instance-50.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table, the yellow block is on top of the red block, the orange block is on the table and clear, the blue block is held by the hand, the yellow block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the red block is on the table, the yellow block is on top of the red block, the orange block is on the table and clear, the blue block is held by the hand, the yellow block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-50.pddl_1",
+        "success": true,
+        "response": "State: the red block is clear, the yellow block is held, the blue block is on top of the orange block, the orange block is on the table, the blue block is clear, the hand is holding the yellow block.",
+        "extracted_answer": "'State: the red block is clear, the yellow block is held, the blue block is on top of the orange block, the orange block is on the table, the blue block is clear, the hand is holding the yellow block.'"
+    },
+    {
+        "task_id": "instance-8.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table and clear, the red block is on the table, the yellow block is on top of the red block and clear, the orange block is being held, the hand is holding the orange block.",
+        "extracted_answer": "State: the blue block is on the table and clear, the red block is on the table, the yellow block is on top of the red block and clear, the orange block is being held, the hand is holding the orange block."
+    },
+    {
+        "task_id": "instance-8.pddl_1",
+        "success": true,
+        "response": "the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is in the hand, the red block is clear, the orange block is clear, the hand is holding the yellow block",
+        "extracted_answer": "'the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is in the hand, the red block is clear, the orange block is clear, the hand is holding the yellow block'"
+    },
+    {
+        "task_id": "instance-12.pddl_0",
+        "success": true,
+        "response": "The blue block is on top of the red block, the red block is on top of the yellow block, the yellow block is on the table, the hand is holding the orange block, the blue block is clear.",
+        "extracted_answer": "'The blue block is on top of the red block, the red block is on top of the yellow block, the yellow block is on the table, the hand is holding the orange block, the blue block is clear.'"
+    },
+    {
+        "task_id": "instance-5.pddl_0",
+        "success": false,
+        "response": "State: the blue block is on the table, the blue block is clear, the yellow block is on the table, the yellow block is clear, the orange block is on the table, the orange block is clear, the red block is held, the hand is holding the red block.",
+        "extracted_answer": "State: the blue block is on the table, the blue block is clear, the yellow block is on the table, the yellow block is clear, the orange block is on the table, the orange block is clear, the red block is held, the hand is holding the red block."
+    },
+    {
+        "task_id": "instance-5.pddl_1",
+        "success": true,
+        "response": "State: the blue block is being held, the red block is on the table, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is on the table, the orange block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the blue block is being held, the red block is on the table, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is on the table, the orange block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-5.pddl_2",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the yellow block is on the table, the orange block is held, the hand is holding the orange block, the blue block is clear, the red block is clear, the yellow block is clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the yellow block is on the table, the orange block is held, the hand is holding the orange block, the blue block is clear, the red block is clear, the yellow block is clear."
+    },
+    {
+        "task_id": "instance-5.pddl_3",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the orange block is clear, the yellow block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the orange block is clear, the yellow block is not clear."
+    },
+    {
+        "task_id": "instance-21.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is being held, the hand is holding the yellow block.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is being held, the hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-21.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the blue block is clear, the red block is held, the yellow block is on top of the orange block, the yellow block is clear, the orange block is on the table, the hand is holding the red block.",
+        "extracted_answer": "State: the blue block is on the table, the blue block is clear, the red block is held, the yellow block is on top of the orange block, the yellow block is clear, the orange block is on the table, the hand is holding the red block."
+    },
+    {
+        "task_id": "instance-21.pddl_2",
+        "success": true,
+        "response": "State: the blue block is being held, the red block is on the table and clear, the yellow block is on top of the orange block and clear, the orange block is on the table, the hand is holding the blue block.",
+        "extracted_answer": "State: the blue block is being held, the red block is on the table and clear, the yellow block is on top of the orange block and clear, the orange block is on the table, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-4.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table and clear, the blue block is on top of the yellow block and clear, the orange block is being held, the hand is holding the orange block, the yellow block is on the table.",
+        "extracted_answer": "State: the red block is on the table and clear, the blue block is on top of the yellow block and clear, the orange block is being held, the hand is holding the orange block, the yellow block is on the table."
+    },
+    {
+        "task_id": "instance-4.pddl_1",
+        "success": true,
+        "response": "State: the red block is on the table, the orange block is on top of the red block, the yellow block is on the table and clear, the blue block is being held, the hand is holding the blue block.",
+        "extracted_answer": "State: the red block is on the table, the orange block is on top of the red block, the yellow block is on the table and clear, the blue block is being held, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-25.pddl_0",
+        "success": true,
+        "response": "State: the red block is being held, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the blue block is clear, the orange block is on the table, the hand is holding the red block.",
+        "extracted_answer": "State: the red block is being held, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the blue block is clear, the orange block is on the table, the hand is holding the red block."
+    },
+    {
+        "task_id": "instance-25.pddl_1",
+        "success": true,
+        "response": "the red block is on top of the orange block, the orange block is on the table, the yellow block is on the table and clear, the blue block is being held, the red block is clear, the hand is holding the blue block",
+        "extracted_answer": "'the red block is on top of the orange block, the orange block is on the table, the yellow block is on the table and clear, the blue block is being held, the red block is clear, the hand is holding the blue block'"
+    },
+    {
+        "task_id": "instance-7.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is on the table, the yellow block is clear, the red block is being held, the hand is holding the red block.",
+        "extracted_answer": "State: the blue block is on the table, the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is on the table, the yellow block is clear, the red block is being held, the hand is holding the red block."
+    },
+    {
+        "task_id": "instance-7.pddl_1",
+        "success": true,
+        "response": "State after action:  \n- The blue block is held (not on table, not clear).  \n- The orange block is on the table, clear.  \n- The red block is on top of the yellow block, clear.  \n- The yellow block is on the table, not clear.  \n- The hand is holding the blue block (not empty).",
+        "extracted_answer": "State after action:  \n- The blue block is held (not on table, not clear).  \n- The orange block is on the table, clear.  \n- The red block is on top of the yellow block, clear.  \n- The yellow block is on the table, not clear.  \n- The hand is holding the blue block (not empty)."
+    },
+    {
+        "task_id": "instance-7.pddl_2",
+        "success": true,
+        "response": "The blue block is on the table and clear. The orange block is held by the hand. The red block is on top of the yellow block and clear. The yellow block is on the table. The hand is not empty.",
+        "extracted_answer": "'The blue block is on the table and clear. The orange block is held by the hand. The red block is on top of the yellow block and clear. The yellow block is on the table. The hand is not empty.'"
+    },
+    {
+        "task_id": "instance-24.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the blue block is clear, the red block is on the table, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is held by the hand, the hand is holding a block.",
+        "extracted_answer": "'State: the blue block is on the table, the blue block is clear, the red block is on the table, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is held by the hand, the hand is holding a block.'"
+    },
+    {
+        "task_id": "instance-24.pddl_1",
+        "success": true,
+        "response": "State after action:\n- The blue block is on the table and clear.\n- The orange block is on top of the yellow block (yellow is on the table and not clear; orange is clear).\n- The red block is being held (not on the table, not clear).\n- The hand is holding the red block (not empty).",
+        "extracted_answer": "State after action:  \n- The blue block is on the table and clear.  \n- The orange block is on top of the yellow block (yellow is on the table and not clear; orange is clear).  \n- The red block is being held (not on the table, not clear).  \n- The hand is holding the red block (not empty)."
+    },
+    {
+        "task_id": "instance-24.pddl_2",
+        "success": true,
+        "response": "State: the blue block is in the hand, the orange block is on top of the yellow block, the red block is on the table, the blue block is not clear, the hand is not empty, the red block is clear, the orange block is clear, the yellow block is on the table.",
+        "extracted_answer": "State: the blue block is in the hand, the orange block is on top of the yellow block, the red block is on the table, the blue block is not clear, the hand is not empty, the red block is clear, the orange block is clear, the yellow block is on the table."
+    },
+    {
+        "task_id": "instance-45.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table and clear, the red block is on the table and clear, the yellow block is being held, the orange block is on the table and clear, the hand is holding the yellow block.",
+        "extracted_answer": "State: the blue block is on the table and clear, the red block is on the table and clear, the yellow block is being held, the orange block is on the table and clear, the hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-45.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the yellow block is on top of the blue block, the yellow block is clear, the orange block is on the table, the orange block is clear, the hand is holding the red block, the red block is not on the table.",
+        "extracted_answer": "State: the blue block is on the table, the yellow block is on top of the blue block, the yellow block is clear, the orange block is on the table, the orange block is clear, the hand is holding the red block, the red block is not on the table."
+    },
+    {
+        "task_id": "instance-45.pddl_2",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the yellow block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the red block is clear, the yellow block is clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the yellow block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the red block is clear, the yellow block is clear."
+    },
+    {
+        "task_id": "instance-20.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is on the table, the yellow block is held, the red block is clear, the orange block is clear, the hand is holding the yellow block.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is on the table, the yellow block is held, the red block is clear, the orange block is clear, the hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-20.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the yellow block is clear.",
+        "extracted_answer": "State: the blue block is on the table, the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the yellow block is clear."
+    },
+    {
+        "task_id": "instance-19.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the orange block, the yellow block is being held, the blue block is clear, the red block is clear, the orange block is on the table, the hand is holding the yellow block.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the orange block, the yellow block is being held, the blue block is clear, the red block is clear, the orange block is on the table, the hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-19.pddl_1",
+        "success": true,
+        "response": "State: the red block is on top of the orange block, the yellow block is on top of the red block, the orange block is on the table, the blue block is held by the hand, the hand is not empty, the yellow block is clear.",
+        "extracted_answer": "State: the red block is on top of the orange block, the yellow block is on top of the red block, the orange block is on the table, the blue block is held by the hand, the hand is not empty, the yellow block is clear."
+    },
+    {
+        "task_id": "instance-23.pddl_0",
+        "success": true,
+        "response": "the red block is in the hand, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the blue block is clear, the hand is not empty",
+        "extracted_answer": "'the red block is in the hand, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the blue block is clear, the hand is not empty'"
+    },
+    {
+        "task_id": "instance-23.pddl_1",
+        "success": true,
+        "response": "State: the red block is on top of the orange block, the orange block is on the table, the yellow block is on the table and is clear, the blue block is being held, the red block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the red block is on top of the orange block, the orange block is on the table, the yellow block is on the table and is clear, the blue block is being held, the red block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-18.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the orange block is on the table, the hand is holding the red block, the yellow block is on top of the blue block and is clear, the orange block is clear.",
+        "extracted_answer": "'State: the blue block is on the table, the orange block is on the table, the hand is holding the red block, the yellow block is on top of the blue block and is clear, the orange block is clear.'"
+    },
+    {
+        "task_id": "instance-18.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the orange block is held, the hand is holding the orange block, the red block is clear, the red block is on top of the yellow block, the yellow block is on top of the blue block, the orange block is not on the table.",
+        "extracted_answer": "State: the blue block is on the table, the orange block is held, the hand is holding the orange block, the red block is clear, the red block is on top of the yellow block, the yellow block is on top of the blue block, the orange block is not on the table."
+    },
+    {
+        "task_id": "instance-38.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is on the table, the yellow block is clear, the red block is held by the hand, the hand is holding a block.",
+        "extracted_answer": "'State: the blue block is on the table, the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is on the table, the yellow block is clear, the red block is held by the hand, the hand is holding a block.'"
+    },
+    {
+        "task_id": "instance-38.pddl_1",
+        "success": true,
+        "response": "State: the red block is on top of the orange block, the yellow block is on the table and clear, the orange block is on the table, the red block is clear, the hand is holding the blue block, the yellow block is on the table.",
+        "extracted_answer": "State: the red block is on top of the orange block, the yellow block is on the table and clear, the orange block is on the table, the red block is clear, the hand is holding the blue block, the yellow block is on the table."
+    },
+    {
+        "task_id": "instance-38.pddl_2",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the orange block, the blue block is clear, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the yellow block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the orange block, the blue block is clear, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the yellow block is not clear."
+    },
+    {
+        "task_id": "instance-6.pddl_0",
+        "success": true,
+        "response": "the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is being held by the hand, the orange block is clear, the red block is clear, and the hand is not empty.",
+        "extracted_answer": "'the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is being held by the hand, the orange block is clear, the red block is clear, and the hand is not empty.'"
+    },
+    {
+        "task_id": "instance-6.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the orange block is on top of the blue block, the yellow block is on top of the orange block, the yellow block is clear, the red block is held by the hand, the hand is not empty, the blue block is not clear, the orange block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the orange block is on top of the blue block, the yellow block is on top of the orange block, the yellow block is clear, the red block is held by the hand, the hand is not empty, the blue block is not clear, the orange block is not clear."
+    },
+    {
+        "task_id": "instance-47.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table and clear, the blue block is on top of the yellow block and clear, the orange block is being held, the yellow block is on the table, the hand is holding the orange block.",
+        "extracted_answer": "'State: the red block is on the table and clear, the blue block is on top of the yellow block and clear, the orange block is being held, the yellow block is on the table, the hand is holding the orange block.'"
+    },
+    {
+        "task_id": "instance-47.pddl_1",
+        "success": true,
+        "response": "State: the red block is on the table, the orange block is on top of the red block, the yellow block is on the table and clear, the blue block is being held, the hand is not empty, the orange block is clear.",
+        "extracted_answer": "State: the red block is on the table, the orange block is on top of the red block, the yellow block is on the table and clear, the blue block is being held, the hand is not empty, the orange block is clear."
+    },
+    {
+        "task_id": "instance-17.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table and clear, the red block is being held, the orange block is on the table and clear, the yellow block is on the table and clear, the hand is holding the red block.",
+        "extracted_answer": "'State: the blue block is on the table and clear, the red block is being held, the orange block is on the table and clear, the yellow block is on the table and clear, the hand is holding the red block.'"
+    },
+    {
+        "task_id": "instance-17.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the yellow block is clear and on the table, the red block is clear, the blue block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is being held, the hand is holding the orange block, the yellow block is clear and on the table, the red block is clear, the blue block is not clear."
+    },
+    {
+        "task_id": "instance-17.pddl_2",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is on the table, the yellow block is held by the hand, the hand is not empty, the red block is clear, the orange block is clear, and the yellow block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is on the table, the yellow block is held by the hand, the hand is not empty, the red block is clear, the orange block is clear, and the yellow block is not clear."
+    },
+    {
+        "task_id": "instance-37.pddl_0",
+        "success": false,
+        "response": "State: the blue block is on the table, the blue block is clear, the red block is on the table, the orange block is on top of the red block, the orange block is clear, the yellow block is being held, the hand is holding the yellow block.",
+        "extracted_answer": "State: the blue block is on the table, the blue block is clear, the red block is on the table, the orange block is on top of the red block, the orange block is clear, the yellow block is being held, the hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-37.pddl_1",
+        "success": true,
+        "response": "State: the blue block is held, the red block is on the table, the red block is not clear, the orange block is on top of the red block, the orange block is not clear, the yellow block is on top of the orange block, the yellow block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the blue block is held, the red block is on the table, the red block is not clear, the orange block is on top of the red block, the orange block is not clear, the yellow block is on top of the orange block, the yellow block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-10.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is in the hand, the hand is holding the orange block.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the red block is clear, the yellow block is on the table, the yellow block is clear, the orange block is in the hand, the hand is holding the orange block."
+    },
+    {
+        "task_id": "instance-10.pddl_1",
+        "success": true,
+        "response": "State: the blue block is held, the red block is on the table, the red block is not clear, the orange block is on top of the red block, the orange block is clear, the yellow block is on the table, the yellow block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the blue block is held, the red block is on the table, the red block is not clear, the orange block is on top of the red block, the orange block is clear, the yellow block is on the table, the yellow block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-10.pddl_2",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is held, the orange block is on top of the red block, the hand is holding the yellow block, the orange block is clear, the yellow block is not on the table.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is held, the orange block is on top of the red block, the hand is holding the yellow block, the orange block is clear, the yellow block is not on the table."
+    },
+    {
+        "task_id": "instance-27.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table and clear, the yellow block is on top of the orange block and clear, the orange block is on the table, the blue block is held by the hand, the hand is not empty.",
+        "extracted_answer": "State: the red block is on the table and clear, the yellow block is on top of the orange block and clear, the orange block is on the table, the blue block is held by the hand, the hand is not empty."
+    },
+    {
+        "task_id": "instance-27.pddl_1",
+        "success": true,
+        "response": "State:  \n- The red block is held by the hand.  \n- The blue block is on top of the yellow block and is clear.  \n- The yellow block is on top of the orange block and is not clear.  \n- The orange block is on the table and is not clear.  \n- The hand is holding the red block.  \n- The red block is not on the table and is not clear.",
+        "extracted_answer": "State:  \n- The red block is held by the hand.  \n- The blue block is on top of the yellow block and is clear.  \n- The yellow block is on top of the orange block and is not clear.  \n- The orange block is on the table and is not clear.  \n- The hand is holding the red block.  \n- The red block is not on the table and is not clear."
+    },
+    {
+        "task_id": "instance-39.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the blue block is on top of the orange block, the blue block is clear, the yellow block is not on any block.",
+        "extracted_answer": "State: the red block is on the table, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear, the blue block is on top of the orange block, the blue block is clear, the yellow block is not on any block."
+    },
+    {
+        "task_id": "instance-39.pddl_1",
+        "success": true,
+        "response": "- the red block is in the hand  \n- the yellow block is clear  \n- the orange block is on the table  \n- the hand is not empty  \n- the blue block is on top of the orange block  \n- the yellow block is on top of the blue block",
+        "extracted_answer": "- the red block is in the hand  \n- the yellow block is clear  \n- the orange block is on the table  \n- the hand is not empty  \n- the blue block is on top of the orange block  \n- the yellow block is on top of the blue block"
+    },
+    {
+        "task_id": "instance-16.pddl_0",
+        "success": true,
+        "response": "State after action:  \n- The orange block is in the hand.  \n- The yellow block is on top of the blue block and is clear.  \n- The red block is on the table and clear.  \n- The blue block is on the table (not clear).  \n- The hand is holding the orange block (not clear).",
+        "extracted_answer": "State after action:  \n- The orange block is in the hand.  \n- The yellow block is on top of the blue block and is clear.  \n- The red block is on the table and clear.  \n- The blue block is on the table (not clear).  \n- The hand is holding the orange block (not clear)."
+    },
+    {
+        "task_id": "instance-16.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the orange block is on top of the yellow block, the red block is being held, the hand is holding the red block, the red block is not clear, the orange block is clear, the yellow block is on top of the blue block.",
+        "extracted_answer": "State: the blue block is on the table, the orange block is on top of the yellow block, the red block is being held, the hand is holding the red block, the red block is not clear, the orange block is clear, the yellow block is on top of the blue block."
+    },
+    {
+        "task_id": "instance-9.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table and clear, the red block is on top of the orange block, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear.",
+        "extracted_answer": "State: the blue block is on the table and clear, the red block is on top of the orange block, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the red block is clear."
+    },
+    {
+        "task_id": "instance-9.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the orange block is on the table and clear, the yellow block is on top of the blue block and clear, the red block is held by the hand, the hand is holding the red block.",
+        "extracted_answer": "State: the blue block is on the table, the orange block is on the table and clear, the yellow block is on top of the blue block and clear, the red block is held by the hand, the hand is holding the red block."
+    },
+    {
+        "task_id": "instance-35.pddl_0",
+        "success": true,
+        "response": "The red block is in the hand. The blue block is on top of the yellow block and is clear. The orange block is on the table and is clear. The yellow block is on the table. The hand is holding the red block.",
+        "extracted_answer": "The red block is in the hand. The blue block is on top of the yellow block and is clear. The orange block is on the table and is clear. The yellow block is on the table. The hand is holding the red block."
+    },
+    {
+        "task_id": "instance-35.pddl_1",
+        "success": true,
+        "response": "State: the red block is on top of the blue block, the blue block is on top of the yellow block, the yellow block is on the table, the hand is holding the orange block, the red block is clear, the blue block is not clear, the yellow block is not clear.",
+        "extracted_answer": "State: the red block is on top of the blue block, the blue block is on top of the yellow block, the yellow block is on the table, the hand is holding the orange block, the red block is clear, the blue block is not clear, the yellow block is not clear."
+    },
+    {
+        "task_id": "instance-33.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on top of the red block, the red block is on top of the yellow block, the yellow block is on the table, the orange block is in the hand, the blue block is clear, the hand is not empty.",
+        "extracted_answer": "State: the blue block is on top of the red block, the red block is on top of the yellow block, the yellow block is on the table, the orange block is in the hand, the blue block is clear, the hand is not empty."
+    },
+    {
+        "task_id": "instance-32.pddl_0",
+        "success": true,
+        "response": "State after action:\n- Blue block is on the table (not clear, as red is on top).\n- Red block is on top of the blue block (clear, as orange has been removed).\n- Orange block is being held (not on the table, not clear).\n- Yellow block is clear and on the table.\n- Hand is holding the orange block.",
+        "extracted_answer": "State after action:  \n- Blue block is on the table (not clear, as red is on top).  \n- Red block is on top of the blue block (clear, as orange has been removed).  \n- Orange block is being held (not on the table, not clear).  \n- Yellow block is clear and on the table.  \n- Hand is holding the orange block."
+    },
+    {
+        "task_id": "instance-32.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is on top of the red block, the hand is holding the yellow block, the yellow block is not on the table, the orange block is clear, the blue block is not clear, the red block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on top of the blue block, the orange block is on top of the red block, the hand is holding the yellow block, the yellow block is not on the table, the orange block is clear, the blue block is not clear, the red block is not clear."
+    },
+    {
+        "task_id": "instance-48.pddl_0",
+        "success": true,
+        "response": "State: the red block is on the table and clear, the blue block is on top of the yellow block and clear, the orange block is being held, the hand is holding the orange block, the yellow block is on the table.",
+        "extracted_answer": "State: the red block is on the table and clear, the blue block is on top of the yellow block and clear, the orange block is being held, the hand is holding the orange block, the yellow block is on the table."
+    },
+    {
+        "task_id": "instance-48.pddl_1",
+        "success": true,
+        "response": "the red block is on the table, the orange block is on top of the red block, the orange block is clear, the yellow block is on the table and is clear, the hand is holding the blue block.",
+        "extracted_answer": "'the red block is on the table, the orange block is on top of the red block, the orange block is clear, the yellow block is on the table and is clear, the hand is holding the blue block.'"
+    },
+    {
+        "task_id": "instance-15.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the orange block is on top of the blue block, the yellow block is clear and on the table, the red block is held in the hand, the orange block is clear, the hand is holding the red block.",
+        "extracted_answer": "State: the blue block is on the table, the orange block is on top of the blue block, the yellow block is clear and on the table, the red block is held in the hand, the orange block is clear, the hand is holding the red block."
+    },
+    {
+        "task_id": "instance-15.pddl_1",
+        "success": true,
+        "response": "The blue block is on the table (not clear), the red block is on top of the orange block (clear), the orange block is on top of the blue block (not clear), the yellow block is being held (not clear), and the hand is not empty.",
+        "extracted_answer": "'The blue block is on the table (not clear), the red block is on top of the orange block (clear), the orange block is on top of the blue block (not clear), the yellow block is being held (not clear), and the hand is not empty.'"
+    },
+    {
+        "task_id": "instance-41.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is clear, the yellow block is on the table, the orange block is being held, the red block is clear, the hand is holding the orange block.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is clear, the yellow block is on the table, the orange block is being held, the red block is clear, the hand is holding the orange block."
+    },
+    {
+        "task_id": "instance-41.pddl_1",
+        "success": true,
+        "response": "The blue block is in the hand. The red block is on the table and not clear. The orange block is on top of the red block and clear. The yellow block is on the table and clear. The hand is not empty.",
+        "extracted_answer": "'The blue block is in the hand. The red block is on the table and not clear. The orange block is on top of the red block and clear. The yellow block is on the table and clear. The hand is not empty.'"
+    },
+    {
+        "task_id": "instance-41.pddl_2",
+        "success": true,
+        "response": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is held, the orange block is on top of the red block, the hand is holding the yellow block, the orange block is clear, the red block is not clear.",
+        "extracted_answer": "State: the blue block is on the table, the red block is on the table, the blue block is clear, the yellow block is held, the orange block is on top of the red block, the hand is holding the yellow block, the orange block is clear, the red block is not clear."
+    },
+    {
+        "task_id": "instance-28.pddl_0",
+        "success": true,
+        "response": "State:  \n- Blue block is on the table, clear.  \n- Red block is on the table, not clear.  \n- Orange block is on top of the red block, clear.  \n- Yellow block is held by the hand.  \n- Hand is holding the yellow block.",
+        "extracted_answer": "State:  \n- Blue block is on the table, clear.  \n- Red block is on the table, not clear.  \n- Orange block is on top of the red block, clear.  \n- Yellow block is held by the hand.  \n- Hand is holding the yellow block."
+    },
+    {
+        "task_id": "instance-28.pddl_1",
+        "success": true,
+        "response": "State: the blue block is held, the red block is on the table, the orange block is on top of the red block, the yellow block is on top of the orange block, the yellow block is clear, the hand is holding the blue block.",
+        "extracted_answer": "State: the blue block is held, the red block is on the table, the orange block is on top of the red block, the yellow block is on top of the orange block, the yellow block is clear, the hand is holding the blue block."
+    },
+    {
+        "task_id": "instance-14.pddl_0",
+        "success": true,
+        "response": "State: the blue block is on top of the red block, the red block is on the table, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the blue block is clear, the orange block is clear.",
+        "extracted_answer": "State: the blue block is on top of the red block, the red block is on the table, the yellow block is being held, the orange block is on the table, the hand is holding the yellow block, the blue block is clear, the orange block is clear."
+    },
+    {
+        "task_id": "instance-14.pddl_1",
+        "success": true,
+        "response": "State: the blue block is on top of the red block, the red block is on the table, the yellow block is on top of the blue block, the yellow block is clear, the hand is holding the orange block, the orange block is not on the table.",
+        "extracted_answer": "State: the blue block is on top of the red block, the red block is on the table, the yellow block is on top of the blue block, the yellow block is clear, the hand is holding the orange block, the orange block is not on the table."
+    }
+]

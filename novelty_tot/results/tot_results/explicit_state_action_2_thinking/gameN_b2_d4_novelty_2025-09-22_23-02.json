@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": false,
+            "answer": "Extracted expression '-1 + 3 - 6 + -3' evaluates to -7, which does not match target -4.",
+            "token_usage": 31035,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "1",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -10.",
+            "token_usage": 38628,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "2",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 68969,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "3",
+            "success": false,
+            "answer": "Extracted expression '6 + 8 - 3 - 1' evaluates to 10, which does not match target 12.",
+            "token_usage": 37148,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "4",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 18.",
+            "token_usage": 37135,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "5",
+            "success": false,
+            "answer": "Extracted expression '7 - 8 + -4 + -1' evaluates to -6, which does not match target -5.",
+            "token_usage": 43879,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "6",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 7.",
+            "token_usage": 67298,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "7",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -2.",
+            "token_usage": 50661,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "8",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 1.",
+            "token_usage": 39158,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "9",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: Multiply 1 and 3 to get 3.  \n7 - 6 = 1  \n3 - 1 = 2.",
+            "token_usage": 55120,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "10",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -1.",
+            "token_usage": 54557,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "2 - 8 + 4 - 7",
+            "token_usage": 49739,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "12",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 0.",
+            "token_usage": 50378,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "2 * 3 + 8 - 1",
+            "token_usage": 32795,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "14",
+            "success": false,
+            "answer": "Extracted expression '5 + 4 + 1 - 9 + 7 + 8' evaluates to 16, which does not match target 15.",
+            "token_usage": 55137,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "15",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -5.",
+            "token_usage": 55782,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "16",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 15.",
+            "token_usage": 31082,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "17",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 26444,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "18",
+            "success": false,
+            "answer": "Error evaluating extracted expression '8 * 2 - 7 + 5  14': invalid syntax (<string>, line 1).",
+            "token_usage": 32741,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "19",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 8 - 7  \n6 * 1  \n3 - 6.",
+            "token_usage": 46399,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "20",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 5.",
+            "token_usage": 17580,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "21",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 36646,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "22",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 6 - 2 = 4  \n9 - 7 = 2  \n4 - 2 = 2  \n[FINISHED].",
+            "token_usage": 50291,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "23",
+            "success": false,
+            "answer": "Error evaluating extracted expression '7 - 5 + 6 * 3 + 2  20': invalid syntax (<string>, line 1).",
+            "token_usage": 39852,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "24",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -20.",
+            "token_usage": 12413,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "25",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -9.",
+            "token_usage": 45925,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "26",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 2.",
+            "token_usage": 50030,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "27",
+            "success": false,
+            "answer": "Extracted expression '8 * 1 * 7 * 4 - 28' evaluates to 196, which does not match target -20.",
+            "token_usage": 42154,
+            "num_times_pruned": 5
+        },
+        {
+            "task_id": "28",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 18.",
+            "token_usage": 48041,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "29",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -1.",
+            "token_usage": 62827,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "30",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -6.",
+            "token_usage": 57918,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "31",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: \\boxed{-2}.",
+            "token_usage": 37009,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "32",
+            "success": false,
+            "answer": "Extracted expression '-8 + -2 + -10  -20' evaluates to -40, which does not match target -10.",
+            "token_usage": 39075,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "33",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -3.",
+            "token_usage": 36792,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "34",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 23633,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "35",
+            "success": false,
+            "answer": "Extracted expression '8 * 1 - 5 + 8 + 1' evaluates to 12, which does not match target 9.",
+            "token_usage": 47917,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "36",
+            "success": false,
+            "answer": "Extracted expression '2 - 9 + 3 - 5 + -7 + -2  -9' evaluates to -27, which does not match target -9.",
+            "token_usage": 41435,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "37",
+            "success": false,
+            "answer": "Extracted expression '6 - 2 + 9 + 4 + 13 + 1' evaluates to 31, which does not match target 14.",
+            "token_usage": 40984,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "38",
+            "success": false,
+            "answer": "Extracted expression '7 - 4 * 2 + 1 * 3 * 3' evaluates to 8, which does not match target 9.",
+            "token_usage": 35874,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "39",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 11.",
+            "token_usage": 27197,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "40",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -3.",
+            "token_usage": 40500,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "41",
+            "success": true,
+            "answer": "2 + 5 - 9 - 6",
+            "token_usage": 52020,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "42",
+            "success": true,
+            "answer": "3 * 4 - 5 + 8",
+            "token_usage": 19891,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "43",
+            "success": true,
+            "answer": "6 - 5 + 8 - 9 + 1 + -1",
+            "token_usage": 35751,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "44",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 19.",
+            "token_usage": 42385,
+            "num_times_pruned": 12
+        },
+        {
+            "task_id": "45",
+            "success": false,
+            "answer": "Error evaluating extracted expression '9 - 2 + 8 + 7 + 1 + 15  16': invalid syntax (<string>, line 1).",
+            "token_usage": 35968,
+            "num_times_pruned": 6
+        },
+        {
+            "task_id": "46",
+            "success": false,
+            "answer": "Extracted expression '3 - 9 + 4 - 7 + -6 + -3' evaluates to -18, which does not match target -9.",
+            "token_usage": 65875,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "47",
+            "success": false,
+            "answer": "Extracted expression '6 - 8 * -2 - 3' evaluates to 19, which does not match target -13.",
+            "token_usage": 53653,
+            "num_times_pruned": 10
+        },
+        {
+            "task_id": "48",
+            "success": false,
+            "answer": "Extracted expression '7 + 8 + 15 - 3 + 12 + 4' evaluates to 43, which does not match target 16.",
+            "token_usage": 44922,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "49",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: -3  \n[FINISHED].",
+            "token_usage": 50975,
+            "num_times_pruned": 10
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 5,
+        "failed_tasks": 45,
+        "total_token_usage": 2139618,
+        "total_num_times_pruned": 327,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 0,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:27:44.994475"
+}

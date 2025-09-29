@@ -1,0 +1,32 @@
+[
+    {
+        "task_id": "instance-1.pddl",
+        "success": false,
+        "response": "True",
+        "extracted_answer": "N/A"
+    },
+    {
+        "task_id": "instance-10.pddl",
+        "success": true,
+        "response": "False",
+        "extracted_answer": "N/A"
+    },
+    {
+        "task_id": "instance-2.pddl",
+        "success": true,
+        "response": "True",
+        "extracted_answer": "N/A"
+    },
+    {
+        "task_id": "instance-3.pddl",
+        "success": true,
+        "response": "True",
+        "extracted_answer": "N/A"
+    },
+    {
+        "task_id": "instance-4.pddl",
+        "success": true,
+        "response": "False",
+        "extracted_answer": "N/A"
+    }
+]

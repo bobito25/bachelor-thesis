@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": true,
+            "answer": "234",
+            "token_usage": 6828,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": true,
+            "answer": "615",
+            "token_usage": 15147,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "4",
+            "token_usage": 15563,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "3",
+            "success": true,
+            "answer": "11",
+            "token_usage": 4929,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": true,
+            "answer": "\\boxed{70}",
+            "token_usage": 11482,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "5",
+            "success": true,
+            "answer": "1",
+            "token_usage": 20685,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "6",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "7",
+            "success": true,
+            "answer": "689",
+            "token_usage": 25479,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "8",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{7}{16}}$",
+            "token_usage": 8059,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "9",
+            "success": true,
+            "answer": "$\\left(\\frac{1}{2}, \\frac{\\sqrt{7}}{2}\\right)$",
+            "token_usage": 10004,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "10",
+            "success": true,
+            "answer": "$\\frac{16\\sqrt{3}}{9}$",
+            "token_usage": 15485,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "$\\boxed{13}$",
+            "token_usage": 7473,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": true,
+            "answer": "The maximum value of $ x - y $ is $ \\boxed{\\dfrac{1}{2}} $.",
+            "token_usage": 8965,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "8.24",
+            "token_usage": 25137,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "14",
+            "success": true,
+            "answer": "-1",
+            "token_usage": 3865,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "15",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "16",
+            "success": true,
+            "answer": "$\\frac{650}{51}$",
+            "token_usage": 7866,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "17",
+            "success": true,
+            "answer": "$\\frac{19}{21}$",
+            "token_usage": 7356,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": true,
+            "answer": "$ z = -i $",
+            "token_usage": 7782,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "19",
+            "success": true,
+            "answer": "1",
+            "token_usage": 13776,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "20",
+            "success": true,
+            "answer": "$\\sqrt{3} + 1$",
+            "token_usage": 15261,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "21",
+            "success": true,
+            "answer": "$\\frac{1}{2}$",
+            "token_usage": 8168,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "22",
+            "success": true,
+            "answer": "$\\boxed{-50}$",
+            "token_usage": 26931,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "23",
+            "success": true,
+            "answer": "6",
+            "token_usage": 10246,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": true,
+            "answer": "90",
+            "token_usage": 10963,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "25",
+            "success": true,
+            "answer": "22",
+            "token_usage": 11800,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "26",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "27",
+            "success": true,
+            "answer": "6",
+            "token_usage": 5562,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "28",
+            "success": true,
+            "answer": "The domain of $f(x)$ is $(-\\infty, -1) \\cup (4, \\infty)$.",
+            "token_usage": 5304,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "29",
+            "success": true,
+            "answer": "$\\binom{4}{2} \\times \\binom{4}{2} = 6 \\times 6 = 36$",
+            "token_usage": 11952,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "30",
+            "success": true,
+            "answer": "1016",
+            "token_usage": 16560,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": true,
+            "answer": "318",
+            "token_usage": 18844,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "32",
+            "success": true,
+            "answer": "D",
+            "token_usage": 6091,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "35",
+            "token_usage": 4166,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "-3",
+            "token_usage": 4987,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": true,
+            "answer": "182",
+            "token_usage": 7908,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "36",
+            "success": true,
+            "answer": "89, 88, 85, 73, 70",
+            "token_usage": 5765,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "37",
+            "success": true,
+            "answer": "The minimum value of $x + 2y$ is $3 + 6\\sqrt{2}$.",
+            "token_usage": 22305,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "38",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "39",
+            "success": true,
+            "answer": "230769",
+            "token_usage": 5079,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "41",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "42",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "43",
+            "success": false,
+            "answer": "Error occurred: APITimeoutError: Request timed out.\nTraceback:\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 256, in handle_async_request\n    raise exc from None\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py\", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py\", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 136, in handle_async_request\n    raise exc\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_async/http11.py\", line 217, in _receive_event\n    data = await self._network_stream.read(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py\", line 32, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1526, in request\n    response = await self._client.send(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1629, in send\n    response = await self._send_handling_auth(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_client.py\", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.10/contextlib.py\", line 153, in __exit__\n    self.gen.throw(typ, value, traceback)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot_tester.py\", line 504, in run_math_task_with_error_handling\n    answer = await tot.run(query, parallel=parallel, breadth_first=breadth_first, problem_width=problem_width)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 233, in run\n    await self._expand_depth_first(self.init_state, self.max_depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 305, in _expand_depth_first\n    await self._expand_node(state, depth=depth, parallel=parallel)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 284, in _expand_node\n    results.append(await task)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 265, in process_branch\n    succ = await self._generate_successor(node)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 426, in _generate_successor\n    response = await self.query(complete_prompt)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/tot.py\", line 193, in query\n    response = await self.llm_engine.query(query)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 203, in query\n    response = await client.aquery(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/llm_engine.py\", line 88, in aquery\n    response = await self.chat.completions.create(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py\", line 2454, in create\n    return await self._post(\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1791, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n  File \"/work/rleap1/leon.hamm/bachelor-thesis-dev/novelty_tot/.venv/lib/python3.10/site-packages/openai/_base_client.py\", line 1544, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+            "token_usage": 0,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "44",
+            "success": true,
+            "answer": "3",
+            "token_usage": 14363,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": true,
+            "answer": "54",
+            "token_usage": 37501,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "46",
+            "success": true,
+            "answer": "46",
+            "token_usage": 5198,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": true,
+            "answer": "5.29",
+            "token_usage": 14200,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "48",
+            "success": true,
+            "answer": "$$\n\\mathbf{R} = \\begin{pmatrix} \\frac{1}{3} & -\\frac{2}{3} & \\frac{2}{3} \\\\ -\\frac{2}{3} & \\frac{1}{3} & \\frac{2}{3} \\\\ \\frac{2}{3} & \\frac{2}{3} & \\frac{1}{3} \\end{pmatrix}\n$$",
+            "token_usage": 10256,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{52}{3}}$",
+            "token_usage": 14770,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 42,
+        "failed_tasks": 8,
+        "total_token_usage": 510061,
+        "total_num_times_pruned": 15,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 1,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:41:11.431044"
+}

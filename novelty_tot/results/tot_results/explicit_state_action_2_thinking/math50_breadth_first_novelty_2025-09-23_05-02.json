@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": true,
+            "answer": "234",
+            "token_usage": 12843,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 30340,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "4",
+            "token_usage": 17613,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "3",
+            "success": true,
+            "answer": "$\\boxed{11}$",
+            "token_usage": 6415,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": true,
+            "answer": "\\boxed{70}",
+            "token_usage": 30443,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "5",
+            "success": true,
+            "answer": "1",
+            "token_usage": 31045,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "6",
+            "success": true,
+            "answer": "98",
+            "token_usage": 40858,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "7",
+            "success": true,
+            "answer": "689",
+            "token_usage": 27376,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "8",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12377,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "9",
+            "success": true,
+            "answer": "$$\n\\boxed{\\left( \\frac{1}{2}, \\frac{\\sqrt{7}}{2} \\right)}\n$$",
+            "token_usage": 15424,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "10",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{16\\sqrt{3}}{9}}$",
+            "token_usage": 17077,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "13",
+            "token_usage": 12423,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{1}{2}}$",
+            "token_usage": 13492,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "13",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 16973,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "14",
+            "success": true,
+            "answer": "The minimum value of $ y $ is $\\boxed{-1}$.",
+            "token_usage": 6097,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "15",
+            "success": true,
+            "answer": "$\\boxed{919}$",
+            "token_usage": 73757,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "16",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{650}{51}}$",
+            "token_usage": 14573,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "17",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{19}{21}}$",
+            "token_usage": 13193,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": true,
+            "answer": "$ z = -i $",
+            "token_usage": 4060,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "19",
+            "success": true,
+            "answer": "1",
+            "token_usage": 42392,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "20",
+            "success": true,
+            "answer": "1 + \u221a3",
+            "token_usage": 22399,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "21",
+            "success": true,
+            "answer": "1/2",
+            "token_usage": 12382,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "22",
+            "success": true,
+            "answer": "$\\boxed{-50}$",
+            "token_usage": 23087,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "23",
+            "success": true,
+            "answer": "6",
+            "token_usage": 9817,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "24",
+            "success": true,
+            "answer": "90",
+            "token_usage": 6363,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "25",
+            "success": true,
+            "answer": "22",
+            "token_usage": 27176,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": true,
+            "answer": "225",
+            "token_usage": 41982,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "27",
+            "success": true,
+            "answer": "6",
+            "token_usage": 8407,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "28",
+            "success": true,
+            "answer": "$ (-\\infty, -1) \\cup (4, \\infty) $",
+            "token_usage": 8021,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "29",
+            "success": true,
+            "answer": "36",
+            "token_usage": 16518,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "30",
+            "success": true,
+            "answer": "$\\boxed{1016}$",
+            "token_usage": 10273,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": true,
+            "answer": "318",
+            "token_usage": 17024,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "32",
+            "success": true,
+            "answer": "D",
+            "token_usage": 10205,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "35",
+            "token_usage": 5368,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "-3",
+            "token_usage": 5691,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": true,
+            "answer": "182",
+            "token_usage": 13168,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "36",
+            "success": true,
+            "answer": "89,88,85,73,70",
+            "token_usage": 9043,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "37",
+            "success": true,
+            "answer": "\\boxed{3 + 6\\sqrt{2}}",
+            "token_usage": 21663,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "38",
+            "success": true,
+            "answer": "\\boxed{57}",
+            "token_usage": 35780,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "39",
+            "success": true,
+            "answer": "230769",
+            "token_usage": 6868,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": true,
+            "answer": "28",
+            "token_usage": 31668,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "41",
+            "success": true,
+            "answer": "713.45",
+            "token_usage": 29992,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "42",
+            "success": false,
+            "answer": "To solve the problem, we are given an acute triangle $ \\triangle ABC $ with altitudes $ \\overline{AP} $ and $ \\overline{BQ} $ intersecting at the orthocenter $ H $. We are told that $ HP = 5 $ and $ HQ = 2 $, and we are to find the value of the expression:\n\n$$\n(BP)(PC) - (AQ)(QC)\n$$\n\n---\n\n### Step 1: Understand the Geometry\n\n- $ P $ is the foot of the altitude from $ A $ to side $ BC $, so $ AP \\perp BC $.\n- $ Q $ is the foot of the altitude from $ B $ to side $ AC $, so $ BQ \\perp AC $.\n- $ H $ is the orthocenter of triangle $ ABC $, the point where all three altitudes intersect.\n\nWe are given distances from the orthocenter $ H $ to the feet of the altitudes: $ HP = 5 $ and $ HQ = 2 $. These distances are critical to computing the expression.\n\n---\n\n### Step 2: Use Coordinate Geometry\n\nWe assign coordinates to simplify the problem:\n\n- Let $ B = (0, 0) $, $ C = (c, 0) $, and $ A = (a, b) $, where $ b > 0 $ since the triangle is acute.\n- Then, the foot of the altitude from $ A $ to $ BC $ is $ P = (a, 0) $, since $ AP $ is vertical.\n- The foot of the altitude from $ B $ to $ AC $ is $ Q $, which lies on $ AC $, and we find its coordinates using the perpendicular condition.\n\nUsing the given information, we derive the following key relationships:\n\n- From $ HP = 5 $, we find:\n  $$\n  \\frac{a(c - a)}{b} = 5 \\Rightarrow a(c - a) = 5b\n  $$\n\n- From $ HQ = 2 $, we derive a more complex equation involving $ a, b, c $, which eventually simplifies to:\n  $$\n  \\frac{(c - a)^2 (b - 5)^2}{(c - a)^2 + b^2} = 16\n  $$\n\nLetting $ x = c - a $, and $ y = b $, this becomes:\n$$\n\\frac{x^2 (y - 5)^2}{x^2 + y^2} = 16\n$$\n\n---\n\n### Step 3: Compute $ (BP)(PC) $ and $ (AQ)(QC) $\n\n- Since $ BP = a $ and $ PC = c - a = x $, we have:\n  $$\n  (BP)(PC) = a \\cdot x = a(c - a) = 5b\n  $$\n\n- To compute $ (AQ)(QC) $, we use the geometry of the triangle and the coordinates of $ Q $, and find:\n  $$\n  (AQ)(QC) = \\frac{(b^2 - 5b)(x^2 + 5b)}{x^2 + b^2}\n  $$\n\nSubstituting into the expression:\n$$\n(BP)(PC) - (AQ)(QC) = 5b - \\frac{(b^2 - 5b)(x^2 + 5b)}{x^2 + b^2}\n$$\n\nCombining the terms over a common denominator and simplifying, we find that all terms cancel out, and the final expression reduces to:\n\n$$\n\\boxed{9}\n$$\n\n---\n\n### Final Answer\n\n$$\n\\boxed{9}\n$$",
+            "token_usage": 61791,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "43",
+            "success": true,
+            "answer": "[FINISHED]",
+            "token_usage": 68629,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "44",
+            "success": true,
+            "answer": "3",
+            "token_usage": 6138,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": true,
+            "answer": "54",
+            "token_usage": 39036,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "46",
+            "success": true,
+            "answer": "46",
+            "token_usage": 6828,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": true,
+            "answer": "5.29 cm",
+            "token_usage": 5968,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "48",
+            "success": true,
+            "answer": "$$\n\\mathbf{R} = \\begin{pmatrix} \\frac{1}{3} & -\\frac{2}{3} & \\frac{2}{3} \\\\ -\\frac{2}{3} & \\frac{1}{3} & \\frac{2}{3} \\\\ \\frac{2}{3} & \\frac{2}{3} & \\frac{1}{3} \\end{pmatrix}\n$$",
+            "token_usage": 15121,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": true,
+            "answer": "$$\n\\boxed{\\dfrac{52}{3}}\n$$",
+            "token_usage": 15831,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 46,
+        "failed_tasks": 4,
+        "total_token_usage": 1031008,
+        "total_num_times_pruned": 27,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 22,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "1:13:46.325810"
+}
