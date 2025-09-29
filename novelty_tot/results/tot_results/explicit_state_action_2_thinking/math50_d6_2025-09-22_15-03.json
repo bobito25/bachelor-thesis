@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": true,
+            "answer": "37",
+            "token_usage": 38017,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": true,
+            "answer": "202",
+            "token_usage": 64426,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "Saturday",
+            "token_usage": 12519,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "3",
+            "success": true,
+            "answer": "$\\boxed{-49}$",
+            "token_usage": 6215,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": true,
+            "answer": "\u221a70",
+            "token_usage": 5151,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "5",
+            "success": true,
+            "answer": "\\boxed{7}",
+            "token_usage": 5159,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "6",
+            "success": true,
+            "answer": "363",
+            "token_usage": 13055,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "7",
+            "success": true,
+            "answer": "1/6",
+            "token_usage": 5845,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "8",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{189\\sqrt{3}}{2}}$",
+            "token_usage": 36441,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "9",
+            "success": true,
+            "answer": "20",
+            "token_usage": 3547,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "10",
+            "success": true,
+            "answer": "The height $ h $ is $ 9 \\, \\text{cm} $.",
+            "token_usage": 4279,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "140",
+            "token_usage": 9473,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": true,
+            "answer": "2600",
+            "token_usage": 45474,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "$\\dfrac{7}{11}$",
+            "token_usage": 3448,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "14",
+            "success": true,
+            "answer": "494",
+            "token_usage": 86669,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "15",
+            "success": true,
+            "answer": "200",
+            "token_usage": 6568,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "16",
+            "success": true,
+            "answer": "-33/65",
+            "token_usage": 8888,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "17",
+            "success": true,
+            "answer": "39",
+            "token_usage": 9240,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": true,
+            "answer": "164/1221",
+            "token_usage": 23980,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "19",
+            "success": true,
+            "answer": "2",
+            "token_usage": 15592,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "20",
+            "success": true,
+            "answer": "\\boxed{2\\sqrt{5}}",
+            "token_usage": 9980,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "21",
+            "success": true,
+            "answer": "95040",
+            "token_usage": 9804,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "22",
+            "success": true,
+            "answer": "675",
+            "token_usage": 12706,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "23",
+            "success": true,
+            "answer": "25/3",
+            "token_usage": 19710,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": true,
+            "answer": "30",
+            "token_usage": 4452,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "25",
+            "success": false,
+            "answer": "[FINISHED]",
+            "token_usage": 4247,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": true,
+            "answer": "53",
+            "token_usage": 9369,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "27",
+            "success": true,
+            "answer": "118",
+            "token_usage": 23795,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "28",
+            "success": true,
+            "answer": "$$\n\\boxed{\\frac{25}{8}}\n$$",
+            "token_usage": 4672,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "29",
+            "success": true,
+            "answer": "$$\n\\boxed{\\sqrt{2}}\n$$",
+            "token_usage": 9785,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "30",
+            "success": true,
+            "answer": "$-\\dfrac{1}{2}$",
+            "token_usage": 7249,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": true,
+            "answer": "48/95",
+            "token_usage": 5859,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "32",
+            "success": true,
+            "answer": "5",
+            "token_usage": 3439,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "4",
+            "token_usage": 68316,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "150",
+            "token_usage": 5363,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": true,
+            "answer": "1120/81",
+            "token_usage": 18845,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "36",
+            "success": true,
+            "answer": "10\u221a3",
+            "token_usage": 19877,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "37",
+            "success": true,
+            "answer": "$$\n\\boxed{13}\n$$",
+            "token_usage": 73548,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "38",
+            "success": true,
+            "answer": "The remainder is $ x + 1 $.",
+            "token_usage": 4953,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "39",
+            "success": true,
+            "answer": "$$\n(-\\infty, -8) \\cup (-8, -2) \\cup (-2, \\infty)\n$$",
+            "token_usage": 5131,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": true,
+            "answer": "23.04%",
+            "token_usage": 4505,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "41",
+            "success": true,
+            "answer": "12",
+            "token_usage": 14829,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "42",
+            "success": true,
+            "answer": "7",
+            "token_usage": 5017,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "43",
+            "success": true,
+            "answer": "15",
+            "token_usage": 4109,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "44",
+            "success": true,
+            "answer": "14/13",
+            "token_usage": 9231,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": true,
+            "answer": "1/4",
+            "token_usage": 4877,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "46",
+            "success": true,
+            "answer": "-17",
+            "token_usage": 5848,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": true,
+            "answer": "$$\n\\boxed{-1 - i}\n$$",
+            "token_usage": 16830,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "48",
+            "success": true,
+            "answer": "14",
+            "token_usage": 14103,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": true,
+            "answer": "64",
+            "token_usage": 9827,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 49,
+        "failed_tasks": 1,
+        "total_token_usage": 814262,
+        "total_num_times_pruned": 0,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 0,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:43:38.524374"
+}

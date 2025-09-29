@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8354,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12643,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "2",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8328,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "3",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10112,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8064,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "5",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 11939,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "6",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8161,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "7",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5945,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "8",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5507,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "9",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2858,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "10",
+            "success": false,
+            "answer": "Extracted expression '3 * 7 - 9 - 6' evaluates to 6, which does not match target -1.",
+            "token_usage": 10146,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "11",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12737,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12780,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "1 * (8 + (2 + 3))",
+            "token_usage": 21352,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "14",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 11613,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "15",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13138,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "16",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 9041,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "17",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12451,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10316,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "19",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 11019,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "20",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 9811,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "21",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 4482,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "22",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 1952,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "23",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10252,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12411,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "25",
+            "success": true,
+            "answer": "3 - 4 + 1 - 9",
+            "token_usage": 10829,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12708,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "27",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 7162,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "28",
+            "success": false,
+            "answer": "Error evaluating extracted expression '9 + 7 + 2 * 1 + 16 + 2  18': invalid syntax (<string>, line 1).",
+            "token_usage": 12541,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "29",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8067,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "30",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13813,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": false,
+            "answer": "Could not extract valid expression from answer: 8 - 5 = 3  \n4 - 2 = 2  \n3 - 2 = 1  \n1 is not helpful in reaching -2. Let's try a different approach.  \n8 - 4 = 4  \n5 - 2 = 3  \n4 - 3 = 1  \n1 is not helpful in reaching -2. Let's try a different approach.  \n5 - 8 = -3  \n4 - 2 = 2  \n-3 - 2 = -5  \n-5 is not helpful in reaching -2. Let's try a different approach.  \n2 * 4 = 8  \n8 - 8 = 0  \n5 - 0 = 5  \n5 is not helpful in reaching -2. Let's try a different approach.  \n5 * 2 = 10  \n8 - 4 = 4  \n10 - 4 = 6  \n6 is not helpful in reaching -2. Let's try a different approach.  \n8 * 2 = 16  \n5 - 4 = 1  \n16 - 1 = 15  \n15 is not helpful in reaching -2. Let's try a different approach.  \n4 * 5 = 20  \n8 - 2 = 6  \n20 - 6 = 14  \n14 is not helpful in reaching -2. Let's try a different approach.  \n8 * 5 = 40  \n4 - 2 = 2  \n40 - 2 = 38  \n38 is not helpful in reaching -2. Let's try a different approach.  \n8 + 4 = 12  \n5 - 2 = 3  \n12 - 3 = 9  \n9 is not helpful in reaching -2. Let's try a different approach.  \n8 + 5 = 13  \n4 - 2 = 2  \n13 - 2 = 11  \n11 is not helpful in reaching -2. Let's try a different approach.  \n8 + 2 = 10  \n5 - 4 = 1  \n10 - 1 = 9  \n9 is not helpful in reaching -2. Let's try a different approach.  \n5 + 4 = 9  \n8 - 2 = 6  \n9 - 6 = 3  \n3 is not helpful in reaching -2. Let's try a different approach.  \n5 + 2 = 7  \n8 - 4 = 4  \n7 - 4 = 3  \n3 is not helpful in reaching -2. Let's try a different approach.  \n4 + 2 = 6  \n8 - 5 = 3  \n6 - 3 = 3  \n3 is not helpful in reaching -2. Let's try a different approach.  \n5 * 4 = 20  \n8 - 2 = 6  \n20 - 6 = 14  \n14 is not helpful in reaching -2. Let's try a different approach.  \n5 * 8 = 40  \n4 - 2 = 2  \n40 - 2 = 38  \n38 is not helpful in reaching -2. Let's try a different approach.  \n4 * 8 = 32  \n5 - 2 = 3  \n32 - 3 = 29  \n29 is not helpful in reaching -2. Let's try a different approach.  \n2 * 8 = 16  \n5 - 4 = 1  \n16 - 1 = 15  \n15 is not helpful in reaching -2. Let's try a different approach.  \n(8 * (5 - (4 + 2))) = (8 * (5 - 6)) = (8 * (-1)) = -8  \n-8 is not helpful in reaching -2. Let's try a different approach.  \n(5 * (4 - (8 / 2))) = (5 * (4 - 4)) = (5 * (0)) = 0  \n0 is not helpful in reaching -2. Let's try a different approach.  \n((8 + (5 * (4 + (2)))) = (8 + (5 * (6))) = (8 + (30)) = (38)  \n38 is not helpful in reaching -2. Let's try a different approach.  \n\n[FINISHED].",
+            "token_usage": 20501,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "32",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12312,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "33",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 9996,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "8 + 9 - 3 + 1",
+            "token_usage": 13278,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10357,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "36",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13840,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "37",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6360,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "38",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2762,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "39",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12914,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13729,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "41",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12400,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "42",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 5543,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "43",
+            "success": false,
+            "answer": "Extracted expression '6 - 5 - 8 - 9 - 1 - 1 - 0' evaluates to -18, which does not match target 0.",
+            "token_usage": 7063,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "44",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 11576,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 8978,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "46",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 13982,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10338,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "48",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 12064,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 10090,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 3,
+        "failed_tasks": 47,
+        "total_token_usage": 518615,
+        "total_num_times_pruned": 6,
+        "num_early_stops": 2,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 2,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:48:59.427022"
+}

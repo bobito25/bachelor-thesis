@@ -1,0 +1,362 @@
+{
+    "results": [
+        {
+            "task_id": "instance-34.pddl",
+            "success": false,
+            "answer": "Unstack orange from red.  \nPut down orange on table.  \nPick up blue.  \nStack blue on red.  \n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 31947,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-30.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 21974,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-28.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 84859,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 87106,
+            "num_times_pruned": 11
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": true,
+            "answer": "unstack red from orange\nput down red\nunstack orange from blue\nstack orange on red\npick up blue\nstack blue on yellow\n[FINISHED]",
+            "token_usage": 27268,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": true,
+            "answer": "Pick up the blue block.  \nStack the blue block on top of the orange block.  \n[FINISHED]",
+            "token_usage": 14322,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-6.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 73599,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "instance-46.pddl",
+            "success": false,
+            "answer": "unstack orange from yellow\nputdown orange on table\npick up yellow from table\nstack yellow on blue\n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 20537,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 107527,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": true,
+            "answer": "[UNSTACK blue from yellow]\n[PUTDOWN blue]\n[PICKUP red]\n[STACK red on orange]\n[PICKUP yellow]\n[STACK yellow on red]\n[FINISHED]",
+            "token_usage": 29521,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-38.pddl",
+            "success": true,
+            "answer": "[UNSTACK red from orange]\n[PUTDOWN red on table]\n[PICKUP orange]\n[STACK orange on blue]\n[PICKUP yellow]\n[STACK yellow on orange]\n[FINISHED]",
+            "token_usage": 23203,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-2.pddl",
+            "success": true,
+            "answer": "Unstack yellow block from red block.\nPut down yellow block on table.\nUnstack red block from blue block.\nStack red block on top of orange block.\nPick up yellow block.\nStack yellow block on top of red block.\n[FINISHED]",
+            "token_usage": 23936,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-42.pddl",
+            "success": true,
+            "answer": "Unstack red from orange.\nPut down red on table.\nUnstack orange from yellow.\nStack orange on blue.\nPick up yellow.\nStack yellow on orange.\n[FINISHED]",
+            "token_usage": 31189,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-14.pddl",
+            "success": true,
+            "answer": "unstack yellow from blue\nputdown yellow on table\nunstack blue from red\nstack blue on orange\npick up red\nstack red on yellow\n[FINISHED]",
+            "token_usage": 34518,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-25.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 40473,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-47.pddl",
+            "success": true,
+            "answer": "unstack the orange block from the red block\nput down the orange block\npick up the red block\nstack the red block on top of the orange block\n[FINISHED]",
+            "token_usage": 18213,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-7.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24412,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-21.pddl",
+            "success": true,
+            "answer": "unstack yellow from orange\nputdown yellow on table\npick up red\nstack red on yellow\npick up orange  \nstack orange on blue\n[FINISHED]",
+            "token_usage": 20926,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-10.pddl",
+            "success": true,
+            "answer": "[UNSTACK orange FROM red]\n[PUTDOWN orange]\n[PICKUP red]\n[STACK red ON blue]\n[FINISHED]",
+            "token_usage": 18256,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-39.pddl",
+            "success": true,
+            "answer": "Pick up red block.  \nStack red block on top of yellow block.  \n[FINISHED]",
+            "token_usage": 32470,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "instance-43.pddl",
+            "success": false,
+            "answer": "Unstack red from blue.  \nPut down red on table.  \nUnstack blue from orange.  \nStack blue on red.  \n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 72946,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-3.pddl",
+            "success": false,
+            "answer": "unstack yellow from blue\nputdown yellow on table\nunstack blue from red\nputdown blue on table\npick up yellow\nstack yellow on red\n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 24725,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-35.pddl",
+            "success": true,
+            "answer": "Unstack red from blue\nPut down red on table\nUnstack blue from yellow\nStack blue on red\nPick up orange\nPut down orange on yellow\n[FINISHED]",
+            "token_usage": 27850,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-31.pddl",
+            "success": true,
+            "answer": "unstack yellow from red\nput down yellow on table\nunstack red from blue\nstack red on orange\npick up yellow\nstack yellow on blue\n[FINISHED]",
+            "token_usage": 27665,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-29.pddl",
+            "success": true,
+            "answer": "unstack red from yellow  \nstack red on blue  \nunstack yellow from orange  \nstack yellow on red  \npick up orange  \nstack orange on yellow  \n[FINISHED]",
+            "token_usage": 30973,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-18.pddl",
+            "success": false,
+            "answer": "Unstack red from yellow\nPut down red on table\nUnstack yellow from blue\nStack yellow on red\nPick up blue\nStack blue on yellow\n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 29328,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-16.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 55259,
+            "num_times_pruned": 8
+        },
+        {
+            "task_id": "instance-27.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 119792,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "instance-5.pddl",
+            "success": true,
+            "answer": "Pick up the orange block.  \nStack the orange block on top of the blue block.  \n[FINISHED]",
+            "token_usage": 16250,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-45.pddl",
+            "success": true,
+            "answer": "[UNSTACK yellow from blue]\n[PUTDOWN yellow]\n[PICKUP blue]\n[STACK blue on red]\n[PICKUP yellow]\n[STACK yellow on blue]\n[FINISHED]",
+            "token_usage": 41942,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-23.pddl",
+            "success": true,
+            "answer": "unstack(blue, yellow)\nputdown(blue, table)\nunstack(red, orange)\nstack(red, blue)\npick up orange\nstack(orange, yellow)\n[FINISHED]",
+            "token_usage": 119011,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "instance-12.pddl",
+            "success": true,
+            "answer": "Unstack orange from blue.  \nPut down orange on table.  \nUnstack blue from red.  \nPut down blue on table.  \nUnstack red from yellow.  \nStack red on orange.  \n[FINISHED]",
+            "token_usage": 31304,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-1.pddl",
+            "success": true,
+            "answer": "Unstack yellow from orange.  \nPut down yellow on table.  \nUnstack red from blue.  \nStack red on orange.  \nPick up blue.  \nStack blue on yellow.  \n[FINISHED]",
+            "token_usage": 27683,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-41.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 143186,
+            "num_times_pruned": 15
+        },
+        {
+            "task_id": "instance-37.pddl",
+            "success": true,
+            "answer": "Unstack yellow from orange  \nPut down yellow on table  \nPick up blue  \nStack blue on orange  \n[FINISHED]",
+            "token_usage": 19558,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-33.pddl",
+            "success": false,
+            "answer": "unstack orange from blue  \nput down orange on table  \nunstack blue from red  \nput down blue on table  \nunstack red from yellow  \nstack red on orange  \n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 74724,
+            "num_times_pruned": 7
+        },
+        {
+            "task_id": "instance-49.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 58425,
+            "num_times_pruned": 9
+        },
+        {
+            "task_id": "instance-9.pddl",
+            "success": false,
+            "answer": "unstack yellow from blue\nstack yellow on red\npick up blue\nstack blue on yellow\n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 36356,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "instance-36.pddl",
+            "success": true,
+            "answer": "unstack yellow from orange\nputdown yellow on table\npick up red\nstack red on yellow\nunstack orange from blue\nstack orange on red\n[FINISHED]",
+            "token_usage": 38041,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-32.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 20177,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-8.pddl",
+            "success": true,
+            "answer": "unstack yellow from red\nput down yellow on table\nunstack orange from blue\nstack orange on yellow\npick up blue\nstack blue on red\n[FINISHED]",
+            "token_usage": 30302,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-48.pddl",
+            "success": true,
+            "answer": "Unstack orange from red  \nPut down orange on table  \nUnstack blue from yellow  \nStack blue on orange  \nPick up red  \nStack red on yellow  \n[FINISHED]",
+            "token_usage": 49579,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "instance-50.pddl",
+            "success": true,
+            "answer": "Unstack blue from orange.\nPut down blue.\nUnstack yellow from red.\nStack yellow on blue.\nPick up red.\nStack red on orange.\n[FINISHED]",
+            "token_usage": 28168,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-17.pddl",
+            "success": true,
+            "answer": "Unstack red from blue.  \nStack red on orange.  \nPick up yellow.  \nStack yellow on red.  \n[FINISHED]",
+            "token_usage": 29103,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "instance-26.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 22691,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-44.pddl",
+            "success": false,
+            "answer": "unstack blue from orange\nput down blue on table\npick up yellow\nstack yellow on blue\npick up red\nstack red on yellow\n[FINISHED]\nThe plan could not be converted to PDDL format.",
+            "token_usage": 22799,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-4.pddl",
+            "success": true,
+            "answer": "unstack blue from yellow\nput down blue\nunstack orange from red\nstack orange on yellow\n[FINISHED]",
+            "token_usage": 20624,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "instance-22.pddl",
+            "success": true,
+            "answer": "Unstack red from orange.  \nPut down red on table.  \nUnstack blue from yellow.  \nStack blue on top of red.  \nPick up orange.  \nStack orange on top of blue.  \n[FINISHED]",
+            "token_usage": 53736,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-13.pddl",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 24772,
+            "num_times_pruned": 4
+        },
+        {
+            "task_id": "instance-40.pddl",
+            "success": true,
+            "answer": "[UNSTACK blue FROM yellow]\n[PUTDOWN blue]\n[UNSTACK yellow FROM red]\n[STACK yellow ON blue]\n[PICKUP orange]\n[STACK orange ON red]\n[FINISHED]",
+            "token_usage": 43744,
+            "num_times_pruned": 3
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 28,
+        "failed_tasks": 22,
+        "total_token_usage": 2106969,
+        "total_num_times_pruned": 170
+    },
+    "duration": "4:54:56.616925"
+}

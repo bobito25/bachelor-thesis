@@ -1,0 +1,32 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": true,
+            "answer": "$$\n\\boxed{37}\n$$",
+            "token_usage": 49262,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": true,
+            "answer": "202",
+            "token_usage": 54416,
+            "num_times_pruned": 1
+        }
+    ],
+    "summary": {
+        "total_tasks": 2,
+        "successful_tasks": 2,
+        "failed_tasks": 0,
+        "total_token_usage": 103678,
+        "total_num_times_pruned": 1,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 0,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:13:02.299262"
+}

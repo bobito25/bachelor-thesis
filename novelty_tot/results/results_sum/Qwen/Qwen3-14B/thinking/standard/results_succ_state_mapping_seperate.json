@@ -1,0 +1,668 @@
+[
+    {
+        "task_id": "instance-34.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (clear d), (ontable d), (clear a), (holding c)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (clear d), (ontable d), (clear a), (holding c)'"
+    },
+    {
+        "task_id": "instance-34.pddl_1",
+        "success": true,
+        "response": "(ontable a), (ontable d), (clear d), (on c a), (clear c), (holding b)",
+        "extracted_answer": "'(ontable a), (ontable d), (clear d), (on c a), (clear c), (holding b)'"
+    },
+    {
+        "task_id": "instance-34.pddl_2",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (on c a), (clear c), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (on c a), (clear c), (holding d)'"
+    },
+    {
+        "task_id": "instance-46.pddl_0",
+        "success": true,
+        "response": "(on c d), (ontable a), (ontable d), (clear a), (clear c), (holding b)",
+        "extracted_answer": "'(on c d), (ontable a), (ontable d), (clear a), (clear c), (holding b)'"
+    },
+    {
+        "task_id": "instance-46.pddl_1",
+        "success": true,
+        "response": "State: (on b a), (ontable a), (clear b), (ontable d), (clear d), (holding c)",
+        "extracted_answer": "State: (on b a), (ontable a), (clear b), (ontable d), (clear d), (holding c)"
+    },
+    {
+        "task_id": "instance-30.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (clear d), (clear a), (holding c), (ontable d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (clear d), (clear a), (holding c), (ontable d)'"
+    },
+    {
+        "task_id": "instance-30.pddl_1",
+        "success": true,
+        "response": "(ontable a), (ontable d), (clear d), (on c a), (clear c), (holding b)",
+        "extracted_answer": "'(ontable a), (ontable d), (clear d), (on c a), (clear c), (holding b)'"
+    },
+    {
+        "task_id": "instance-30.pddl_2",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d)'"
+    },
+    {
+        "task_id": "instance-1.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on d c), (ontable c), (holding a), (clear b), (clear d)",
+        "extracted_answer": "'(ontable b), (on d c), (ontable c), (holding a), (clear b), (clear d)'"
+    },
+    {
+        "task_id": "instance-1.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on a b), (ontable c), (holding d), (clear c), (clear a)",
+        "extracted_answer": "'(ontable b), (on a b), (ontable c), (holding d), (clear c), (clear a)'"
+    },
+    {
+        "task_id": "instance-26.pddl_0",
+        "success": true,
+        "response": "(ontable b), (clear b), (on d c), (ontable c), (holding a), (clear d)",
+        "extracted_answer": "'(ontable b), (clear b), (on d c), (ontable c), (holding a), (clear d)'"
+    },
+    {
+        "task_id": "instance-26.pddl_1",
+        "success": true,
+        "response": "(on d c), (ontable c), (clear a), (on a d)",
+        "extracted_answer": "'(on d c), (ontable c), (clear a), (on a d), (holding b)'"
+    },
+    {
+        "task_id": "instance-44.pddl_0",
+        "success": true,
+        "response": "(holding b), (clear c), (clear a), (clear d), (ontable a), (ontable c), (ontable d)",
+        "extracted_answer": "'(holding b), (clear c), (clear a), (clear d), (ontable a), (ontable c), (ontable d)'"
+    },
+    {
+        "task_id": "instance-44.pddl_1",
+        "success": true,
+        "response": "(holding a), (clear b), (clear d), (ontable c), (on b c), (ontable d)",
+        "extracted_answer": "'(holding a), (clear b), (clear d), (ontable c), (on b c), (ontable d)'"
+    },
+    {
+        "task_id": "instance-44.pddl_2",
+        "success": true,
+        "response": "(ontable a), (clear b), (clear a), (ontable c), (on b c), (holding d)",
+        "extracted_answer": "'(ontable a), (clear b), (clear a), (ontable c), (on b c), (holding d)'"
+    },
+    {
+        "task_id": "instance-43.pddl_0",
+        "success": true,
+        "response": "(on c d), (on b c), (ontable d), (clear b), (holding a)",
+        "extracted_answer": "'(on c d), (on b c), (ontable d), (clear b), (holding a)'"
+    },
+    {
+        "task_id": "instance-13.pddl_0",
+        "success": false,
+        "response": "(ontable a), (on b d), (hand c), (clear a), (clear b), (ontable d)",
+        "extracted_answer": "'(ontable a), (on b d), (hand c), (clear a), (clear b), (ontable d)'"
+    },
+    {
+        "task_id": "instance-13.pddl_1",
+        "success": true,
+        "response": "(on c b) (on b d) (holding a) (clear c) (ontable d)",
+        "extracted_answer": "'(on c b) (on b d) (holding a) (clear c) (ontable d)'"
+    },
+    {
+        "task_id": "instance-42.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on c d), (ontable d), (clear b), (holding a), (clear c)",
+        "extracted_answer": "'(ontable b), (on c d), (ontable d), (clear b), (holding a), (clear c)'"
+    },
+    {
+        "task_id": "instance-42.pddl_1",
+        "success": true,
+        "response": "(holding b), (on a c), (on c d), (clear a), (ontable d)",
+        "extracted_answer": "'(holding b), (on a c), (on c d), (clear a), (ontable d)'"
+    },
+    {
+        "task_id": "instance-36.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (on c b), (clear c), (clear a), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (on c b), (clear c), (clear a), (holding d)'"
+    },
+    {
+        "task_id": "instance-36.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on c b), (on d c), (clear d), (holding a)",
+        "extracted_answer": "'(ontable b), (on c b), (on d c), (clear d), (holding a)'"
+    },
+    {
+        "task_id": "instance-49.pddl_0",
+        "success": true,
+        "response": "(on c d), (ontable a), (clear a), (ontable d), (clear c), (holding b)",
+        "extracted_answer": "'(on c d), (ontable a), (clear a), (ontable d), (clear c), (holding b)'"
+    },
+    {
+        "task_id": "instance-49.pddl_1",
+        "success": true,
+        "response": "(on c d), (clear b), (on b c), (ontable d), (holding a)",
+        "extracted_answer": "'(on c d), (clear b), (on b c), (ontable d), (holding a)'"
+    },
+    {
+        "task_id": "instance-40.pddl_0",
+        "success": true,
+        "response": "(ontable a), (on d a), (clear d), (ontable c), (holding b), (clear c)",
+        "extracted_answer": "'(ontable a), (on d a), (clear d), (ontable c), (holding b), (clear c)'"
+    },
+    {
+        "task_id": "instance-40.pddl_1",
+        "success": true,
+        "response": "(ontable a), (on d a), (clear b), (on b d), (holding c)",
+        "extracted_answer": "'(ontable a), (on d a), (clear b), (on b d), (holding c)'"
+    },
+    {
+        "task_id": "instance-3.pddl_0",
+        "success": true,
+        "response": "(on b a), (ontable a), (ontable c), (clear c), (clear b), (holding d)",
+        "extracted_answer": "'(on b a), (ontable a), (ontable c), (clear c), (clear b), (holding d)'"
+    },
+    {
+        "task_id": "instance-3.pddl_1",
+        "success": true,
+        "response": "State after (pick-up c):  \n(on b a), (ontable a), (clear d), (on d b), (holding c)",
+        "extracted_answer": "State after (pick-up c):  \n(on b a), (ontable a), (clear d), (on d b), (holding c)"
+    },
+    {
+        "task_id": "instance-29.pddl_0",
+        "success": true,
+        "response": "(ontable b), (clear b), (on d c), (ontable c), (holding a), (clear d)",
+        "extracted_answer": "'(ontable b), (clear b), (on d c), (ontable c), (holding a), (clear d)'"
+    },
+    {
+        "task_id": "instance-29.pddl_1",
+        "success": true,
+        "response": "( on d c ), ( ontable c ), ( clear a ), ( on a d ), ( holding b )",
+        "extracted_answer": "'( on d c ), ( ontable c ), ( clear a ), ( on a d ), ( holding b )'"
+    },
+    {
+        "task_id": "instance-2.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c)",
+        "extracted_answer": "'(ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c)'"
+    },
+    {
+        "task_id": "instance-2.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on d a), (on a b), (holding c), (clear d)",
+        "extracted_answer": "'(ontable b), (on d a), (on a b), (holding c), (clear d)'"
+    },
+    {
+        "task_id": "instance-22.pddl_0",
+        "success": true,
+        "response": "(hand a), (clear c), (clear b), (ontable c), (on b d), (ontable d)",
+        "extracted_answer": "'(hand a), (clear c), (clear b), (ontable c), (on b d), (ontable d)'"
+    },
+    {
+        "task_id": "instance-22.pddl_1",
+        "success": true,
+        "response": "(on a c), (clear a), (ontable c), (hand b), (ontable d), (clear d)",
+        "extracted_answer": "'(on a c), (clear a), (ontable c), (hand b), (ontable d), (clear d)'"
+    },
+    {
+        "task_id": "instance-31.pddl_0",
+        "success": true,
+        "response": "State: (ontable b), (on a b), (ontable c), (clear c), (clear a), (holding d)",
+        "extracted_answer": "State: (ontable b), (on a b), (ontable c), (clear c), (clear a), (holding d)"
+    },
+    {
+        "task_id": "instance-31.pddl_1",
+        "success": false,
+        "response": "(ontable b), (on d a), (on a b), (hand c), (clear d)",
+        "extracted_answer": "'(ontable b), (on d a), (on a b), (hand c), (clear d)'"
+    },
+    {
+        "task_id": "instance-11.pddl_0",
+        "success": true,
+        "response": "(ontable a), (clear a), (ontable c), (clear c), (ontable d), (clear d), (holding b)",
+        "extracted_answer": "'(ontable a), (clear a), (ontable c), (clear c), (ontable d), (clear d), (holding b)'"
+    },
+    {
+        "task_id": "instance-11.pddl_1",
+        "success": true,
+        "response": "(holding a), (clear b), (ontable c), (clear c), (ontable d), (on b d)",
+        "extracted_answer": "'(holding a), (clear b), (ontable c), (clear c), (ontable d), (on b d)'"
+    },
+    {
+        "task_id": "instance-11.pddl_2",
+        "success": true,
+        "response": "(ontable a), (clear b), (ontable d), (clear a), (on b d), (holding c)",
+        "extracted_answer": "'(ontable a), (clear b), (ontable d), (clear a), (on b d), (holding c)'"
+    },
+    {
+        "task_id": "instance-50.pddl_0",
+        "success": true,
+        "response": "(ontable a), (on d a), (clear d), (ontable c), (clear c), (holding b)",
+        "extracted_answer": "'(ontable a), (on d a), (clear d), (ontable c), (clear c), (holding b)'"
+    },
+    {
+        "task_id": "instance-50.pddl_1",
+        "success": true,
+        "response": "(ontable a), (clear a), (clear b), (ontable c), (on b c), (holding d)",
+        "extracted_answer": "'(ontable a), (clear a), (clear b), (ontable c), (on b c), (holding d)'"
+    },
+    {
+        "task_id": "instance-8.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (on d a), (clear d), (clear b), (holding c)",
+        "extracted_answer": "'(ontable b), (ontable a), (on d a), (clear d), (clear b), (holding c)'"
+    },
+    {
+        "task_id": "instance-8.pddl_1",
+        "success": true,
+        "response": "(ontable b), (ontable a), (on c b), (clear c), (clear a), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (on c b), (clear c), (clear a), (holding d)'"
+    },
+    {
+        "task_id": "instance-12.pddl_0",
+        "success": false,
+        "response": "(on b a), (on a d), (ontable d), (clear b), (holding c)",
+        "extracted_answer": "'(on b a), (on a d), (ontable d), (clear b), (holding c)'"
+    },
+    {
+        "task_id": "instance-5.pddl_0",
+        "success": true,
+        "response": "(ontable b), (clear b), (clear d), (ontable c), (clear c), (ontable d)",
+        "extracted_answer": "'(ontable b), (clear b), (clear d), (ontable c), (clear c), (ontable d), (holding a)'"
+    },
+    {
+        "task_id": "instance-5.pddl_1",
+        "success": true,
+        "response": "(ontable a), (ontable c), (ontable d), (clear a), (clear c), (clear d), (holding b)",
+        "extracted_answer": "'(ontable a), (ontable c), (ontable d), (clear a), (clear c), (clear d), (holding b)'"
+    },
+    {
+        "task_id": "instance-5.pddl_2",
+        "success": true,
+        "response": "(ontable b), (ontable a), (ontable d), (clear b), (clear a), (clear d), (holding c), (not handempty)",
+        "extracted_answer": "'(ontable b), (ontable a), (ontable d), (clear b), (clear a), (clear d), (holding c), (not handempty)'"
+    },
+    {
+        "task_id": "instance-5.pddl_3",
+        "success": true,
+        "response": "(holding d), (ontable b), (ontable a), (ontable c), (clear b), (clear a), (clear c)",
+        "extracted_answer": "'(holding d), (ontable b), (ontable a), (ontable c), (clear b), (clear a), (clear c)'"
+    },
+    {
+        "task_id": "instance-21.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (ontable c), (clear c), (holding d), (clear a)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (ontable c), (clear c), (holding d), (clear a)'"
+    },
+    {
+        "task_id": "instance-21.pddl_1",
+        "success": true,
+        "response": "(ontable b), (clear b), (on d c), (clear d), (ontable c), (holding a)",
+        "extracted_answer": "'(ontable b), (clear b), (on d c), (clear d), (ontable c), (holding a)'"
+    },
+    {
+        "task_id": "instance-21.pddl_2",
+        "success": true,
+        "response": "(ontable a), (clear a), (ontable c), (on d c), (clear d), (holding b)",
+        "extracted_answer": "'(ontable a), (clear a), (ontable c), (on d c), (clear d), (holding b)'"
+    },
+    {
+        "task_id": "instance-4.pddl_0",
+        "success": true,
+        "response": "(ontable a), (clear b), (on b d), (ontable d), (clear a), (holding c)",
+        "extracted_answer": "'(ontable a), (clear b), (on b d), (ontable d), (clear a), (holding c)'"
+    },
+    {
+        "task_id": "instance-4.pddl_1",
+        "success": true,
+        "response": "(ontable a), (on c a), (clear c), (ontable d), (clear d), (holding b)",
+        "extracted_answer": "'(ontable a), (on c a), (clear c), (ontable d), (clear d), (holding b)'"
+    },
+    {
+        "task_id": "instance-25.pddl_0",
+        "success": true,
+        "response": "(holding a), (clear b), (ontable c), (clear c), (on b d), (ontable d)",
+        "extracted_answer": "'(holding a), (clear b), (ontable c), (clear c), (on b d), (ontable d)'"
+    },
+    {
+        "task_id": "instance-25.pddl_1",
+        "success": false,
+        "response": "The action (unstack b d) removes block b from on top of d, resulting in the following changes:\n\n- **(on b d)** is removed since b is no longer on d.\n- **(clear b)** is removed because b is now being held.\n- **(handempty)** is removed because the hand now holds b.\n- **(clear d)** is added because d is now clear (no blocks on top).\n\nOther facts remain unchanged. The hand now holds block b, which is implied by the action and the removal of (handempty).\n\n**Successor State:**\n(on a c), (clear a), (ontable c), (ontable d), (clear d), (holding b)",
+        "extracted_answer": "(on a c), (clear a), (ontable c), (ontable d), (clear d), (holding b)"
+    },
+    {
+        "task_id": "instance-7.pddl_0",
+        "success": true,
+        "response": "(ontable b), (clear b), (ontable c), (clear c), (ontable d), (clear d)",
+        "extracted_answer": "'(ontable b), (clear b), (ontable c), (clear c), (ontable d), (clear d), (handempty)'"
+    },
+    {
+        "task_id": "instance-7.pddl_1",
+        "success": true,
+        "response": "(holding b), (ontable c), (clear a), (on a d), (clear c), (ontable d)",
+        "extracted_answer": "'(holding b), (ontable c), (clear a), (on a d), (clear c), (ontable d)'"
+    },
+    {
+        "task_id": "instance-7.pddl_2",
+        "success": true,
+        "response": "(ontable b), (clear b), (ontable d), (on a d), (clear a), (holding c)",
+        "extracted_answer": "'(ontable b), (clear b), (ontable d), (on a d), (clear a), (holding c)'"
+    },
+    {
+        "task_id": "instance-24.pddl_0",
+        "success": true,
+        "response": "State after (unstack c d):  \n(ontable b), (ontable a), (ontable d), (clear b), (clear a), (clear d), (holding c)",
+        "extracted_answer": "State after (unstack c d):  \n(ontable b), (ontable a), (ontable d), (clear b), (clear a), (clear d), (holding c)"
+    },
+    {
+        "task_id": "instance-24.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on c d), (ontable d), (clear b), (clear c), (holding a)",
+        "extracted_answer": "'(ontable b), (on c d), (ontable d), (clear b), (clear c), (holding a)'"
+    },
+    {
+        "task_id": "instance-24.pddl_2",
+        "success": true,
+        "response": "(ontable a), (on c d), (ontable d), (clear a), (clear c), (holding b)",
+        "extracted_answer": "'(ontable a), (on c d), (ontable d), (clear a), (clear c), (holding b)'"
+    },
+    {
+        "task_id": "instance-45.pddl_0",
+        "success": false,
+        "response": "State: (ontable b), (ontable a), (ontable c), (clear a), (clear c), (clear b), (holding d)",
+        "extracted_answer": "State: (ontable b), (ontable a), (ontable c), (clear a), (clear c), (clear b), (holding d)"
+    },
+    {
+        "task_id": "instance-45.pddl_1",
+        "success": true,
+        "response": "(holding a), (ontable b), (ontable c), (clear d), (clear c), (on d b)",
+        "extracted_answer": "'(holding a), (ontable b), (ontable c), (clear d), (clear c), (on d b)'"
+    },
+    {
+        "task_id": "instance-45.pddl_2",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear d), (clear a), (on d b), (holding c)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear d), (clear a), (on d b), (holding c)'"
+    },
+    {
+        "task_id": "instance-20.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c)",
+        "extracted_answer": "'(ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c)'"
+    },
+    {
+        "task_id": "instance-20.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on d a), (on a b), (holding c), (clear d)",
+        "extracted_answer": "'(ontable b), (on d a), (on a b), (holding c), (clear d)'"
+    },
+    {
+        "task_id": "instance-19.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on a c), (ontable c), (clear b), (clear a), (holding d)",
+        "extracted_answer": "'(ontable b), (on a c), (ontable c), (clear b), (clear a), (holding d)'"
+    },
+    {
+        "task_id": "instance-19.pddl_1",
+        "success": true,
+        "response": "State: (on a c), (on d a), (clear d), (ontable c), (holding b)",
+        "extracted_answer": "State: (on a c), (on d a), (clear d), (ontable c), (holding b)"
+    },
+    {
+        "task_id": "instance-23.pddl_0",
+        "success": true,
+        "response": "(holding a), (clear c), (clear b), (ontable c), (ontable d), (on b d)",
+        "extracted_answer": "'(holding a), (clear c), (clear b), (ontable c), (ontable d), (on b d)'"
+    },
+    {
+        "task_id": "instance-23.pddl_1",
+        "success": false,
+        "response": "State after action:  \n(on a c), (clear a), (ontable c), (ontable d), (clear d), (hand b)",
+        "extracted_answer": "State after action:  \n(on a c), (clear a), (ontable c), (ontable d), (clear d), (hand b)"
+    },
+    {
+        "task_id": "instance-18.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable c), (holding a), (clear c), (on d b), (clear d)",
+        "extracted_answer": "'(ontable b), (ontable c), (holding a), (clear c), (on d b), (clear d)'"
+    },
+    {
+        "task_id": "instance-18.pddl_1",
+        "success": true,
+        "response": "(ontable b), (holding c), (clear a), (on a d), (on d b)",
+        "extracted_answer": "'(ontable b), (holding c), (clear a), (on a d), (on d b)'"
+    },
+    {
+        "task_id": "instance-38.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable c), (ontable d), (clear b), (clear c), (clear d), (holding a)",
+        "extracted_answer": "'(ontable b), (ontable c), (ontable d), (clear b), (clear c), (clear d), (holding a)'"
+    },
+    {
+        "task_id": "instance-38.pddl_1",
+        "success": true,
+        "response": "(ontable c), (on a c), (clear a), (clear d), (ontable d), (holding b)",
+        "extracted_answer": "'(ontable c), (on a c), (clear a), (clear d), (ontable d), (holding b)'"
+    },
+    {
+        "task_id": "instance-38.pddl_2",
+        "success": true,
+        "response": "(ontable b), (on a c), (clear b), (clear a), (ontable c), (holding d)",
+        "extracted_answer": "'(ontable b), (on a c), (clear b), (clear a), (ontable c), (holding d)'"
+    },
+    {
+        "task_id": "instance-6.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (on c b), (clear c), (clear a), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (on c b), (clear c), (clear a), (holding d)'"
+    },
+    {
+        "task_id": "instance-6.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on c b), (on d c), (clear d), (holding a)",
+        "extracted_answer": "'(ontable b), (on c b), (on d c), (clear d), (holding a)'"
+    },
+    {
+        "task_id": "instance-47.pddl_0",
+        "success": false,
+        "response": "(ontable a), (clear b), (on b d), (ontable d), (clear a), (hand c)",
+        "extracted_answer": "'(ontable a), (clear b), (on b d), (ontable d), (clear a), (hand c)'"
+    },
+    {
+        "task_id": "instance-47.pddl_1",
+        "success": true,
+        "response": "(ontable a), (on c a), (ontable d), (clear d), (clear c), (holding b)",
+        "extracted_answer": "'(ontable a), (on c a), (ontable d), (clear d), (clear c), (holding b)'"
+    },
+    {
+        "task_id": "instance-17.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable c), (holding a), (clear d), (clear c), (clear b)",
+        "extracted_answer": "'(ontable b), (ontable c), (holding a), (clear d), (clear c), (clear b)'"
+    },
+    {
+        "task_id": "instance-17.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on a b), (ontable d), (holding c), (clear d), (clear a)",
+        "extracted_answer": "'(ontable b), (on a b), (ontable d), (holding c), (clear d), (clear a)'"
+    },
+    {
+        "task_id": "instance-17.pddl_2",
+        "success": true,
+        "response": "(ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c)",
+        "extracted_answer": "'(ontable b), (on a b), (ontable c), (holding d), (clear a), (clear c)'"
+    },
+    {
+        "task_id": "instance-37.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d)'"
+    },
+    {
+        "task_id": "instance-37.pddl_1",
+        "success": true,
+        "response": "(ontable a), (on d c), (clear d), (on c a), (holding b)",
+        "extracted_answer": "'(ontable a), (on d c), (clear d), (on c a), (holding b)'"
+    },
+    {
+        "task_id": "instance-10.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (ontable d), (clear b), (clear d), (clear a), (holding c)",
+        "extracted_answer": "'(ontable b), (ontable a), (ontable d), (clear b), (clear d), (clear a), (holding c)'"
+    },
+    {
+        "task_id": "instance-10.pddl_1",
+        "success": true,
+        "response": "(ontable a), (clear d), (on c a), (clear c), (ontable d), (holding b)",
+        "extracted_answer": "'(ontable a), (clear d), (on c a), (clear c), (ontable d), (holding b)'"
+    },
+    {
+        "task_id": "instance-10.pddl_2",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (on c a), (clear c), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (on c a), (clear c), (holding d)'"
+    },
+    {
+        "task_id": "instance-27.pddl_0",
+        "success": true,
+        "response": "(ontable a), (clear a), (ontable c), (on d c), (clear d), (holding b)",
+        "extracted_answer": "'(ontable a), (clear a), (ontable c), (on d c), (clear d), (holding b)'"
+    },
+    {
+        "task_id": "instance-27.pddl_1",
+        "success": true,
+        "response": "(holding a), (clear b), (on d c), (ontable c), (on b d)",
+        "extracted_answer": "'(holding a), (clear b), (on d c), (ontable c), (on b d)'"
+    },
+    {
+        "task_id": "instance-39.pddl_0",
+        "success": true,
+        "response": "(ontable a), (ontable c), (on b c), (clear a), (clear b), (holding d)",
+        "extracted_answer": "'(ontable a), (ontable c), (on b c), (clear a), (clear b), (holding d)'"
+    },
+    {
+        "task_id": "instance-39.pddl_1",
+        "success": true,
+        "response": "(holding a), (clear d), (ontable c), (on b c), (on d b)",
+        "extracted_answer": "'(holding a), (clear d), (ontable c), (on b c), (on d b)'"
+    },
+    {
+        "task_id": "instance-16.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (on d b), (holding c), (clear a), (clear d)",
+        "extracted_answer": "'(ontable b), (ontable a), (on d b), (holding c), (clear a), (clear d)'"
+    },
+    {
+        "task_id": "instance-16.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on c d), (on d b), (holding a), (clear c)",
+        "extracted_answer": "'(ontable b), (on c d), (on d b), (holding a), (clear c)'"
+    },
+    {
+        "task_id": "instance-9.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on a c), (ontable c), (clear a), (clear b), (holding d)",
+        "extracted_answer": "'(ontable b), (on a c), (ontable c), (clear a), (clear b), (holding d)'"
+    },
+    {
+        "task_id": "instance-9.pddl_1",
+        "success": true,
+        "response": "(ontable b), (clear d), (ontable c), (on d b), (holding a), (clear c)",
+        "extracted_answer": "'(ontable b), (clear d), (ontable c), (on d b), (holding a), (clear c)'"
+    },
+    {
+        "task_id": "instance-35.pddl_0",
+        "success": true,
+        "response": "(holding a), (clear b), (ontable c), (clear c), (on b d), (ontable d)",
+        "extracted_answer": "'(holding a), (clear b), (ontable c), (clear c), (on b d), (ontable d)'"
+    },
+    {
+        "task_id": "instance-35.pddl_1",
+        "success": true,
+        "response": "(on a b), (on b d), (ontable d), (clear a), (holding c)",
+        "extracted_answer": "'(on a b), (on b d), (ontable d), (clear a), (holding c)'"
+    },
+    {
+        "task_id": "instance-33.pddl_0",
+        "success": true,
+        "response": "(on b a), (on a d), (ontable d), (clear b), (holding c)",
+        "extracted_answer": "'(on b a), (on a d), (ontable d), (clear b), (holding c)'"
+    },
+    {
+        "task_id": "instance-32.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on a b), (holding c), (clear d), (clear a), (ontable d)",
+        "extracted_answer": "'(ontable b), (on a b), (holding c), (clear d), (clear a), (ontable d)'"
+    },
+    {
+        "task_id": "instance-32.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on a b), (on c a), (holding d), (clear c)",
+        "extracted_answer": "'(ontable b), (on a b), (on c a), (holding d), (clear c)'"
+    },
+    {
+        "task_id": "instance-48.pddl_0",
+        "success": false,
+        "response": "(ontable a), (clear b), (on b d), (clear a), (holding c), (ontable d)",
+        "extracted_answer": "'(ontable a), (clear b), (on b d), (clear a), (holding c), (ontable d)'"
+    },
+    {
+        "task_id": "instance-48.pddl_1",
+        "success": true,
+        "response": "(ontable a), (on c a), (clear c), (ontable d), (clear d), (holding b)",
+        "extracted_answer": "'(ontable a), (on c a), (clear c), (ontable d), (clear d), (holding b)'"
+    },
+    {
+        "task_id": "instance-15.pddl_0",
+        "success": true,
+        "response": "(ontable b), (on c b), (clear d), (ontable d), (clear c), (holding a)",
+        "extracted_answer": "'(ontable b), (on c b), (clear d), (ontable d), (clear c), (holding a)'"
+    },
+    {
+        "task_id": "instance-15.pddl_1",
+        "success": true,
+        "response": "(ontable b), (on a c), (on c b), (clear a), (holding d)",
+        "extracted_answer": "'(ontable b), (on a c), (on c b), (clear a), (holding d)'"
+    },
+    {
+        "task_id": "instance-41.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (clear d), (clear a), (hand c), (ontable d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (clear d), (clear a), (hand c), (ontable d)'"
+    },
+    {
+        "task_id": "instance-41.pddl_1",
+        "success": true,
+        "response": "(ontable a), (clear a), (on c a), (clear c), (ontable d), (clear d), (holding b)",
+        "extracted_answer": "'(ontable a), (clear a), (on c a), (clear c), (ontable d), (clear d), (holding b)'"
+    },
+    {
+        "task_id": "instance-41.pddl_2",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (clear c), (on c a), (holding d)'"
+    },
+    {
+        "task_id": "instance-28.pddl_0",
+        "success": true,
+        "response": "(ontable b), (ontable a), (clear b), (on c a), (clear c), (holding d)",
+        "extracted_answer": "'(ontable b), (ontable a), (clear b), (on c a), (clear c), (holding d)'"
+    },
+    {
+        "task_id": "instance-28.pddl_1",
+        "success": true,
+        "response": "(ontable a), (on d c), (clear d), (on c a), (holding b)",
+        "extracted_answer": "'(ontable a), (on d c), (clear d), (on c a), (holding b)'"
+    },
+    {
+        "task_id": "instance-14.pddl_0",
+        "success": true,
+        "response": "(hand d), (clear b), (clear c), (ontable a), (on b a), (ontable c)",
+        "extracted_answer": "'(hand d), (clear b), (clear c), (ontable a), (on b a), (ontable c)'"
+    },
+    {
+        "task_id": "instance-14.pddl_1",
+        "success": true,
+        "response": "State after (pick-up c):  \n(on b a), (ontable a), (clear d), (on d b), (holding c)",
+        "extracted_answer": "State after (pick-up c):  \n(on b a), (ontable a), (clear d), (on d b), (holding c)"
+    }
+]

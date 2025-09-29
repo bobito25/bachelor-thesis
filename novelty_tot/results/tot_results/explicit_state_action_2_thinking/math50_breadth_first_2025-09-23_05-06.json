@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": true,
+            "answer": "234",
+            "token_usage": 9663,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "1",
+            "success": true,
+            "answer": "615",
+            "token_usage": 30166,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "4",
+            "token_usage": 18172,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "3",
+            "success": true,
+            "answer": "11",
+            "token_usage": 5182,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "4",
+            "success": true,
+            "answer": "\\boxed{70}",
+            "token_usage": 28470,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "5",
+            "success": true,
+            "answer": "1",
+            "token_usage": 28349,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "6",
+            "success": true,
+            "answer": "$$\n\\boxed{98}\n$$",
+            "token_usage": 60513,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "7",
+            "success": true,
+            "answer": "689",
+            "token_usage": 27583,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "8",
+            "success": true,
+            "answer": "The probability is $ \\frac{7}{16} $.",
+            "token_usage": 7911,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "9",
+            "success": true,
+            "answer": "(1/2, \u221a7/2)",
+            "token_usage": 17198,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "10",
+            "success": true,
+            "answer": "$\\frac{16 \\sqrt{3}}{9}$",
+            "token_usage": 21082,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "$\\boxed{13}$",
+            "token_usage": 10267,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": true,
+            "answer": "1/2",
+            "token_usage": 13640,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "Laura ran at approximately **8.24 mph**.",
+            "token_usage": 14562,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "14",
+            "success": true,
+            "answer": "$\\boxed{-1}$",
+            "token_usage": 5391,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "15",
+            "success": true,
+            "answer": "$\\boxed{919}$",
+            "token_usage": 83192,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "16",
+            "success": true,
+            "answer": "650/51",
+            "token_usage": 21032,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "17",
+            "success": true,
+            "answer": "$$\n\\cos \\theta = \\frac{19}{21}\n$$",
+            "token_usage": 12704,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": true,
+            "answer": "$ z = -i $",
+            "token_usage": 3869,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "19",
+            "success": true,
+            "answer": "1",
+            "token_usage": 45933,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "20",
+            "success": true,
+            "answer": "1 + \u221a3",
+            "token_usage": 22226,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "21",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{1}{2}}$",
+            "token_usage": 12785,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "22",
+            "success": true,
+            "answer": "$$\n\\boxed{-50}\n$$",
+            "token_usage": 43028,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "23",
+            "success": true,
+            "answer": "6",
+            "token_usage": 13401,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": true,
+            "answer": "90",
+            "token_usage": 4432,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "25",
+            "success": true,
+            "answer": "22",
+            "token_usage": 36803,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": true,
+            "answer": "225",
+            "token_usage": 52936,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "27",
+            "success": true,
+            "answer": "6",
+            "token_usage": 6805,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "28",
+            "success": true,
+            "answer": "(-\u221e, -1) \u222a (4, \u221e)",
+            "token_usage": 7231,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "29",
+            "success": false,
+            "answer": "100",
+            "token_usage": 22549,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "30",
+            "success": true,
+            "answer": "$\\boxed{1016}$",
+            "token_usage": 9141,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "31",
+            "success": true,
+            "answer": "318",
+            "token_usage": 28147,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "32",
+            "success": true,
+            "answer": "D",
+            "token_usage": 7746,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "35",
+            "token_usage": 5601,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "-3",
+            "token_usage": 4022,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": true,
+            "answer": "182",
+            "token_usage": 13602,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "36",
+            "success": true,
+            "answer": "89,88,85,73,70",
+            "token_usage": 8788,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "37",
+            "success": true,
+            "answer": "$$\n\\boxed{3 + 6\\sqrt{2}}\n$$",
+            "token_usage": 22469,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "38",
+            "success": true,
+            "answer": "To solve the given geometry problem, we analyze the circle with center $ O $ and radius $ 25 $, and two intersecting chords $ \\overline{AB} $ and $ \\overline{CD} $ of lengths $ 30 $ and $ 14 $, respectively. These chords intersect at point $ P $, and the distance between their midpoints is given as $ 12 $. The goal is to compute $ OP^2 $, express it as a reduced fraction $ \\frac{m}{n} $, and then find $ m + n \\mod 1000 $.\n\n---\n\n### Step 1: Use the Perpendicular Distance from the Center to the Chord\n\nFor a chord of length $ 2a $ in a circle of radius $ r $, the perpendicular distance $ d $ from the center to the chord satisfies:\n\n$$\nd^2 + a^2 = r^2\n$$\n\n- For chord $ AB $ (length $ 30 $, so $ a = 15 $):\n  $$\n  d^2 + 15^2 = 25^2 \\Rightarrow d^2 = 625 - 225 = 400 \\Rightarrow d = 20\n  $$\n- For chord $ CD $ (length $ 14 $, so $ a = 7 $):\n  $$\n  d^2 + 7^2 = 25^2 \\Rightarrow d^2 = 625 - 49 = 576 \\Rightarrow d = 24\n  $$\n\nThus, the midpoints $ M $ and $ N $ of chords $ AB $ and $ CD $ are at distances $ 20 $ and $ 24 $ from the center $ O $, respectively.\n\n---\n\n### Step 2: Use Coordinates to Determine the Position of $ P $\n\nPlace the center $ O $ at the origin $ (0,0) $. Assume $ AB $ is horizontal with midpoint $ M $ at $ (0, -20) $, and $ CD $ is a chord with midpoint $ N $ at $ \\left( \\pm \\frac{16\\sqrt{14}}{5}, -\\frac{104}{5} \\right) $, since the distance between $ M $ and $ N $ is given as $ 12 $, and the coordinates satisfy this condition.\n\nUsing the equation of the line $ CD $ and solving for the intersection with line $ AB $ (which is horizontal at $ y = -20 $), we find the coordinates of point $ P $ as:\n\n$$\nP = \\left( \\pm \\frac{25\\sqrt{14}}{7}, -20 \\right)\n$$\n\n---\n\n### Step 3: Compute $ OP^2 $\n\nUsing the coordinates of $ P $, we compute:\n\n$$\nOP^2 = \\left( \\frac{25\\sqrt{14}}{7} \\right)^2 + (-20)^2 = \\frac{625 \\cdot 14}{49} + 400 = \\frac{8750}{49} + \\frac{19600}{49} = \\frac{28350}{49}\n$$\n\nSimplify the fraction:\n\n$$\n\\frac{28350}{49} = \\frac{4050}{7}\n$$\n\nHere, $ m = 4050 $ and $ n = 7 $, and since $ \\gcd(4050, 7) = 1 $, the fraction is in lowest terms.\n\n---\n\n### Step 4: Compute $ m + n \\mod 1000 $\n\n$$\nm + n = 4050 + 7 = 4057\n$$\n$$\n4057 \\mod 1000 = 57\n$$\n\n---\n\n### Final Answer\n\n$$\n\\boxed{57}\n$$",
+            "token_usage": 39211,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "39",
+            "success": true,
+            "answer": "230769",
+            "token_usage": 6315,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": true,
+            "answer": "The problem involves finding the ratio of the volume of a smaller tetrahedron formed by connecting the centroids of the faces of a regular tetrahedron to the volume of the original tetrahedron.\n\n---\n\n### Key Observations:\n\n- A **regular tetrahedron** has four equilateral triangular faces.\n- The **centroid of a triangular face** is located at the average of the coordinates of its three vertices.\n- The **smaller tetrahedron** formed by the centroids of the four faces is **similar** to the original tetrahedron.\n- The **volume ratio** of two similar solids is the **cube of the ratio of their corresponding linear dimensions**.\n\n---\n\n### Step-by-Step Calculation:\n\nLet the edge length of the original tetrahedron be $ a $. Then the edge length of the smaller tetrahedron is found to be $ \\frac{a}{3} $, based on the relative positions of the centroids (verified using coordinate geometry).\n\nThus, the **volume ratio** is:\n\n$$\n\\left( \\frac{1}{3} \\right)^3 = \\frac{1}{27}\n$$\n\n---\n\n### Final Result:\n\nThe volume ratio is $ \\frac{1}{27} $, where $ m = 1 $ and $ n = 27 $, and they are relatively prime.\n\n$$\nm + n = 1 + 27 = \\boxed{28}\n$$",
+            "token_usage": 40569,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "41",
+            "success": false,
+            "answer": "$\\boxed{\\dfrac{14269}{20}}$",
+            "token_usage": 25022,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "42",
+            "success": true,
+            "answer": "21",
+            "token_usage": 66694,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "43",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 64075,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "44",
+            "success": true,
+            "answer": "3",
+            "token_usage": 12197,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": true,
+            "answer": "54",
+            "token_usage": 39130,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "46",
+            "success": true,
+            "answer": "46",
+            "token_usage": 5681,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": true,
+            "answer": "\\boxed{5.29}",
+            "token_usage": 5271,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "48",
+            "success": true,
+            "answer": "$$\n\\begin{pmatrix}\n\\frac{1}{3} & -\\frac{2}{3} & \\frac{2}{3} \\\\\n-\\frac{2}{3} & \\frac{1}{3} & \\frac{2}{3} \\\\\n\\frac{2}{3} & \\frac{2}{3} & \\frac{1}{3}\n\\end{pmatrix}\n$$",
+            "token_usage": 11088,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": true,
+            "answer": "The expected number of cards strictly between the two jokers is $ \\boxed{\\dfrac{52}{3}} $.",
+            "token_usage": 16791,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 47,
+        "failed_tasks": 3,
+        "total_token_usage": 1118635,
+        "total_num_times_pruned": 0,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 23,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "1:17:43.225146"
+}

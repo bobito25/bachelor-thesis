@@ -1,0 +1,302 @@
+[
+    {
+        "task_id": "instance-56.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-30.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-64.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-86.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-13.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-42.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-36.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-8.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-4.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-75.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-79.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-39.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-16.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-89.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-78.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-52.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-55.pddl",
+        "success": false,
+        "response": "-1",
+        "extracted_answer": -1
+    },
+    {
+        "task_id": "instance-14.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-31.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-98.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-24.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-18.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-37.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-87.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-28.pddl",
+        "success": false,
+        "response": "6",
+        "extracted_answer": 6
+    },
+    {
+        "task_id": "instance-25.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-7.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-23.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-51.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-59.pddl",
+        "success": true,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-34.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-46.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-77.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-84.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-1.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-26.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-93.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-85.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-44.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-43.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-40.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-3.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-94.pddl",
+        "success": false,
+        "response": "1",
+        "extracted_answer": 1
+    },
+    {
+        "task_id": "instance-29.pddl",
+        "success": false,
+        "response": "5",
+        "extracted_answer": 5
+    },
+    {
+        "task_id": "instance-22.pddl",
+        "success": false,
+        "response": "5",
+        "extracted_answer": 5
+    },
+    {
+        "task_id": "instance-11.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-65.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-72.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-67.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    },
+    {
+        "task_id": "instance-5.pddl",
+        "success": false,
+        "response": "2",
+        "extracted_answer": 2
+    }
+]

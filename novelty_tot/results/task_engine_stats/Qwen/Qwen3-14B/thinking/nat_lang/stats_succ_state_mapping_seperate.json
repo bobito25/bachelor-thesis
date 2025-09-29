@@ -1,0 +1,8 @@
+{
+    "total_token_usage": 768205,
+    "num_early_stops": 0,
+    "num_max_context_exceeded": 0,
+    "num_max_retries_exceeded": 0,
+    "num_retries": 0,
+    "num_truncated_queries": 0
+}

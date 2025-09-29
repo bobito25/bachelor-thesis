@@ -1,0 +1,368 @@
+{
+    "results": [
+        {
+            "task_id": "0",
+            "success": true,
+            "answer": "37",
+            "token_usage": 27641,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "1",
+            "success": true,
+            "answer": "202",
+            "token_usage": 44019,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "2",
+            "success": true,
+            "answer": "Saturday",
+            "token_usage": 5107,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "3",
+            "success": true,
+            "answer": "-49",
+            "token_usage": 10370,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "4",
+            "success": true,
+            "answer": "$\\sqrt{70}$",
+            "token_usage": 7005,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "5",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 2405,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "6",
+            "success": true,
+            "answer": "363",
+            "token_usage": 5201,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "7",
+            "success": true,
+            "answer": "1/6",
+            "token_usage": 3519,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "8",
+            "success": true,
+            "answer": "$\\frac{189\\sqrt{3}}{2}$",
+            "token_usage": 35131,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "9",
+            "success": true,
+            "answer": "20",
+            "token_usage": 3023,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "10",
+            "success": true,
+            "answer": "9",
+            "token_usage": 3756,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "11",
+            "success": true,
+            "answer": "140",
+            "token_usage": 6842,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "12",
+            "success": true,
+            "answer": "2600",
+            "token_usage": 14512,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "13",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{7}{11}}$",
+            "token_usage": 3090,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "14",
+            "success": true,
+            "answer": "494",
+            "token_usage": 60751,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "15",
+            "success": true,
+            "answer": "200",
+            "token_usage": 2878,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "16",
+            "success": true,
+            "answer": "$-\\frac{33}{65}$",
+            "token_usage": 5189,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "17",
+            "success": true,
+            "answer": "39",
+            "token_usage": 6176,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "18",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{164}{1221}}$",
+            "token_usage": 22056,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "19",
+            "success": true,
+            "answer": "2",
+            "token_usage": 16285,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "20",
+            "success": true,
+            "answer": "\\boxed{2\\sqrt{5}}",
+            "token_usage": 10664,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "21",
+            "success": true,
+            "answer": "95040",
+            "token_usage": 8652,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "22",
+            "success": true,
+            "answer": "675",
+            "token_usage": 11158,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "23",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{25}{3}}$",
+            "token_usage": 10368,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "24",
+            "success": true,
+            "answer": "\\boxed{30}",
+            "token_usage": 3344,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "25",
+            "success": true,
+            "answer": "9025",
+            "token_usage": 7297,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "26",
+            "success": true,
+            "answer": "53",
+            "token_usage": 7113,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "27",
+            "success": true,
+            "answer": "118",
+            "token_usage": 8131,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "28",
+            "success": true,
+            "answer": "$\\frac{25}{8}$",
+            "token_usage": 3573,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "29",
+            "success": true,
+            "answer": "$\\sqrt{2}$",
+            "token_usage": 7386,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "30",
+            "success": false,
+            "answer": "No answer found.",
+            "token_usage": 6124,
+            "num_times_pruned": 3
+        },
+        {
+            "task_id": "31",
+            "success": true,
+            "answer": "48/95",
+            "token_usage": 9982,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "32",
+            "success": true,
+            "answer": "5 hours.",
+            "token_usage": 2888,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "33",
+            "success": true,
+            "answer": "4",
+            "token_usage": 23477,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "34",
+            "success": true,
+            "answer": "150 degrees.",
+            "token_usage": 5371,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "35",
+            "success": true,
+            "answer": "$\\boxed{\\dfrac{1120}{81}}$",
+            "token_usage": 11239,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "36",
+            "success": true,
+            "answer": "10\u221a3",
+            "token_usage": 12799,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "37",
+            "success": true,
+            "answer": "13",
+            "token_usage": 60241,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "38",
+            "success": true,
+            "answer": "x + 1",
+            "token_usage": 9958,
+            "num_times_pruned": 1
+        },
+        {
+            "task_id": "39",
+            "success": true,
+            "answer": "$ (-\\infty, -8) \\cup (-8, -2) \\cup (-2, \\infty) $",
+            "token_usage": 4445,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "40",
+            "success": true,
+            "answer": "$\\frac{144}{625}$",
+            "token_usage": 9137,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "41",
+            "success": true,
+            "answer": "12",
+            "token_usage": 5264,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "42",
+            "success": true,
+            "answer": "7",
+            "token_usage": 5819,
+            "num_times_pruned": 2
+        },
+        {
+            "task_id": "43",
+            "success": true,
+            "answer": "15",
+            "token_usage": 3629,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "44",
+            "success": true,
+            "answer": "$\\frac{14}{13}$",
+            "token_usage": 6173,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "45",
+            "success": true,
+            "answer": "$\\frac{1}{4}$",
+            "token_usage": 5279,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "46",
+            "success": true,
+            "answer": "-17",
+            "token_usage": 3798,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "47",
+            "success": true,
+            "answer": "$ z = -1 - i $",
+            "token_usage": 7584,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "48",
+            "success": true,
+            "answer": "14",
+            "token_usage": 3948,
+            "num_times_pruned": 0
+        },
+        {
+            "task_id": "49",
+            "success": true,
+            "answer": "64",
+            "token_usage": 6331,
+            "num_times_pruned": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 48,
+        "failed_tasks": 2,
+        "total_token_usage": 566128,
+        "total_num_times_pruned": 31,
+        "num_early_stops": 0,
+        "num_max_context_exceeded": 0,
+        "num_max_retries_exceeded": 0,
+        "num_retries": 0,
+        "num_truncated_queries": 0,
+        "num_shortened_prompts": 0
+    },
+    "duration": "0:41:32.615834"
+}

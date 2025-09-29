@@ -1,0 +1,311 @@
+{
+    "results": [
+        {
+            "task_id": "instance-34.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-30.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-28.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-19.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-15.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-24.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-6.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-46.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-20.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-11.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-38.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-2.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-42.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-14.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-25.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-47.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-7.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-21.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-10.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-39.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-43.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-3.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-35.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-31.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-29.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-18.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-16.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-27.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-5.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-45.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-23.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-12.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-1.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-41.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-37.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-33.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-49.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-9.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-36.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-32.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-8.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-48.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-50.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-17.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-26.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-44.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-4.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-22.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-13.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        },
+        {
+            "task_id": "instance-40.pddl",
+            "success": false,
+            "answer": "Error occurred: Request timed out.",
+            "token_usage": 0
+        }
+    ],
+    "summary": {
+        "total_tasks": 50,
+        "successful_tasks": 0,
+        "failed_tasks": 50,
+        "total_token_usage": 0
+    },
+    "duration": "1:16:53.000478"
+}
