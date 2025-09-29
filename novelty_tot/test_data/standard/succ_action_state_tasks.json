@@ -1,0 +1,724 @@
+[
+  {
+    "id": "instance-34.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (clear d), (on c a), (handempty), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(pick-up b)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable b), (holding c), (ontable a), (clear b), (clear d), (clear a), (ontable d)",
+      "(pick-up b)": "(ontable a), (clear d), (on c a), (holding b), (clear c), (ontable d)",
+      "(pick-up d)": "(ontable b), (ontable a), (clear b), (on c a), (holding d), (clear c)"
+    },
+    "optimal_action": "(unstack c a)",
+    "goal_atoms": "(on b a)"
+  },
+  {
+    "id": "instance-46.pddl",
+    "query_state": "(on b a), (on c d), (ontable a), (clear b), (handempty), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack b a)",
+      "(unstack c d)"
+    ],
+    "corr_succ_states": {
+      "(unstack b a)": "(ontable a), (holding b), (ontable d), (on c d), (clear a), (clear c)",
+      "(unstack c d)": "(on b a), (ontable a), (clear d), (ontable d), (holding c), (clear b)"
+    },
+    "optimal_action": "(unstack c d)",
+    "goal_atoms": "(on d b)"
+  },
+  {
+    "id": "instance-30.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (clear d), (on c a), (handempty), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(pick-up b)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable b), (holding c), (ontable a), (clear b), (clear d), (clear a), (ontable d)",
+      "(pick-up b)": "(ontable a), (clear d), (on c a), (holding b), (clear c), (ontable d)",
+      "(pick-up d)": "(ontable b), (ontable a), (clear b), (on c a), (holding d), (clear c)"
+    },
+    "optimal_action": "(pick-up d)",
+    "goal_atoms": "(on d c)"
+  },
+  {
+    "id": "instance-1.pddl",
+    "query_state": "(ontable b), (on d c), (on a b), (ontable c), (handempty), (clear d), (clear a)",
+    "poss_next_actions": [
+      "(unstack a b)",
+      "(unstack d c)"
+    ],
+    "corr_succ_states": {
+      "(unstack a b)": "(ontable b), (on d c), (clear d), (ontable c), (holding a), (clear b)",
+      "(unstack d c)": "(ontable b), (ontable c), (on a b), (clear a), (holding d), (clear c)"
+    },
+    "optimal_action": "(unstack d c)",
+    "goal_atoms": "(on b d) and (on a c)"
+  },
+  {
+    "id": "instance-26.pddl",
+    "query_state": "(ontable b), (clear b), (on d c), (ontable c), (handempty), (clear a), (on a d)",
+    "poss_next_actions": [
+      "(unstack a d)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack a d)": "(ontable b), (on d c), (clear d), (ontable c), (holding a), (clear b)",
+      "(pick-up b)": "(clear a), (holding b), (on a d), (on d c), (ontable c)"
+    },
+    "optimal_action": "(unstack a d)",
+    "goal_atoms": "(on a b) and (on b d) and (on d c)"
+  },
+  {
+    "id": "instance-44.pddl",
+    "query_state": "(ontable a), (clear b), (clear d), (ontable c), (handempty), (clear a), (on b c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack b c)",
+      "(pick-up a)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack b c)": "(ontable a), (clear d), (ontable c), (clear a), (holding b), (clear c), (ontable d)",
+      "(pick-up a)": "(clear b), (clear d), (ontable c), (holding a), (on b c), (ontable d)",
+      "(pick-up d)": "(ontable a), (clear b), (ontable c), (clear a), (holding d), (on b c)"
+    },
+    "optimal_action": "(pick-up d)",
+    "goal_atoms": "(on d b) and (on a d)"
+  },
+  {
+    "id": "instance-43.pddl",
+    "query_state": "(on c d), (on a b), (handempty), (clear a), (ontable d), (on b c)",
+    "poss_next_actions": [
+      "(unstack a b)"
+    ],
+    "corr_succ_states": {
+      "(unstack a b)": "(on c d), (holding a), (on b c), (clear b), (ontable d)"
+    },
+    "optimal_action": "(unstack a b)",
+    "goal_atoms": "(on c d) and (on b a)"
+  },
+  {
+    "id": "instance-13.pddl",
+    "query_state": "(ontable a), (on c b), (handempty), (clear a), (on b d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c b)",
+      "(pick-up a)"
+    ],
+    "corr_succ_states": {
+      "(unstack c b)": "(ontable a), (on b d), (ontable d), (holding c), (clear b), (clear a)",
+      "(pick-up a)": "(holding a), (on b d), (clear c), (on c b), (ontable d)"
+    },
+    "optimal_action": "(unstack c b)",
+    "goal_atoms": "(on a b) and (on c a)"
+  },
+  {
+    "id": "instance-42.pddl",
+    "query_state": "(ontable b), (on a c), (on c d), (clear b), (handempty), (clear a), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a c)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack a c)": "(ontable b), (holding a), (ontable d), (on c d), (clear b), (clear c)",
+      "(pick-up b)": "(on a c), (clear a), (holding b), (on c d), (ontable d)"
+    },
+    "optimal_action": "(unstack a c)",
+    "goal_atoms": "(on c b) and (on d c)"
+  },
+  {
+    "id": "instance-36.pddl",
+    "query_state": "(ontable b), (ontable a), (on c b), (on d c), (clear d), (handempty), (clear a)",
+    "poss_next_actions": [
+      "(unstack d c)",
+      "(pick-up a)"
+    ],
+    "corr_succ_states": {
+      "(unstack d c)": "(ontable b), (ontable a), (on c b), (clear a), (holding d), (clear c)",
+      "(pick-up a)": "(ontable b), (holding a), (on c b), (on d c), (clear d)"
+    },
+    "optimal_action": "(unstack d c)",
+    "goal_atoms": "(on a d) and (on c a)"
+  },
+  {
+    "id": "instance-49.pddl",
+    "query_state": "(on c d), (ontable a), (clear b), (handempty), (clear a), (on b c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack b c)",
+      "(pick-up a)"
+    ],
+    "corr_succ_states": {
+      "(unstack b c)": "(ontable a), (holding b), (ontable d), (on c d), (clear a), (clear c)",
+      "(pick-up a)": "(on c d), (holding a), (clear b), (on b c), (ontable d)"
+    },
+    "optimal_action": "(unstack b c)",
+    "goal_atoms": "(on d a)"
+  },
+  {
+    "id": "instance-40.pddl",
+    "query_state": "(ontable a), (on d a), (clear b), (ontable c), (handempty), (on b d), (clear c)",
+    "poss_next_actions": [
+      "(unstack b d)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack b d)": "(ontable a), (clear d), (ontable c), (holding b), (on d a), (clear c)",
+      "(pick-up c)": "(holding c), (ontable a), (on b d), (on d a), (clear b)"
+    },
+    "optimal_action": "(unstack b d)",
+    "goal_atoms": "(on c a)"
+  },
+  {
+    "id": "instance-3.pddl",
+    "query_state": "(on b a), (ontable a), (clear d), (ontable c), (handempty), (clear c), (on d b)",
+    "poss_next_actions": [
+      "(unstack d b)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack d b)": "(on b a), (ontable a), (ontable c), (clear b), (holding d), (clear c)",
+      "(pick-up c)": "(on b a), (on d b), (holding c), (ontable a), (clear d)"
+    },
+    "optimal_action": "(unstack d b)",
+    "goal_atoms": "(on d a)"
+  },
+  {
+    "id": "instance-29.pddl",
+    "query_state": "(ontable b), (clear b), (on d c), (ontable c), (handempty), (clear a), (on a d)",
+    "poss_next_actions": [
+      "(unstack a d)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack a d)": "(ontable b), (on d c), (clear d), (ontable c), (holding a), (clear b)",
+      "(pick-up b)": "(clear a), (holding b), (on a d), (on d c), (ontable c)"
+    },
+    "optimal_action": "(unstack a d)",
+    "goal_atoms": "(on a b) and (on c d) and (on d a)"
+  },
+  {
+    "id": "instance-2.pddl",
+    "query_state": "(ontable b), (on d a), (on a b), (ontable c), (handempty), (clear d), (clear c)",
+    "poss_next_actions": [
+      "(unstack d a)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack d a)": "(ontable b), (ontable c), (on a b), (holding d), (clear a), (clear c)",
+      "(pick-up c)": "(ontable b), (holding c), (clear d), (on d a), (on a b)"
+    },
+    "optimal_action": "(unstack d a)",
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-22.pddl",
+    "query_state": "(on a c), (clear b), (ontable c), (handempty), (clear a), (on b d), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a c)",
+      "(unstack b d)"
+    ],
+    "corr_succ_states": {
+      "(unstack a c)": "(ontable c), (on b d), (holding a), (ontable d), (clear b), (clear c)",
+      "(unstack b d)": "(clear d), (ontable c), (holding b), (ontable d), (on a c), (clear a)"
+    },
+    "optimal_action": "(unstack a c)",
+    "goal_atoms": "(on b a) and (on c b)"
+  },
+  {
+    "id": "instance-31.pddl",
+    "query_state": "(ontable b), (on d a), (on a b), (ontable c), (handempty), (clear d), (clear c)",
+    "poss_next_actions": [
+      "(unstack d a)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack d a)": "(ontable b), (ontable c), (on a b), (holding d), (clear a), (clear c)",
+      "(pick-up c)": "(ontable b), (holding c), (clear d), (on d a), (on a b)"
+    },
+    "optimal_action": "(unstack d a)",
+    "goal_atoms": "(on d b) and (on a c)"
+  },
+  {
+    "id": "instance-11.pddl",
+    "query_state": "(ontable a), (clear b), (ontable c), (handempty), (clear a), (on b d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack b d)",
+      "(pick-up a)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack b d)": "(ontable a), (clear d), (ontable c), (clear a), (holding b), (clear c), (ontable d)",
+      "(pick-up a)": "(holding a), (clear b), (ontable c), (on b d), (clear c), (ontable d)",
+      "(pick-up c)": "(holding c), (ontable a), (clear b), (clear a), (on b d), (ontable d)"
+    },
+    "optimal_action": "(pick-up a)",
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-50.pddl",
+    "query_state": "(ontable a), (on d a), (clear b), (clear d), (ontable c), (handempty), (on b c)",
+    "poss_next_actions": [
+      "(unstack b c)",
+      "(unstack d a)"
+    ],
+    "corr_succ_states": {
+      "(unstack b c)": "(ontable a), (clear d), (ontable c), (holding b), (on d a), (clear c)",
+      "(unstack d a)": "(ontable a), (ontable c), (on b c), (clear b), (holding d), (clear a)"
+    },
+    "optimal_action": "(unstack b c)",
+    "goal_atoms": "(on d b) and (on a c)"
+  },
+  {
+    "id": "instance-8.pddl",
+    "query_state": "(ontable b), (ontable a), (on d a), (on c b), (clear d), (handempty), (clear c)",
+    "poss_next_actions": [
+      "(unstack c b)",
+      "(unstack d a)"
+    ],
+    "corr_succ_states": {
+      "(unstack c b)": "(ontable b), (ontable a), (clear d), (holding c), (on d a), (clear b)",
+      "(unstack d a)": "(ontable b), (ontable a), (on c b), (holding d), (clear a), (clear c)"
+    },
+    "optimal_action": "(unstack d a)",
+    "goal_atoms": "(on c d) and (on b a)"
+  },
+  {
+    "id": "instance-12.pddl",
+    "query_state": "(on b a), (on c b), (handempty), (on a d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c b)"
+    ],
+    "corr_succ_states": {
+      "(unstack c b)": "(on b a), (holding c), (on a d), (clear b), (ontable d)"
+    },
+    "optimal_action": "(unstack c b)",
+    "goal_atoms": "(on a c)"
+  },
+  {
+    "id": "instance-5.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (clear d), (ontable c), (handempty), (clear a), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(pick-up a)",
+      "(pick-up b)",
+      "(pick-up c)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(pick-up a)": "(ontable b), (holding a), (clear b), (clear d), (ontable c), (clear c), (ontable d)",
+      "(pick-up b)": "(ontable a), (clear d), (ontable c), (clear a), (holding b), (clear c), (ontable d)",
+      "(pick-up c)": "(ontable b), (holding c), (ontable a), (clear b), (clear d), (clear a), (ontable d)",
+      "(pick-up d)": "(ontable b), (ontable a), (clear b), (ontable c), (clear a), (holding d), (clear c)"
+    },
+    "optimal_action": "(pick-up c)",
+    "goal_atoms": "(on c b)"
+  },
+  {
+    "id": "instance-21.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (on d c), (clear d), (ontable c), (handempty), (clear a)",
+    "poss_next_actions": [
+      "(unstack d c)",
+      "(pick-up a)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack d c)": "(ontable b), (ontable a), (clear b), (ontable c), (clear a), (holding d), (clear c)",
+      "(pick-up a)": "(ontable b), (clear b), (on d c), (clear d), (ontable c), (holding a)",
+      "(pick-up b)": "(ontable a), (on d c), (clear d), (ontable c), (clear a), (holding b)"
+    },
+    "optimal_action": "(unstack d c)",
+    "goal_atoms": "(on a d) and (on c b)"
+  },
+  {
+    "id": "instance-4.pddl",
+    "query_state": "(ontable a), (clear b), (on c a), (handempty), (on b d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(unstack b d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable a), (on b d), (ontable d), (holding c), (clear b), (clear a)",
+      "(unstack b d)": "(ontable a), (clear d), (on c a), (holding b), (ontable d), (clear c)"
+    },
+    "optimal_action": "(unstack b d)",
+    "goal_atoms": "(on c d)"
+  },
+  {
+    "id": "instance-25.pddl",
+    "query_state": "(on a c), (clear b), (ontable c), (handempty), (clear a), (on b d), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a c)",
+      "(unstack b d)"
+    ],
+    "corr_succ_states": {
+      "(unstack a c)": "(ontable c), (on b d), (holding a), (ontable d), (clear b), (clear c)",
+      "(unstack b d)": "(clear d), (ontable c), (holding b), (ontable d), (on a c), (clear a)"
+    },
+    "optimal_action": "(unstack a c)",
+    "goal_atoms": "(on b c)"
+  },
+  {
+    "id": "instance-7.pddl",
+    "query_state": "(ontable b), (clear b), (ontable c), (handempty), (clear a), (on a d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a d)",
+      "(pick-up b)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack a d)": "(ontable b), (holding a), (clear b), (clear d), (ontable c), (clear c), (ontable d)",
+      "(pick-up b)": "(ontable c), (clear a), (holding b), (on a d), (clear c), (ontable d)",
+      "(pick-up c)": "(ontable b), (holding c), (clear b), (clear a), (on a d), (ontable d)"
+    },
+    "optimal_action": "(pick-up b)",
+    "goal_atoms": "(on a d) and (on b a)"
+  },
+  {
+    "id": "instance-24.pddl",
+    "query_state": "(ontable b), (on c d), (ontable a), (clear b), (handempty), (clear a), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c d)",
+      "(pick-up a)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack c d)": "(ontable b), (holding c), (ontable a), (clear b), (clear d), (clear a), (ontable d)",
+      "(pick-up a)": "(ontable b), (on c d), (holding a), (clear b), (clear c), (ontable d)",
+      "(pick-up b)": "(on c d), (ontable a), (clear a), (holding b), (clear c), (ontable d)"
+    },
+    "optimal_action": "(pick-up b)",
+    "goal_atoms": "(on b c) and (on c d)"
+  },
+  {
+    "id": "instance-45.pddl",
+    "query_state": "(ontable b), (ontable a), (clear d), (ontable c), (handempty), (clear a), (clear c), (on d b)",
+    "poss_next_actions": [
+      "(unstack d b)",
+      "(pick-up a)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack d b)": "(ontable b), (ontable a), (clear b), (ontable c), (clear a), (holding d), (clear c)",
+      "(pick-up a)": "(ontable b), (holding a), (clear d), (ontable c), (clear c), (on d b)",
+      "(pick-up c)": "(ontable b), (holding c), (ontable a), (clear d), (clear a), (on d b)"
+    },
+    "optimal_action": "(unstack d b)",
+    "goal_atoms": "(on d b) and (on b a)"
+  },
+  {
+    "id": "instance-20.pddl",
+    "query_state": "(ontable b), (on d a), (on a b), (ontable c), (handempty), (clear d), (clear c)",
+    "poss_next_actions": [
+      "(unstack d a)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack d a)": "(ontable b), (ontable c), (on a b), (holding d), (clear a), (clear c)",
+      "(pick-up c)": "(ontable b), (holding c), (clear d), (on d a), (on a b)"
+    },
+    "optimal_action": "(unstack d a)",
+    "goal_atoms": "(on b a)"
+  },
+  {
+    "id": "instance-19.pddl",
+    "query_state": "(ontable b), (on a c), (on d a), (clear b), (clear d), (ontable c), (handempty)",
+    "poss_next_actions": [
+      "(unstack d a)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack d a)": "(ontable b), (ontable c), (on a c), (clear b), (holding d), (clear a)",
+      "(pick-up b)": "(on a c), (holding b), (on d a), (clear d), (ontable c)"
+    },
+    "optimal_action": "(unstack d a)",
+    "goal_atoms": "(on d b) and (on c a)"
+  },
+  {
+    "id": "instance-23.pddl",
+    "query_state": "(on a c), (clear b), (ontable c), (handempty), (clear a), (on b d), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a c)",
+      "(unstack b d)"
+    ],
+    "corr_succ_states": {
+      "(unstack a c)": "(ontable c), (on b d), (holding a), (ontable d), (clear b), (clear c)",
+      "(unstack b d)": "(clear d), (ontable c), (holding b), (ontable d), (on a c), (clear a)"
+    },
+    "optimal_action": "(unstack b d)",
+    "goal_atoms": "(on a b) and (on c d)"
+  },
+  {
+    "id": "instance-18.pddl",
+    "query_state": "(ontable b), (ontable c), (handempty), (clear a), (on a d), (clear c), (on d b)",
+    "poss_next_actions": [
+      "(unstack a d)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack a d)": "(ontable b), (clear d), (ontable c), (holding a), (clear c), (on d b)",
+      "(pick-up c)": "(ontable b), (clear a), (holding c), (on a d), (on d b)"
+    },
+    "optimal_action": "(unstack a d)",
+    "goal_atoms": "(on b d) and (on d a)"
+  },
+  {
+    "id": "instance-38.pddl",
+    "query_state": "(ontable b), (on a c), (clear b), (clear d), (ontable c), (handempty), (clear a), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a c)",
+      "(pick-up b)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack a c)": "(ontable b), (clear b), (clear d), (ontable c), (clear c), (holding a), (ontable d)",
+      "(pick-up b)": "(on a c), (clear d), (ontable c), (clear a), (holding b), (ontable d)",
+      "(pick-up d)": "(ontable b), (on a c), (clear b), (ontable c), (clear a), (holding d)"
+    },
+    "optimal_action": "(unstack a c)",
+    "goal_atoms": "(on c b) and (on d c)"
+  },
+  {
+    "id": "instance-6.pddl",
+    "query_state": "(ontable b), (ontable a), (on c b), (on d c), (clear d), (handempty), (clear a)",
+    "poss_next_actions": [
+      "(unstack d c)",
+      "(pick-up a)"
+    ],
+    "corr_succ_states": {
+      "(unstack d c)": "(ontable b), (ontable a), (on c b), (clear a), (holding d), (clear c)",
+      "(pick-up a)": "(ontable b), (holding a), (on c b), (on d c), (clear d)"
+    },
+    "optimal_action": "(unstack d c)",
+    "goal_atoms": "(on a d) and (on c a)"
+  },
+  {
+    "id": "instance-47.pddl",
+    "query_state": "(ontable a), (clear b), (on c a), (handempty), (on b d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(unstack b d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable a), (on b d), (ontable d), (holding c), (clear b), (clear a)",
+      "(unstack b d)": "(ontable a), (clear d), (on c a), (holding b), (ontable d), (clear c)"
+    },
+    "optimal_action": "(unstack c a)",
+    "goal_atoms": "(on a c)"
+  },
+  {
+    "id": "instance-17.pddl",
+    "query_state": "(ontable b), (on a b), (ontable c), (handempty), (clear d), (clear a), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a b)",
+      "(pick-up c)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack a b)": "(ontable b), (holding a), (clear b), (ontable c), (clear d), (clear c), (ontable d)",
+      "(pick-up c)": "(ontable b), (holding c), (on a b), (clear d), (clear a), (ontable d)",
+      "(pick-up d)": "(ontable b), (on a b), (ontable c), (clear a), (holding d), (clear c)"
+    },
+    "optimal_action": "(unstack a b)",
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-37.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (on d c), (clear d), (on c a), (handempty)",
+    "poss_next_actions": [
+      "(unstack d c)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack d c)": "(ontable b), (ontable a), (on c a), (clear b), (holding d), (clear c)",
+      "(pick-up b)": "(holding b), (ontable a), (on d c), (clear d), (on c a)"
+    },
+    "optimal_action": "(unstack d c)",
+    "goal_atoms": "(on b c) and (on c a)"
+  },
+  {
+    "id": "instance-10.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (clear d), (on c a), (handempty), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(pick-up b)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable b), (holding c), (ontable a), (clear b), (clear d), (clear a), (ontable d)",
+      "(pick-up b)": "(ontable a), (clear d), (on c a), (holding b), (clear c), (ontable d)",
+      "(pick-up d)": "(ontable b), (ontable a), (clear b), (on c a), (holding d), (clear c)"
+    },
+    "optimal_action": "(unstack c a)",
+    "goal_atoms": "(on a b)"
+  },
+  {
+    "id": "instance-27.pddl",
+    "query_state": "(ontable a), (clear b), (on d c), (ontable c), (handempty), (clear a), (on b d)",
+    "poss_next_actions": [
+      "(unstack b d)",
+      "(pick-up a)"
+    ],
+    "corr_succ_states": {
+      "(unstack b d)": "(ontable a), (on d c), (clear d), (ontable c), (holding b), (clear a)",
+      "(pick-up a)": "(on b d), (holding a), (clear b), (on d c), (ontable c)"
+    },
+    "optimal_action": "(unstack b d)",
+    "goal_atoms": "(on c d) and (on d b) and (on b a)"
+  },
+  {
+    "id": "instance-39.pddl",
+    "query_state": "(ontable a), (clear d), (ontable c), (handempty), (clear a), (on b c), (on d b)",
+    "poss_next_actions": [
+      "(unstack d b)",
+      "(pick-up a)"
+    ],
+    "corr_succ_states": {
+      "(unstack d b)": "(ontable a), (ontable c), (on b c), (clear b), (clear a), (holding d)",
+      "(pick-up a)": "(on d b), (holding a), (on b c), (clear d), (ontable c)"
+    },
+    "optimal_action": "(pick-up a)",
+    "goal_atoms": "(on d b) and (on a d)"
+  },
+  {
+    "id": "instance-16.pddl",
+    "query_state": "(ontable b), (on c d), (ontable a), (handempty), (clear a), (clear c), (on d b)",
+    "poss_next_actions": [
+      "(unstack c d)",
+      "(pick-up a)"
+    ],
+    "corr_succ_states": {
+      "(unstack c d)": "(ontable b), (ontable a), (clear d), (holding c), (clear a), (on d b)",
+      "(pick-up a)": "(ontable b), (on c d), (clear c), (holding a), (on d b)"
+    },
+    "optimal_action": "(unstack c d)",
+    "goal_atoms": "(on c b)"
+  },
+  {
+    "id": "instance-9.pddl",
+    "query_state": "(ontable b), (on a c), (clear d), (ontable c), (handempty), (clear a), (on d b)",
+    "poss_next_actions": [
+      "(unstack d b)",
+      "(unstack a c)"
+    ],
+    "corr_succ_states": {
+      "(unstack d b)": "(ontable b), (ontable c), (on a c), (clear b), (clear a), (holding d)",
+      "(unstack a c)": "(ontable b), (clear d), (ontable c), (holding a), (clear c), (on d b)"
+    },
+    "optimal_action": "(unstack d b)",
+    "goal_atoms": "(on b d) and (on d a) and (on a c)"
+  },
+  {
+    "id": "instance-35.pddl",
+    "query_state": "(on a b), (ontable c), (handempty), (clear a), (on b d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a b)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack a b)": "(ontable c), (on b d), (holding a), (ontable d), (clear b), (clear c)",
+      "(pick-up c)": "(clear a), (holding c), (on b d), (ontable d), (on a b)"
+    },
+    "optimal_action": "(unstack a b)",
+    "goal_atoms": "(on c d) and (on b a)"
+  },
+  {
+    "id": "instance-33.pddl",
+    "query_state": "(on b a), (on c b), (handempty), (on a d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c b)"
+    ],
+    "corr_succ_states": {
+      "(unstack c b)": "(on b a), (holding c), (on a d), (clear b), (ontable d)"
+    },
+    "optimal_action": "(unstack c b)",
+    "goal_atoms": "(on a c)"
+  },
+  {
+    "id": "instance-32.pddl",
+    "query_state": "(ontable b), (on a b), (on c a), (handempty), (clear d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable b), (clear d), (ontable d), (holding c), (on a b), (clear a)",
+      "(pick-up d)": "(ontable b), (holding d), (clear c), (on a b), (on c a)"
+    },
+    "optimal_action": "(pick-up d)",
+    "goal_atoms": "(on a b) and (on d c)"
+  },
+  {
+    "id": "instance-48.pddl",
+    "query_state": "(ontable a), (clear b), (on c a), (handempty), (on b d), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(unstack b d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable a), (on b d), (ontable d), (holding c), (clear b), (clear a)",
+      "(unstack b d)": "(ontable a), (clear d), (on c a), (holding b), (ontable d), (clear c)"
+    },
+    "optimal_action": "(unstack c a)",
+    "goal_atoms": "(on b c) and (on a d)"
+  },
+  {
+    "id": "instance-15.pddl",
+    "query_state": "(ontable b), (on a c), (on c b), (clear d), (handempty), (clear a), (ontable d)",
+    "poss_next_actions": [
+      "(unstack a c)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack a c)": "(ontable b), (on c b), (clear d), (holding a), (ontable d), (clear c)",
+      "(pick-up d)": "(ontable b), (on a c), (clear a), (holding d), (on c b)"
+    },
+    "optimal_action": "(unstack a c)",
+    "goal_atoms": "(on c a) and (on b d)"
+  },
+  {
+    "id": "instance-41.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (clear d), (on c a), (handempty), (clear c), (ontable d)",
+    "poss_next_actions": [
+      "(unstack c a)",
+      "(pick-up b)",
+      "(pick-up d)"
+    ],
+    "corr_succ_states": {
+      "(unstack c a)": "(ontable b), (holding c), (ontable a), (clear b), (clear d), (clear a), (ontable d)",
+      "(pick-up b)": "(ontable a), (clear d), (on c a), (holding b), (clear c), (ontable d)",
+      "(pick-up d)": "(ontable b), (ontable a), (clear b), (on c a), (holding d), (clear c)"
+    },
+    "optimal_action": "(pick-up d)",
+    "goal_atoms": "(on c d) and (on d b) and (on a c)"
+  },
+  {
+    "id": "instance-28.pddl",
+    "query_state": "(ontable b), (ontable a), (clear b), (on d c), (clear d), (on c a), (handempty)",
+    "poss_next_actions": [
+      "(unstack d c)",
+      "(pick-up b)"
+    ],
+    "corr_succ_states": {
+      "(unstack d c)": "(ontable b), (ontable a), (on c a), (clear b), (holding d), (clear c)",
+      "(pick-up b)": "(holding b), (ontable a), (on d c), (clear d), (on c a)"
+    },
+    "optimal_action": "(unstack d c)",
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-14.pddl",
+    "query_state": "(on b a), (ontable a), (clear d), (ontable c), (handempty), (clear c), (on d b)",
+    "poss_next_actions": [
+      "(unstack d b)",
+      "(pick-up c)"
+    ],
+    "corr_succ_states": {
+      "(unstack d b)": "(on b a), (ontable a), (ontable c), (clear b), (holding d), (clear c)",
+      "(pick-up c)": "(on b a), (on d b), (holding c), (ontable a), (clear d)"
+    },
+    "optimal_action": "(unstack d b)",
+    "goal_atoms": "(on b c) and (on a d)"
+  }
+]

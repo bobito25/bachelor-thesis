@@ -16,5 +16,5 @@ dependencies:
     - python-dotenv
     - mistralai
     - ngrok
-    - transformers==4.48.1
-    - vllm
+    - transformers==4.51.3
+    - vllm==0.8.5

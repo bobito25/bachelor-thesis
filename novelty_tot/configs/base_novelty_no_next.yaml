@@ -1,0 +1,11 @@
+mode: base
+succ_prompt: 'You are a smart assistant that answers concisely.
+
+  You will be given a problem / question to solve.
+
+  You must output exactly the next step in solving the problem when prompted.
+  Output [FINISHED] when you are finished with solving the problem.
+
+  This is your problem statement:'
+gen_succ_prompt: '\n'
+novelty: True

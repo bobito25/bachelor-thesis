@@ -1,0 +1,5 @@
+Sync from cluster to local:
+rsync -avz --include-from=include_sync.txt --exclude="*" leon.hamm@cn-04:/work/rleap1/leon.hamm/ .   
+
+From local to cluster:
+rsync -avz --include-from="./include_sync.txt" --exclude="*" . leon.hamm@cn-04:/work/rleap1/leon.hamm/

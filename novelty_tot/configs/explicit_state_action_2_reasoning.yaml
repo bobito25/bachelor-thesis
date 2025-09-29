@@ -1,0 +1,11 @@
+mode: explicit_state_action
+succ_prompt: 'You are a smart assistant that answers concisely.
+
+  You will be given a problem / question to solve.
+
+  This is your problem statement:'
+gen_action_prompt: 'What is the next action to take based on the current state of the world to reach the goal? If the goal state is already reached, return "[FINISHED]". Otherwise output first your reasoning and then [OUTPUT] followed by the action to take.'
+current_state_prompt: 'After applying the plan, this is the current state of the world:'
+progress_prompt: "This is the plan so far:"
+map_succ_prompt: 'What is the state of the world after applying this action? Output your reasoning and then [OUTPUT] followed by a concise but complete description of the state of the world.'
+novelty: False

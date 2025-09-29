@@ -1,0 +1,76 @@
+# Credit: PlanBench (https://github.com/karthikv792/LLMs-Planning)
+
+raw_actions: [
+    "load-truck", "load-airplane", "unload-truck", "unload-airplane",
+    "drive-truck", "fly-airplane"
+]
+
+num_obj_action: {
+    "load-truck": 3,
+    "load-airplane": 3,
+    "unload-truck": 3,
+    "unload-airplane": 3,
+    "drive-truck": 4,
+    "fly-airplane": 3
+}
+
+actions:
+  {
+    load-truck: "load {} into {} at {}",
+    load-airplane: "load {} into {} at {}",
+    unload-truck: "unload {} from {} at {}",
+    unload-airplane: "unload {} from {} at {}",
+    drive-truck: "drive {} from {} to {} in {}",
+    fly-airplane: "fly {} from {} to {}"
+  }
+
+predicates: {
+   "airplane": "",
+   "airport": "{} is an airport",
+   "city": "",
+   "location": "",
+   "obj": "",
+   "truck": "",
+   "at": "{} is at {}",
+   "in": "{} is in {}",
+   "in-city": "{} is in {}",
+  }
+
+predicate_mapping: {}
+
+# ['a0', 'c0', 'c1', 'c2', 't0', 't1', 't2', 'l0-0', 'l0-1', 'l1-0', 'l1-1', 'l2-0', 'l2-1', 'p0']
+encoded_objects: {
+    0: "a0",
+    1: "c0",
+    2: "c1",
+    3: "c2",
+    4: "t0",
+    5: "t1",
+    6: "t2",
+    7: "l0-0",
+    8: "l0-1",
+    9: "l1-0",
+    10: "l1-1",
+    11: "l2-0",
+    12: "l2-1",
+    13: "p0"
+  }
+
+# "p": "package_{}", "t": "truck_{}", "a": "airplane_{}", "l": "location_{}_{}", "c": "city_{}"
+encoded_objects_str:
+  {
+    "a0": "airplane_0",
+    "c0": "city_0",
+    "c1": "city_1",
+    "c2": "city_2",
+    "t0": "truck_0",
+    "t1": "truck_1",
+    "t2": "truck_2",
+    "l0-0": "location_0_0",
+    "l0-1": "location_0_1",
+    "l1-0": "location_1_0",
+    "l1-1": "location_1_1",
+    "l2-0": "location_2_0",
+    "l2-1": "location_2_1",
+    "p0": "package_0"
+  }

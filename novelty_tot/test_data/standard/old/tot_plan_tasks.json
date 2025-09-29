@@ -1,0 +1,52 @@
+[
+  {
+    "id": "instance-1.pddl",
+    "query": "Given the start state {(handempty), (ontable d), (on b c), (clear b), (clear a), (ontable c), (ontable a), (clear d)} and the goal atoms (on c b), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack b c), (put-down b), (pick-up c), (stack c b)"
+  },
+  {
+    "id": "instance-10.pddl",
+    "query": "Given the start state {(on c b), (handempty), (clear c), (on d a), (ontable a), (ontable b), (clear d)} and the goal atoms (on b c) and (on a d), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack c b), (put-down c), (pick-up b), (stack b c), (unstack d a), (put-down d), (pick-up a), (stack a d)"
+  },
+  {
+    "id": "instance-2.pddl",
+    "query": "Given the start state {(on d c), (handempty), (on a b), (clear a), (ontable c), (ontable b), (clear d)} and the goal atoms (on c a), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack d c), (put-down d), (pick-up c), (stack c a)"
+  },
+  {
+    "id": "instance-3.pddl",
+    "query": "Given the start state {(handempty), (on b c), (clear b), (on d a), (ontable a), (on c d)} and the goal atoms (on d a) and (on a c), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack b c), (put-down b), (unstack c d), (put-down c), (unstack d a), (stack d b), (pick-up a), (stack a c), (unstack d b), (stack d a)"
+  },
+  {
+    "id": "instance-4.pddl",
+    "query": "Given the start state {(on c b), (handempty), (on a c), (on d a), (ontable b), (clear d)} and the goal atoms (on d b) and (on a d), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack d a), (put-down d), (unstack a c), (put-down a), (unstack c b), (put-down c), (pick-up d), (stack d b), (pick-up a), (stack a d)"
+  },
+  {
+    "id": "instance-5.pddl",
+    "query": "Given the start state {(on c b), (handempty), (clear c), (on b a), (ontable d), (ontable a), (clear d)} and the goal atoms (on d c) and (on b a), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(pick-up d), (stack d c)"
+  },
+  {
+    "id": "instance-6.pddl",
+    "query": "Given the start state {(on c b), (handempty), (on a c), (on d a), (ontable b), (clear d)} and the goal atoms (on d c) and (on a b), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack d a), (put-down d), (unstack a c), (stack a d), (unstack c b), (put-down c), (unstack a d), (stack a b), (pick-up d), (stack d c)"
+  },
+  {
+    "id": "instance-7.pddl",
+    "query": "Given the start state {(on a d), (handempty), (on d b), (on b c), (clear a), (ontable c)} and the goal atoms (on a c), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack a d), (put-down a), (unstack d b), (put-down d), (unstack b c), (put-down b), (pick-up a), (stack a c)"
+  },
+  {
+    "id": "instance-8.pddl",
+    "query": "Given the start state {(handempty), (ontable d), (on b c), (clear b), (clear a), (ontable c), (ontable a), (clear d)} and the goal atoms (on d c) and (on a b) and (on b d), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack b c), (stack b a), (pick-up d), (stack d c), (unstack b a), (stack b d), (pick-up a), (stack a b)"
+  },
+  {
+    "id": "instance-9.pddl",
+    "query": "Given the start state {(handempty), (clear c), (clear b), (on d a), (ontable a), (on c d), (ontable b)} and the goal atoms (on d b) and (on b a) and (on a c), generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "(unstack c d), (put-down c), (unstack d a), (put-down d), (pick-up a), (stack a c), (pick-up b), (stack b a), (pick-up d), (stack d b)"
+  }
+]

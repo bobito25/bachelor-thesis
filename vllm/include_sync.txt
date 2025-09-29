@@ -1,3 +1,8 @@
 run_vllm*
 utils/
 utils/**
+vllm_new/
+vllm_new/run_*
+vllm_new/utils**
+vllm_new/output_files**
+vllm_new/.env

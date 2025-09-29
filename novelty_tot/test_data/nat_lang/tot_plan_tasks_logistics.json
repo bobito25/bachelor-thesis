@@ -1,0 +1,252 @@
+[
+  {
+    "id": "instance-34.pddl",
+    "query": "Given the start state location_2_0 is in city_2, package_0 is at location_0_1, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0"
+  },
+  {
+    "id": "instance-46.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, truck_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_1, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_2 at location_2_1, drive truck_2 from location_2_1 to location_2_0 in city_2, unload package_0 from truck_2 at location_2_0"
+  },
+  {
+    "id": "instance-30.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_1_0 to location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_2_0, unload package_0 from airplane_0 at location_2_0"
+  },
+  {
+    "id": "instance-1.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, airplane_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_1, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_2 from location_2_0 to location_2_1 in city_2, load package_0 into truck_2 at location_2_1, drive truck_2 from location_2_1 to location_2_0 in city_2, unload package_0 from truck_2 at location_2_0"
+  },
+  {
+    "id": "instance-26.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_1_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_0 from truck_1 at location_1_1"
+  },
+  {
+    "id": "instance-44.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-43.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-13.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, truck_0 is at location_0_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_0 from location_0_1 to location_0_0 in city_0, load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_0 from truck_0 at location_0_1"
+  },
+  {
+    "id": "instance-42.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_2_0, unload package_0 from airplane_0 at location_2_0"
+  },
+  {
+    "id": "instance-36.pddl",
+    "query": "Given the start state location_2_0 is in city_2, package_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_0 from location_0_0 to location_0_1 in city_0, load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0"
+  },
+  {
+    "id": "instance-49.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0, load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_0 from truck_0 at location_0_1"
+  },
+  {
+    "id": "instance-40.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_1, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_2 at location_2_1, drive truck_2 from location_2_1 to location_2_0 in city_2, unload package_0 from truck_2 at location_2_0, load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-3.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_2_0 to location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_2_0, unload package_0 from airplane_0 at location_2_0"
+  },
+  {
+    "id": "instance-29.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, package_0 is at location_1_1, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_0 in city_1, unload package_0 from truck_1 at location_1_0, load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_2_0, unload package_0 from airplane_0 at location_2_0"
+  },
+  {
+    "id": "instance-2.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_2_0 to location_1_0, load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_2_0, unload package_0 from airplane_0 at location_2_0"
+  },
+  {
+    "id": "instance-22.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_1, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_2 at location_2_1, drive truck_2 from location_2_1 to location_2_0 in city_2, unload package_0 from truck_2 at location_2_0, load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-31.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_1 is at location_1_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_0 from truck_0 at location_0_1"
+  },
+  {
+    "id": "instance-11.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_1, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_2 at location_2_1, drive truck_2 from location_2_1 to location_2_0 in city_2, unload package_0 from truck_2 at location_2_0, load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_1_0, unload package_0 from airplane_0 at location_1_0"
+  },
+  {
+    "id": "instance-50.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_0 from truck_0 at location_0_1"
+  },
+  {
+    "id": "instance-8.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, airplane_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_1_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_0 from truck_1 at location_1_1"
+  },
+  {
+    "id": "instance-12.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_1_0 to location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_0 from airplane_0 at location_1_0"
+  },
+  {
+    "id": "instance-5.pddl",
+    "query": "Given the start state location_2_0 is in city_2, package_0 is at location_0_1, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, airplane_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0"
+  },
+  {
+    "id": "instance-21.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-4.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_1, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_2 from location_2_0 to location_2_1 in city_2, load package_0 into truck_2 at location_2_1, drive truck_2 from location_2_1 to location_2_0 in city_2, unload package_0 from truck_2 at location_2_0"
+  },
+  {
+    "id": "instance-25.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, package_0 is at location_1_1, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_0 in city_1, unload package_0 from truck_1 at location_1_0"
+  },
+  {
+    "id": "instance-7.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_1, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_2 at location_2_1, drive truck_2 from location_2_1 to location_2_0 in city_2, unload package_0 from truck_2 at location_2_0"
+  },
+  {
+    "id": "instance-24.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_2_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_2_0, unload package_0 from airplane_0 at location_2_0, load package_0 into truck_2 at location_2_0, drive truck_2 from location_2_0 to location_2_1 in city_2, unload package_0 from truck_2 at location_2_1"
+  },
+  {
+    "id": "instance-45.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_1 is at location_1_1, location_1_0 is in city_1, airplane_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_0_0 to location_1_0, load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-20.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_2_0 to location_1_0, load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-19.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_1 is at location_1_1, location_1_0 is in city_1, package_0 is at location_0_0, airplane_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_0 from airplane_0 at location_1_0"
+  },
+  {
+    "id": "instance-23.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, package_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_0 from location_0_0 to location_0_1 in city_0, load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0"
+  },
+  {
+    "id": "instance-18.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_0 from location_0_1 to location_0_0 in city_0, load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_0 from truck_0 at location_0_1"
+  },
+  {
+    "id": "instance-38.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_1_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_1 from location_1_1 to location_1_0 in city_1, load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_0 from truck_1 at location_1_1"
+  },
+  {
+    "id": "instance-6.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_2_0 to location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_0 from airplane_0 at location_1_0"
+  },
+  {
+    "id": "instance-47.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, truck_0 is at location_0_1, location_1_0 is in city_1, package_0 is at location_0_0, airplane_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_1_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_0 from airplane_0 at location_1_0, load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_0 from truck_1 at location_1_1"
+  },
+  {
+    "id": "instance-17.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_1_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_1_0, unload package_0 from airplane_0 at location_1_0, load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_0 from truck_1 at location_1_1"
+  },
+  {
+    "id": "instance-37.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_2_0, unload package_0 from airplane_0 at location_2_0"
+  },
+  {
+    "id": "instance-10.pddl",
+    "query": "Given the start state location_2_0 is in city_2, truck_1 is at location_1_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_1_0 to location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_0 from airplane_0 at location_1_0"
+  },
+  {
+    "id": "instance-27.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, package_0 is at location_0_0, airplane_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_0 from truck_0 at location_0_1"
+  },
+  {
+    "id": "instance-39.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_1 is at location_1_1, location_1_0 is in city_1, package_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_2_0 to location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_0 from airplane_0 at location_1_0"
+  },
+  {
+    "id": "instance-16.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, package_0 is at location_0_1, location_1_0 is in city_1, airplane_0 is at location_0_0, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_0 from location_0_0 to location_0_1 in city_0, load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0"
+  },
+  {
+    "id": "instance-9.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, airplane_0 is at location_2_0, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, package_0 is at location_1_1, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_1_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_1 from location_1_0 to location_1_1 in city_1, load package_0 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_0 in city_1, unload package_0 from truck_1 at location_1_0"
+  },
+  {
+    "id": "instance-35.pddl",
+    "query": "Given the start state location_2_0 is in city_2, package_0 is at location_0_1, truck_0 is at location_0_1, truck_1 is at location_1_1, location_1_0 is in city_1, airplane_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0"
+  },
+  {
+    "id": "instance-33.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-32.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_1_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_1 from location_1_1 to location_1_0 in city_1, load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_0 from truck_1 at location_1_1"
+  },
+  {
+    "id": "instance-48.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, package_0 is at location_2_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_2_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "drive truck_2 from location_2_1 to location_2_0 in city_2, load package_0 into truck_2 at location_2_0, drive truck_2 from location_2_0 to location_2_1 in city_2, unload package_0 from truck_2 at location_2_1"
+  },
+  {
+    "id": "instance-15.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, truck_0 is at location_0_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1 and the goal atoms package_0 is at location_2_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_2_0, unload package_0 from airplane_0 at location_2_0"
+  },
+  {
+    "id": "instance-41.pddl",
+    "query": "Given the start state location_2_0 is in city_2, airplane_0 is at location_2_0, truck_1 is at location_1_1, location_1_0 is in city_1, location_2_1 is in city_2, truck_2 is at location_2_1, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "fly airplane_0 from location_2_0 to location_1_0, load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  },
+  {
+    "id": "instance-28.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, package_0 is at location_0_0, airplane_0 is at location_0_0, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_1, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_0 from truck_0 at location_0_1"
+  },
+  {
+    "id": "instance-14.pddl",
+    "query": "Given the start state truck_1 is at location_1_0, location_2_0 is in city_2, location_1_0 is in city_1, location_2_1 is in city_2, location_2_0 is an airport, location_0_1 is in city_0, package_0 is at location_1_0, airplane_0 is at location_1_0, location_0_0 is an airport, location_0_0 is in city_0, location_1_0 is an airport, location_1_1 is in city_1, truck_0 is at location_0_0, truck_2 is at location_2_0 and the goal atoms package_0 is at location_0_0, generate a plan to reach the goal state. [PLAN]",
+    "example_solution": "load package_0 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_0_0, unload package_0 from airplane_0 at location_0_0"
+  }
+]
