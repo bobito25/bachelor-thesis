@@ -1,0 +1,12 @@
+mode: base
+succ_prompt: 'You are a smart assistant that answers concisely.
+
+  You will be given a problem / question to solve.
+
+  You must output exactly the next step in solving the problem when prompted.
+  Output [FINISHED] when you are finished with solving the problem.
+
+  This is your problem statement:'
+progress_prompt: "This is the plan so far:"
+gen_succ_prompt: "Now you must find the next step. Output only the next step in solving the problem or '[FINISHED]' if you are done."
+novelty: False

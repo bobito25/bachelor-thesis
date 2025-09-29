@@ -1,0 +1,813 @@
+[
+  {
+    "id": "instance-34.pddl",
+    "query_state": "(clear b), (clear a), (clear c), (ontable d), (handempty), (on c d), (ontable b), (ontable a)",
+    "previous_states": [
+      "(on c a), (clear b), (clear d), (ontable d), (handempty), (on b c), (ontable a)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(on c a), (clear b), (clear d), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(on c a), (clear d), (clear c), (holding b), (ontable d), (ontable a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(on c a), (clear b), (holding d), (on b c), (ontable a)",
+      "(clear b), (clear c), (ontable d), (ontable b), (holding a), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on b a)"
+  },
+  {
+    "id": "instance-46.pddl",
+    "query_state": "(clear b), (clear a), (clear c), (ontable d), (handempty), (on c d), (ontable b), (ontable a)",
+    "previous_states": [
+      "(clear b), (clear d), (ontable a), (ontable d), (on b a), (holding c)",
+      "(clear b), (ontable a), (clear c), (handempty), (ontable d), (on b a), (on c d)",
+      "(clear a), (clear c), (ontable d), (holding b), (ontable a), (on c d)"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "(on d b)"
+  },
+  {
+    "id": "instance-30.pddl",
+    "query_state": "(on c a), (clear d), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(on c a), (clear b), (clear d), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "(on d c)"
+  },
+  {
+    "id": "instance-1.pddl",
+    "query_state": "(clear b), (clear c), (ontable d), (on c d), (ontable b), (holding a)",
+    "previous_states": [
+      "(ontable c), (on a b), (holding d), (clear a), (clear c), (ontable b)",
+      "(on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (on c d)",
+      "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable b), (ontable a), (on d c)",
+      "(clear b), (ontable c), (clear d), (ontable b), (holding a), (on d c)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (handempty), (ontable d), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (on a b), (clear a), (handempty), (ontable b), (on d c)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(ontable c), (clear d), (clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(ontable c), (clear d), (on d b), (clear c), (ontable b), (holding a)"
+    ],
+    "novelty": 2,
+    "instance_width": 2,
+    "goal_atoms": "(on b d) and (on a c)"
+  },
+  {
+    "id": "instance-26.pddl",
+    "query_state": "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+    "previous_states": [
+      "(clear b), (ontable c), (clear d), (ontable b), (holding a), (on d c)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable b), (ontable a), (on d c)",
+      "(ontable c), (clear d), (on a b), (clear a), (handempty), (ontable b), (on d c)",
+      "(clear b), (ontable c), (on a d), (handempty), (on b a), (on d c)",
+      "(ontable c), (on a d), (clear a), (holding b), (on d c)",
+      "(clear b), (ontable c), (on a d), (clear a), (handempty), (ontable b), (on d c)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on d c) and (on a b) and (on b d)"
+  },
+  {
+    "id": "instance-44.pddl",
+    "query_state": "(clear b), (ontable c), (clear a), (ontable d), (handempty), (on b c), (clear d), (ontable a)",
+    "previous_states": [
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable d), (on b c), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (ontable d), (on b c), (holding a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on d b) and (on a d)"
+  },
+  {
+    "id": "instance-43.pddl",
+    "query_state": "(clear b), (clear c), (ontable d), (handempty), (on c d), (ontable a), (on b a)",
+    "previous_states": [
+      "(clear b), (clear a), (ontable d), (handempty), (on b c), (ontable a), (on c d)",
+      "(clear b), (ontable d), (holding a), (on b c), (on c d)",
+      "(on a b), (clear a), (handempty), (ontable d), (on b c), (on c d)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(clear a), (clear c), (ontable d), (holding b), (ontable a), (on c d)"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "(on c d) and (on b a)"
+  },
+  {
+    "id": "instance-13.pddl",
+    "query_state": "(on c a), (clear b), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+    "previous_states": [
+      "(clear c), (on b d), (ontable d), (holding a), (on c b)",
+      "(clear b), (clear a), (on b d), (ontable d), (ontable a), (holding c)",
+      "(clear a), (clear c), (handempty), (on b d), (ontable d), (ontable a), (on c b)",
+      "(clear b), (ontable c), (clear a), (clear c), (on b d), (ontable d), (handempty), (ontable a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on a b) and (on c a)"
+  },
+  {
+    "id": "instance-42.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (on c d)",
+      "(clear b), (clear a), (handempty), (ontable d), (ontable b), (on a c), (on c d)",
+      "(clear b), (clear c), (ontable d), (ontable b), (holding a), (on c d)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(clear a), (ontable d), (holding b), (on a c), (on c d)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(clear b), (ontable d), (handempty), (on b a), (on a c), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on d c) and (on c b)"
+  },
+  {
+    "id": "instance-36.pddl",
+    "query_state": "(clear a), (clear c), (handempty), (ontable d), (clear d), (ontable b), (ontable a), (on c b)",
+    "previous_states": [
+      "(clear d), (ontable b), (holding a), (on c b), (on d c)",
+      "(holding d), (clear a), (clear c), (ontable b), (ontable a), (on c b)",
+      "(clear d), (clear a), (handempty), (ontable b), (ontable a), (on c b), (on d c)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on a d) and (on c a)"
+  },
+  {
+    "id": "instance-49.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(clear b), (clear a), (handempty), (ontable d), (on b c), (ontable a), (on c d)",
+      "(clear b), (ontable a), (clear c), (ontable d), (handempty), (on b a), (on c d)",
+      "(clear a), (clear c), (ontable d), (holding b), (ontable a), (on c d)",
+      "(clear b), (ontable d), (holding a), (on b c), (on c d)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(on a b), (clear a), (ontable d), (handempty), (on b c), (on c d)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "(on d a)"
+  },
+  {
+    "id": "instance-40.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(clear b), (ontable c), (holding d), (clear a), (on b c), (ontable a)",
+      "(clear b), (ontable c), (on d a), (clear d), (clear c), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (on d a), (clear d), (handempty), (on b c), (ontable a)",
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (on b c), (ontable a)",
+      "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable d), (on b c), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(on d a), (ontable c), (clear b), (clear c), (handempty), (on b d), (ontable a)",
+      "(on d a), (clear b), (on b d), (ontable a), (holding c)",
+      "(on d a), (ontable c), (clear d), (clear c), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(ontable c), (clear d), (clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a)",
+      "(on d a), (clear c), (on b d), (handempty), (ontable a), (on c b)"
+    ],
+    "novelty": 2,
+    "instance_width": 2,
+    "goal_atoms": "(on c a)"
+  },
+  {
+    "id": "instance-3.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(clear b), (ontable c), (ontable a), (holding d), (clear c), (on b a)",
+      "(ontable c), (clear d), (clear c), (handempty), (on d b), (ontable a), (on b a)",
+      "(clear b), (ontable a), (clear c), (ontable d), (handempty), (on b a), (on c d)",
+      "(clear d), (on d b), (ontable a), (on b a), (holding c)",
+      "(clear b), (clear d), (ontable a), (ontable d), (on b a), (holding c)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(on d b), (handempty), (clear c), (ontable a), (on b a), (on c d)",
+      "(clear b), (ontable c), (clear d), (clear c), (handempty), (ontable d), (ontable a), (on b a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on d a)"
+  },
+  {
+    "id": "instance-29.pddl",
+    "query_state": "(clear b), (ontable c), (clear a), (handempty), (clear d), (ontable b), (ontable a), (on d c)",
+    "previous_states": [
+      "(clear b), (ontable c), (clear d), (ontable b), (holding a), (on d c)",
+      "(clear b), (ontable c), (on a d), (clear a), (handempty), (ontable b), (on d c)",
+      "(ontable c), (on a d), (clear a), (holding b), (on d c)"
+    ],
+    "novelty": 1,
+    "instance_width": 3,
+    "goal_atoms": "(on c d) and (on a b) and (on d a)"
+  },
+  {
+    "id": "instance-2.pddl",
+    "query_state": "(clear b), (ontable c), (clear a), (handempty), (clear d), (ontable b), (ontable a), (on d c)",
+    "previous_states": [
+      "(ontable c), (on a b), (holding d), (clear a), (clear c), (ontable b)",
+      "(on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (on c d)",
+      "(on d a), (ontable c), (clear d), (on a b), (clear c), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (ontable b), (holding a), (on d c)",
+      "(on d a), (clear d), (on a b), (ontable b), (holding c)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (handempty), (ontable d), (ontable b)",
+      "(ontable c), (clear d), (on a b), (clear a), (handempty), (ontable b), (on d c)",
+      "(on d a), (on a b), (clear c), (handempty), (ontable b), (on c d)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)"
+    ],
+    "novelty": 2,
+    "instance_width": 2,
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-22.pddl",
+    "query_state": "(clear b), (ontable c), (clear c), (on b d), (ontable d), (holding a)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear a), (ontable d), (holding b), (on a c)",
+      "(ontable c), (on a b), (clear a), (clear c), (on b d), (ontable d), (handempty)",
+      "(clear b), (ontable c), (clear a), (handempty), (on b d), (ontable d), (on a c)",
+      "(clear b), (ontable c), (clear d), (clear a), (ontable d), (handempty), (ontable b), (on a c)",
+      "(clear b), (ontable c), (clear a), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(clear b), (ontable c), (clear c), (on b d), (ontable d), (holding a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (ontable d), (handempty), (on b a), (on a c)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on b a) and (on c b)"
+  },
+  {
+    "id": "instance-31.pddl",
+    "query_state": "(on d a), (clear d), (ontable b), (on a b), (holding c)",
+    "previous_states": [
+      "(on d a), (ontable c), (clear d), (on a b), (clear c), (handempty), (ontable b)",
+      "(ontable c), (on a b), (holding d), (clear a), (clear c), (ontable b)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on d b) and (on a c)"
+  },
+  {
+    "id": "instance-11.pddl",
+    "query_state": "(clear b), (ontable c), (clear c), (ontable d), (on b d), (holding a)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear a), (clear c), (handempty), (ontable d), (on b d), (ontable a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-50.pddl",
+    "query_state": "(clear b), (ontable c), (clear c), (handempty), (on d a), (clear d), (ontable b), (ontable a)",
+    "previous_states": [
+      "(on d a), (ontable c), (clear b), (clear d), (handempty), (on b c), (ontable a)",
+      "(on d a), (ontable c), (clear d), (clear c), (holding b), (ontable a)",
+      "(clear b), (ontable c), (holding d), (clear a), (on b c), (ontable a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on d b) and (on a c)"
+  },
+  {
+    "id": "instance-8.pddl",
+    "query_state": "(clear a), (clear c), (handempty), (ontable d), (clear d), (ontable b), (ontable a), (on c b)",
+    "previous_states": [
+      "(clear b), (on d a), (clear d), (ontable b), (ontable a), (holding c)",
+      "(on d a), (clear d), (clear c), (handempty), (ontable b), (ontable a), (on c b)",
+      "(clear b), (ontable c), (on d a), (clear d), (clear c), (handempty), (ontable b), (ontable a)",
+      "(holding d), (clear a), (clear c), (ontable b), (ontable a), (on c b)",
+      "(clear b), (on d a), (clear c), (handempty), (ontable b), (ontable a), (on c d)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on c d) and (on b a)"
+  },
+  {
+    "id": "instance-12.pddl",
+    "query_state": "(clear b), (ontable c), (clear c), (ontable d), (handempty), (on a d), (on b a)",
+    "previous_states": [
+      "(ontable c), (on a d), (clear a), (clear c), (ontable d), (holding b)",
+      "(clear b), (ontable c), (on a d), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(on a d), (clear c), (handempty), (ontable d), (on b a), (on c b)",
+      "(clear b), (ontable c), (on a d), (clear c), (ontable d), (handempty), (on b a)",
+      "(clear b), (on a d), (ontable d), (on b a), (holding c)"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "(on a c)"
+  },
+  {
+    "id": "instance-5.pddl",
+    "query_state": "(clear a), (ontable d), (clear d), (on a b), (ontable b), (holding c)",
+    "previous_states": [
+      "(on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (on c d)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "(on c b)"
+  },
+  {
+    "id": "instance-21.pddl",
+    "query_state": "(clear b), (ontable c), (clear a), (clear c), (ontable d), (handempty), (clear d), (ontable b), (ontable a)",
+    "previous_states": [
+      "(ontable c), (on a b), (holding d), (clear a), (clear c), (ontable b)",
+      "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (ontable b), (holding a), (on d c)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable b), (ontable a), (on d c)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (on a b), (clear a), (handempty), (ontable b), (on d c)",
+      "(ontable c), (clear d), (clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(ontable c), (clear d), (on d b), (clear c), (ontable b), (holding a)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on a d) and (on c b)"
+  },
+  {
+    "id": "instance-4.pddl",
+    "query_state": "(on c a), (clear c), (ontable d), (clear d), (holding b), (ontable a)",
+    "previous_states": [
+      "(clear b), (clear a), (on b d), (ontable d), (ontable a), (holding c)",
+      "(on c a), (clear b), (clear c), (on b d), (ontable d), (handempty), (ontable a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on c d)"
+  },
+  {
+    "id": "instance-25.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (ontable d), (holding b), (on a c)",
+    "previous_states": [
+      "(on a b), (clear a), (on b d), (ontable d), (holding c)",
+      "(ontable c), (clear d), (clear a), (ontable d), (holding b), (on a c)",
+      "(ontable c), (on a b), (clear a), (clear c), (on b d), (ontable d), (handempty)",
+      "(clear b), (ontable c), (clear a), (handempty), (on b d), (ontable d), (on a c)",
+      "(clear b), (ontable c), (clear d), (clear a), (ontable d), (handempty), (ontable b), (on a c)",
+      "(clear b), (ontable c), (clear a), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(clear b), (ontable c), (clear c), (on b d), (ontable d), (holding a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(clear b), (ontable c), (clear d), (ontable d), (handempty), (on b a), (on a c)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on b c)"
+  },
+  {
+    "id": "instance-7.pddl",
+    "query_state": "(clear b), (ontable c), (clear a), (clear c), (ontable d), (handempty), (on a d), (ontable b)",
+    "previous_states": [
+      "(ontable c), (on a d), (clear a), (clear c), (ontable d), (holding b)",
+      "(clear b), (ontable c), (on a d), (clear a), (clear c), (handempty), (ontable d), (ontable b)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "(on a d) and (on b a)"
+  },
+  {
+    "id": "instance-24.pddl",
+    "query_state": "(clear b), (clear d), (ontable d), (ontable a), (on b a), (holding c)",
+    "previous_states": [
+      "(on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (on c d)",
+      "(clear b), (clear c), (ontable d), (ontable b), (holding a), (on c d)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "(on b c) and (on c d)"
+  },
+  {
+    "id": "instance-45.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(clear b), (ontable c), (holding d), (clear a), (ontable b), (on a c)",
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (ontable b), (on a c)",
+      "(ontable c), (clear d), (clear c), (on d b), (ontable b), (holding a)",
+      "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable d), (ontable b), (on a c)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (clear c), (ontable b), (ontable a)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on d b) and (on b a)"
+  },
+  {
+    "id": "instance-20.pddl",
+    "query_state": "(clear b), (clear d), (ontable d), (ontable a), (on b a), (holding c)",
+    "previous_states": [
+      "(ontable c), (on a b), (holding d), (clear a), (clear c), (ontable b)",
+      "(on d a), (ontable c), (clear d), (on a b), (clear c), (handempty), (ontable b)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (handempty), (ontable d), (ontable b)",
+      "(on d a), (clear d), (on a b), (ontable b), (holding c)",
+      "(ontable c), (clear d), (on a b), (clear a), (handempty), (ontable b), (on d c)",
+      "(on d a), (on a b), (clear c), (handempty), (ontable b), (on c d)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "(on b a)"
+  },
+  {
+    "id": "instance-19.pddl",
+    "query_state": "(ontable c), (clear a), (clear c), (ontable d), (handempty), (clear d), (on a b), (ontable b)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear a), (ontable d), (holding b), (on a c)",
+      "(clear b), (ontable c), (holding d), (clear a), (ontable b), (on a c)",
+      "(on d a), (ontable c), (clear d), (holding b), (on a c)",
+      "(on d a), (ontable c), (clear b), (handempty), (on b d), (on a c)",
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (ontable b), (on a c)",
+      "(on d a), (ontable c), (clear b), (clear d), (handempty), (ontable b), (on a c)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable d), (ontable b), (on a c)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(ontable c), (clear d), (on d b), (clear c), (ontable b), (holding a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on d b) and (on c a)"
+  },
+  {
+    "id": "instance-23.pddl",
+    "query_state": "(clear b), (ontable c), (clear c), (on b d), (ontable d), (holding a)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear a), (ontable d), (holding b), (on a c)",
+      "(ontable c), (on a b), (clear a), (clear c), (on b d), (ontable d), (handempty)",
+      "(clear b), (ontable c), (clear a), (handempty), (on b d), (ontable d), (on a c)",
+      "(clear b), (ontable c), (clear d), (clear a), (ontable d), (handempty), (ontable b), (on a c)",
+      "(clear b), (ontable c), (clear a), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(clear b), (ontable c), (clear c), (on b d), (ontable d), (holding a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (ontable d), (handempty), (on b a), (on a c)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on c d) and (on a b)"
+  },
+  {
+    "id": "instance-18.pddl",
+    "query_state": "(handempty), (ontable c), (ontable b), (on a d), (clear c), (clear a), (on d b)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (ontable b), (on a c)",
+      "(ontable c), (on a d), (clear a), (clear c), (handempty), (on d b), (ontable b)",
+      "(on a d), (clear a), (on d b), (ontable b), (holding c)",
+      "(ontable c), (clear d), (clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (on d b), (clear c), (ontable b), (holding a)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on b d) and (on d a)"
+  },
+  {
+    "id": "instance-38.pddl",
+    "query_state": "(clear b), (ontable c), (clear a), (clear c), (ontable d), (handempty), (clear d), (ontable b), (ontable a)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear a), (ontable d), (holding b), (on a c)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable d), (ontable b), (on a c)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(clear b), (ontable c), (holding d), (on b a), (on a c)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(clear b), (ontable c), (clear d), (ontable d), (handempty), (on b a), (on a c)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on d c) and (on c b)"
+  },
+  {
+    "id": "instance-6.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(on a d), (clear a), (handempty), (ontable b), (on c b), (on d c)",
+      "(clear d), (clear c), (ontable d), (ontable b), (holding a), (on c b)",
+      "(clear d), (ontable b), (holding a), (on c b), (on d c)",
+      "(holding d), (clear a), (clear c), (ontable b), (ontable a), (on c b)",
+      "(clear d), (clear a), (handempty), (ontable b), (ontable a), (on c b), (on d c)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear d), (clear a), (ontable d), (handempty), (ontable b), (on a c), (on c b)",
+      "(clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a), (on c b)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on a d) and (on c a)"
+  },
+  {
+    "id": "instance-47.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(on c a), (clear b), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(on c a), (clear b), (clear d), (ontable d), (handempty), (on b c), (ontable a)",
+      "(clear b), (clear a), (on b d), (ontable d), (ontable a), (holding c)",
+      "(clear b), (ontable c), (clear a), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(on c a), (clear d), (clear c), (holding b), (ontable d), (ontable a)",
+      "(on c a), (clear b), (clear d), (clear c), (ontable d), (handempty), (ontable b), (ontable a)"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "(on a c)"
+  },
+  {
+    "id": "instance-17.pddl",
+    "query_state": "(clear b), (clear c), (ontable d), (handempty), (on c d), (ontable a), (on b a)",
+    "previous_states": [
+      "(on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (on c d)",
+      "(clear b), (ontable a), (clear c), (ontable d), (handempty), (on b a), (on c d)",
+      "(clear b), (clear c), (ontable d), (ontable b), (holding a), (on c d)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (handempty), (ontable d), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (clear d), (ontable a), (ontable d), (on b a), (holding c)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(clear a), (clear c), (ontable d), (holding b), (ontable a), (on c d)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-37.pddl",
+    "query_state": "(on c a), (holding b), (clear d), (ontable a), (on d c)",
+    "previous_states": [
+      "(on c a), (clear b), (clear d), (handempty), (ontable b), (ontable a), (on d c)",
+      "(on c a), (clear b), (holding d), (clear c), (ontable b), (ontable a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on b c) and (on c a)"
+  },
+  {
+    "id": "instance-10.pddl",
+    "query_state": "(on c a), (clear b), (on b c), (ontable a), (holding d)",
+    "previous_states": [
+      "(on c a), (clear b), (clear d), (ontable d), (handempty), (on b c), (ontable a)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(on c a), (clear b), (clear d), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(on c a), (clear d), (on d b), (handempty), (on b c), (ontable a)",
+      "(on c a), (clear d), (clear c), (holding b), (ontable d), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(on c a), (clear b), (holding d), (on b c), (ontable a)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "(on a b)"
+  },
+  {
+    "id": "instance-27.pddl",
+    "query_state": "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+    "previous_states": [
+      "(clear b), (ontable c), (ontable a), (holding d), (clear c), (on b a)",
+      "(ontable c), (clear d), (on d b), (handempty), (clear c), (ontable a), (on b a)",
+      "(clear b), (ontable c), (on b d), (holding a), (on d c)",
+      "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable b), (ontable a), (on d c)",
+      "(ontable c), (clear d), (clear a), (holding b), (ontable a), (on d c)",
+      "(clear b), (ontable c), (clear d), (ontable b), (holding a), (on d c)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (on a b), (clear a), (handempty), (ontable b), (on d c)",
+      "(clear b), (ontable c), (clear a), (handempty), (on b d), (ontable a), (on d c)",
+      "(clear b), (ontable c), (clear d), (clear c), (handempty), (ontable d), (ontable a), (on b a)",
+      "(clear b), (ontable c), (clear d), (handempty), (ontable a), (on b a), (on d c)",
+      "(ontable c), (clear d), (clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a)",
+      "(ontable c), (on a b), (clear a), (on b d), (handempty), (on d c)"
+    ],
+    "novelty": 2,
+    "instance_width": 3,
+    "goal_atoms": "(on c d) and (on d b) and (on b a)"
+  },
+  {
+    "id": "instance-39.pddl",
+    "query_state": "(ontable c), (clear a), (handempty), (on b c), (clear d), (on d b), (ontable a)",
+    "previous_states": [
+      "(clear b), (ontable c), (holding d), (clear a), (on b c), (ontable a)",
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (on b c), (ontable a)",
+      "(ontable c), (clear d), (on d b), (holding a), (on b c)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable d), (on b c), (ontable a)"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "(on d b) and (on a d)"
+  },
+  {
+    "id": "instance-16.pddl",
+    "query_state": "(clear b), (ontable c), (clear a), (clear c), (ontable d), (handempty), (clear d), (ontable b), (ontable a)",
+    "previous_states": [
+      "(clear d), (clear a), (on d b), (ontable b), (ontable a), (holding c)",
+      "(clear b), (ontable c), (holding d), (clear a), (ontable b), (on a c)",
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (ontable b), (on a c)",
+      "(clear c), (on d b), (ontable b), (holding a), (on c d)",
+      "(clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a), (on c d)",
+      "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(clear a), (on d b), (handempty), (ontable b), (on a c), (on c d)",
+      "(ontable c), (clear d), (clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(ontable c), (clear d), (on d b), (clear c), (ontable b), (holding a)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on c b)"
+  },
+  {
+    "id": "instance-9.pddl",
+    "query_state": "(ontable c), (clear d), (clear c), (on d b), (ontable b), (holding a)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear a), (ontable d), (holding b), (on a c)",
+      "(clear b), (ontable c), (holding d), (clear a), (ontable b), (on a c)",
+      "(ontable c), (clear d), (clear a), (on d b), (handempty), (ontable b), (on a c)",
+      "(clear b), (ontable c), (holding d), (clear a), (clear c), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (handempty), (ontable d), (ontable b), (on a c)",
+      "(ontable c), (clear d), (clear a), (clear c), (handempty), (on d b), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(ontable c), (clear d), (on d b), (clear c), (ontable b), (holding a)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on b d) and (on d a) and (on a c)"
+  },
+  {
+    "id": "instance-35.pddl",
+    "query_state": "(clear b), (ontable c), (clear c), (ontable d), (handempty), (clear d), (ontable a), (on b a)",
+    "previous_states": [
+      "(on a b), (clear a), (on b d), (ontable d), (holding c)",
+      "(on c a), (on a b), (clear c), (on b d), (ontable d), (handempty)",
+      "(ontable c), (on a b), (clear a), (clear c), (handempty), (on b d), (ontable d)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear b), (ontable c), (clear a), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(clear b), (ontable c), (clear c), (on b d), (ontable d), (holding a)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on c d) and (on b a)"
+  },
+  {
+    "id": "instance-33.pddl",
+    "query_state": "(ontable c), (on a d), (clear a), (clear c), (ontable d), (holding b)",
+    "previous_states": [
+      "(ontable c), (on a d), (clear a), (clear c), (ontable d), (holding b)",
+      "(clear b), (ontable c), (on a d), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(on a d), (clear c), (handempty), (ontable d), (on b a), (on c b)",
+      "(clear b), (ontable c), (on a d), (clear c), (ontable d), (handempty), (on b a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(clear b), (on a d), (ontable d), (on b a), (holding c)"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "(on a c)"
+  },
+  {
+    "id": "instance-32.pddl",
+    "query_state": "(clear a), (clear c), (ontable d), (handempty), (on c d), (on a b), (ontable b)",
+    "previous_states": [
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(on c a), (clear d), (on a b), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear d), (on a b), (clear a), (ontable d), (ontable b), (holding c)",
+      "(on c a), (on a b), (holding d), (clear c), (ontable b)"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "(on d c) and (on a b)"
+  },
+  {
+    "id": "instance-48.pddl",
+    "query_state": "(on c a), (clear b), (ontable d), (handempty), (on b c), (clear d), (ontable a)",
+    "previous_states": [
+      "(on c a), (clear b), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(clear b), (clear a), (on b d), (ontable d), (ontable a), (holding c)",
+      "(clear b), (ontable c), (clear a), (clear c), (on b d), (ontable d), (handempty), (ontable a)",
+      "(on c a), (clear d), (clear c), (holding b), (ontable d), (ontable a)",
+      "(on c a), (clear b), (clear d), (clear c), (ontable d), (handempty), (ontable b), (ontable a)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on b c) and (on a d)"
+  },
+  {
+    "id": "instance-15.pddl",
+    "query_state": "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+    "previous_states": [
+      "(on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (on c d)",
+      "(clear d), (clear c), (ontable d), (ontable b), (holding a), (on c b)",
+      "(on d a), (clear d), (handempty), (ontable b), (on a c), (on c b)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(ontable c), (clear d), (on a b), (clear a), (clear c), (ontable d), (handempty), (ontable b)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(clear d), (clear a), (handempty), (ontable d), (ontable b), (on a c), (on c b)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (handempty), (ontable a), (on b a)",
+      "(holding d), (clear a), (ontable b), (on a c), (on c b)",
+      "(clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c b)",
+      "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(clear b), (clear c), (ontable d), (ontable b), (holding a), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "(on b d) and (on c a)"
+  },
+  {
+    "id": "instance-41.pddl",
+    "query_state": "(ontable c), (clear d), (clear a), (clear c), (ontable d), (holding b), (ontable a)",
+    "previous_states": [
+      "(on c a), (clear b), (clear d), (ontable d), (handempty), (on b c), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a)",
+      "(on c a), (clear d), (clear c), (holding b), (ontable d), (ontable a)",
+      "(clear b), (ontable c), (clear d), (clear c), (ontable d), (ontable b), (holding a)",
+      "(on c a), (clear b), (clear d), (clear c), (handempty), (ontable d), (ontable b), (ontable a)",
+      "(clear b), (clear a), (clear c), (ontable d), (handempty), (ontable b), (ontable a), (on c d)",
+      "(clear b), (clear d), (clear a), (ontable d), (ontable b), (ontable a), (holding c)"
+    ],
+    "novelty": 2,
+    "instance_width": 3,
+    "goal_atoms": "(on c d) and (on d b) and (on a c)"
+  },
+  {
+    "id": "instance-28.pddl",
+    "query_state": "(on c a), (clear b), (clear c), (handempty), (ontable d), (clear d), (ontable b), (ontable a)",
+    "previous_states": [
+      "(on c a), (clear b), (clear d), (handempty), (ontable b), (ontable a), (on d c)",
+      "(on c a), (clear b), (holding d), (clear c), (ontable b), (ontable a)",
+      "(on c a), (clear d), (holding b), (ontable a), (on d c)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on d a) and (on a c)"
+  },
+  {
+    "id": "instance-14.pddl",
+    "query_state": "(clear b), (ontable c), (clear c), (handempty), (ontable d), (clear d), (ontable a), (on b a)",
+    "previous_states": [
+      "(ontable c), (clear d), (clear c), (handempty), (on d b), (ontable a), (on b a)",
+      "(clear b), (ontable c), (ontable a), (holding d), (clear c), (on b a)",
+      "(clear d), (on d b), (ontable a), (on b a), (holding c)"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "(on b c) and (on a d)"
+  }
+]

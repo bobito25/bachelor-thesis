@@ -1,0 +1,352 @@
+[
+  {
+    "id": "instance-34.pddl",
+    "start_state": "(on c a), (clear b), (clear d), (ontable d), (handempty), (ontable b), (ontable a), (clear c)",
+    "query_plan": "(unstack c a), (put-down c), (pick-up b), (stack b a)",
+    "goal_atoms": "(on b a)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-46.pddl",
+    "start_state": "(clear b), (clear c), (ontable d), (handempty), (ontable a), (on b a), (on c d)",
+    "query_plan": "(unstack b a), (stack b a), (unstack c d), (put-down c), (pick-up c)",
+    "goal_atoms": "(on d b)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-30.pddl",
+    "start_state": "(on c a), (clear b), (clear d), (ontable d), (handempty), (ontable b), (ontable a), (clear c)",
+    "query_plan": "(pick-up d), (stack d c)",
+    "goal_atoms": "(on d c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-1.pddl",
+    "start_state": "(ontable c), (on d c), (on a b), (clear d), (handempty), (ontable b), (clear a)",
+    "query_plan": "(unstack a b), (stack a b), (unstack a b), (stack a d), (pick-up b)",
+    "goal_atoms": "(on b d) and (on a c)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-26.pddl",
+    "start_state": "(ontable c), (on d c), (clear b), (on a d), (handempty), (ontable b), (clear a)",
+    "query_plan": "(unstack a d), (put-down a), (pick-up b), (stack b d), (pick-up a), (stack a b)",
+    "goal_atoms": "(on a b) and (on b d) and (on d c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-44.pddl",
+    "start_state": "(ontable c), (clear b), (clear d), (ontable d), (handempty), (clear a), (ontable a), (on b c)",
+    "query_plan": "(unstack b c), (put-down b), (pick-up b), (stack b c), (unstack b c)",
+    "goal_atoms": "(on d b) and (on a d)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-43.pddl",
+    "start_state": "(on a b), (ontable d), (handempty), (clear a), (on b c), (on c d)",
+    "query_plan": "(unstack a b), (put-down a), (unstack b c), (stack b a)",
+    "goal_atoms": "(on c d) and (on b a)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-13.pddl",
+    "start_state": "(on c b), (ontable d), (handempty), (on b d), (clear a), (ontable a), (clear c)",
+    "query_plan": "(pick-up a), (put-down a), (pick-up a), (put-down a), (pick-up a)",
+    "goal_atoms": "(on a b) and (on c a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-42.pddl",
+    "start_state": "(clear b), (ontable d), (handempty), (ontable b), (clear a), (on a c), (on c d)",
+    "query_plan": "(unstack a c), (put-down a), (unstack c d), (stack c b), (pick-up d), (stack d c)",
+    "goal_atoms": "(on c b) and (on d c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-36.pddl",
+    "start_state": "(on c b), (on d c), (clear d), (handempty), (ontable b), (clear a), (ontable a)",
+    "query_plan": "(unstack d c), (stack d c), (unstack d c), (stack d a), (unstack c b)",
+    "goal_atoms": "(on c a) and (on a d)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-49.pddl",
+    "start_state": "(clear b), (ontable d), (handempty), (clear a), (ontable a), (on b c), (on c d)",
+    "query_plan": "(unstack b c), (put-down b), (unstack c d), (put-down c), (pick-up d), (stack d a)",
+    "goal_atoms": "(on d a)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-40.pddl",
+    "start_state": "(ontable c), (on d a), (clear b), (handempty), (on b d), (ontable a), (clear c)",
+    "query_plan": "(pick-up c), (put-down c), (unstack b d), (stack b d), (pick-up c)",
+    "goal_atoms": "(on c a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-3.pddl",
+    "start_state": "(ontable c), (clear c), (clear d), (handempty), (on d b), (ontable a), (on b a)",
+    "query_plan": "(unstack d b), (stack d c), (unstack b a), (put-down b), (unstack d c), (stack d a)",
+    "goal_atoms": "(on d a)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-29.pddl",
+    "start_state": "(ontable c), (on d c), (clear b), (on a d), (handempty), (ontable b), (clear a)",
+    "query_plan": "(pick-up b), (put-down b), (unstack a d), (put-down a), (unstack d c)",
+    "goal_atoms": "(on a b) and (on c d) and (on d a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-2.pddl",
+    "start_state": "(on d a), (ontable c), (on a b), (clear d), (handempty), (ontable b), (clear c)",
+    "query_plan": "(unstack d a), (put-down d), (unstack a b), (stack a c), (pick-up d), (stack d a)",
+    "goal_atoms": "(on d a) and (on a c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-22.pddl",
+    "start_state": "(ontable c), (clear b), (ontable d), (handempty), (on b d), (clear a), (on a c)",
+    "query_plan": "(unstack a c), (put-down a), (pick-up a), (stack a c), (unstack a c)",
+    "goal_atoms": "(on b a) and (on c b)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-31.pddl",
+    "start_state": "(on d a), (ontable c), (on a b), (clear d), (handempty), (ontable b), (clear c)",
+    "query_plan": "(unstack d a), (put-down d), (unstack a b), (stack a c), (pick-up d), (stack d b)",
+    "goal_atoms": "(on d b) and (on a c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-11.pddl",
+    "start_state": "(ontable c), (clear b), (ontable d), (handempty), (on b d), (clear a), (ontable a), (clear c)",
+    "query_plan": "(unstack b d), (stack b d), (unstack b d), (stack b a), (pick-up d)",
+    "goal_atoms": "(on d a) and (on a c)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-50.pddl",
+    "start_state": "(ontable c), (on d a), (clear b), (clear d), (handempty), (ontable a), (on b c)",
+    "query_plan": "(unstack b c), (put-down b), (unstack d a), (stack d b), (pick-up a), (stack a c)",
+    "goal_atoms": "(on d b) and (on a c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-8.pddl",
+    "start_state": "(on d a), (on c b), (clear d), (handempty), (ontable b), (ontable a), (clear c)",
+    "query_plan": "(unstack c b), (stack c b), (unstack d a), (stack d c), (pick-up a)",
+    "goal_atoms": "(on c d) and (on b a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-12.pddl",
+    "start_state": "(on c b), (clear c), (on a d), (handempty), (ontable d), (on b a)",
+    "query_plan": "(unstack c b), (put-down c), (unstack b a), (put-down b), (unstack a d), (stack a c)",
+    "goal_atoms": "(on a c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-5.pddl",
+    "start_state": "(ontable c), (clear b), (clear d), (ontable d), (handempty), (ontable b), (clear a), (ontable a), (clear c)",
+    "query_plan": "(pick-up c), (put-down c), (pick-up d), (stack d c), (pick-up a)",
+    "goal_atoms": "(on c b)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-21.pddl",
+    "start_state": "(ontable c), (on d c), (clear b), (clear d), (handempty), (ontable b), (clear a), (ontable a)",
+    "query_plan": "(unstack d c), (put-down d), (pick-up a), (stack a d), (pick-up c), (stack c b)",
+    "goal_atoms": "(on a d) and (on c b)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-4.pddl",
+    "start_state": "(on c a), (clear b), (ontable d), (handempty), (on b d), (ontable a), (clear c)",
+    "query_plan": "(unstack c a), (stack c a), (unstack b d), (stack b d), (unstack c a)",
+    "goal_atoms": "(on c d)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-25.pddl",
+    "start_state": "(ontable c), (clear b), (ontable d), (handempty), (on b d), (clear a), (on a c)",
+    "query_plan": "(unstack a c), (put-down a), (unstack b d), (stack b c)",
+    "goal_atoms": "(on b c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-7.pddl",
+    "start_state": "(ontable c), (clear b), (on a d), (handempty), (ontable d), (ontable b), (clear a), (clear c)",
+    "query_plan": "(pick-up c), (stack c b), (unstack c b), (put-down c), (pick-up b)",
+    "goal_atoms": "(on a d) and (on b a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-24.pddl",
+    "start_state": "(clear b), (ontable d), (handempty), (ontable b), (clear a), (ontable a), (clear c), (on c d)",
+    "query_plan": "(pick-up b), (stack b c)",
+    "goal_atoms": "(on c d) and (on b c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-45.pddl",
+    "start_state": "(ontable c), (clear d), (handempty), (ontable b), (on d b), (clear a), (ontable a), (clear c)",
+    "query_plan": "(pick-up a), (stack a c), (unstack d b), (stack d b), (unstack d b)",
+    "goal_atoms": "(on d b) and (on b a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-20.pddl",
+    "start_state": "(on d a), (ontable c), (on a b), (clear d), (handempty), (ontable b), (clear c)",
+    "query_plan": "(unstack d a), (put-down d), (unstack a b), (put-down a), (pick-up b), (stack b a)",
+    "goal_atoms": "(on b a)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-19.pddl",
+    "start_state": "(ontable c), (on d a), (clear b), (clear d), (handempty), (ontable b), (on a c)",
+    "query_plan": "(unstack d a), (stack d a), (pick-up b), (put-down b), (unstack d a)",
+    "goal_atoms": "(on d b) and (on c a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-23.pddl",
+    "start_state": "(ontable c), (clear b), (ontable d), (handempty), (on b d), (clear a), (on a c)",
+    "query_plan": "(unstack b d), (put-down b), (unstack a c), (stack a b), (pick-up c), (stack c d)",
+    "goal_atoms": "(on a b) and (on c d)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-18.pddl",
+    "start_state": "(ontable c), (on a d), (handempty), (ontable b), (on d b), (clear a), (clear c)",
+    "query_plan": "(pick-up c), (put-down c), (pick-up c), (put-down c), (unstack a d)",
+    "goal_atoms": "(on b d) and (on d a)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-38.pddl",
+    "start_state": "(ontable c), (clear b), (clear d), (ontable d), (handempty), (ontable b), (clear a), (on a c)",
+    "query_plan": "(unstack a c), (put-down a), (pick-up c), (stack c b), (pick-up d), (stack d c)",
+    "goal_atoms": "(on c b) and (on d c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-6.pddl",
+    "start_state": "(on c b), (on d c), (clear d), (handempty), (ontable b), (clear a), (ontable a)",
+    "query_plan": "(pick-up a), (stack a d), (unstack a d), (stack a d), (unstack a d)",
+    "goal_atoms": "(on c a) and (on a d)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-47.pddl",
+    "start_state": "(on c a), (clear b), (ontable d), (handempty), (on b d), (ontable a), (clear c)",
+    "query_plan": "(unstack c a), (put-down c), (pick-up a), (stack a c)",
+    "goal_atoms": "(on a c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-17.pddl",
+    "start_state": "(ontable c), (on a b), (clear d), (ontable d), (handempty), (ontable b), (clear a), (clear c)",
+    "query_plan": "(pick-up d), (stack d c), (unstack a b), (put-down a), (unstack d c)",
+    "goal_atoms": "(on d a) and (on a c)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-37.pddl",
+    "start_state": "(on d c), (on c a), (clear b), (clear d), (handempty), (ontable b), (ontable a)",
+    "query_plan": "(unstack d c), (put-down d), (pick-up b), (stack b c)",
+    "goal_atoms": "(on c a) and (on b c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-10.pddl",
+    "start_state": "(on c a), (clear b), (clear d), (ontable d), (handempty), (ontable b), (ontable a), (clear c)",
+    "query_plan": "(pick-up b), (stack b c), (unstack b c), (stack b c), (unstack b c)",
+    "goal_atoms": "(on a b)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-27.pddl",
+    "start_state": "(ontable c), (on d c), (clear b), (handempty), (on b d), (clear a), (ontable a)",
+    "query_plan": "(unstack b d), (stack b a), (unstack d c), (stack d b), (pick-up c), (stack c d)",
+    "goal_atoms": "(on c d) and (on b a) and (on d b)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-39.pddl",
+    "start_state": "(ontable c), (clear d), (handempty), (on d b), (clear a), (ontable a), (on b c)",
+    "query_plan": "(unstack d b), (stack d b), (unstack d b), (stack d a), (unstack d a)",
+    "goal_atoms": "(on d b) and (on a d)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-16.pddl",
+    "start_state": "(handempty), (ontable b), (on d b), (clear a), (ontable a), (clear c), (on c d)",
+    "query_plan": "(unstack c d), (stack c a), (unstack d b), (put-down d), (unstack c a), (stack c b)",
+    "goal_atoms": "(on c b)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-9.pddl",
+    "start_state": "(ontable c), (clear d), (handempty), (ontable b), (on d b), (clear a), (on a c)",
+    "query_plan": "(unstack a c), (put-down a), (unstack d b), (put-down d), (pick-up b)",
+    "goal_atoms": "(on b d) and (on d a) and (on a c)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-35.pddl",
+    "start_state": "(ontable c), (on a b), (ontable d), (handempty), (on b d), (clear a), (clear c)",
+    "query_plan": "(unstack a b), (put-down a), (unstack b d), (stack b a), (pick-up c), (stack c d)",
+    "goal_atoms": "(on c d) and (on b a)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-33.pddl",
+    "start_state": "(on c b), (clear c), (on a d), (handempty), (ontable d), (on b a)",
+    "query_plan": "(unstack c b), (stack c b), (unstack c b), (stack c b), (unstack c b)",
+    "goal_atoms": "(on a c)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-32.pddl",
+    "start_state": "(on a b), (on c a), (clear d), (ontable d), (handempty), (ontable b), (clear c)",
+    "query_plan": "(pick-up d), (stack d c)",
+    "goal_atoms": "(on a b) and (on d c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-48.pddl",
+    "start_state": "(on c a), (clear b), (ontable d), (handempty), (on b d), (ontable a), (clear c)",
+    "query_plan": "(unstack b d), (put-down b), (pick-up d), (stack d c), (unstack d c)",
+    "goal_atoms": "(on a d) and (on b c)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-15.pddl",
+    "start_state": "(on c b), (clear d), (ontable d), (handempty), (ontable b), (clear a), (on a c)",
+    "query_plan": "(unstack a c), (put-down a), (unstack c b), (stack c a), (pick-up b), (stack b d)",
+    "goal_atoms": "(on c a) and (on b d)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-41.pddl",
+    "start_state": "(on c a), (clear b), (clear d), (ontable d), (handempty), (ontable b), (ontable a), (clear c)",
+    "query_plan": "(pick-up b), (put-down b), (pick-up d), (stack d b), (unstack c a)",
+    "goal_atoms": "(on c d) and (on d b) and (on a c)",
+    "is_goal_state": false
+  },
+  {
+    "id": "instance-28.pddl",
+    "start_state": "(on d c), (on c a), (clear b), (clear d), (handempty), (ontable b), (ontable a)",
+    "query_plan": "(unstack d c), (stack d b), (unstack c a), (put-down c), (pick-up a), (stack a c), (unstack d b), (stack d a)",
+    "goal_atoms": "(on d a) and (on a c)",
+    "is_goal_state": true
+  },
+  {
+    "id": "instance-14.pddl",
+    "start_state": "(ontable c), (clear c), (clear d), (handempty), (on d b), (ontable a), (on b a)",
+    "query_plan": "(pick-up c), (put-down c), (unstack d b), (stack d c), (unstack d c)",
+    "goal_atoms": "(on a d) and (on b c)",
+    "is_goal_state": false
+  }
+]

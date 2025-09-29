@@ -1,0 +1,813 @@
+[
+  {
+    "id": "instance-34.pddl",
+    "query_state": "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the orange block is on top of the yellow block, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the orange block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is currently holding blue block, the yellow block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on top of the red block, the blue block is clear, the hand is currently holding yellow block, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-46.pddl",
+    "query_state": "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the orange block is on top of the yellow block, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the yellow block is clear, the red block is on the table, the yellow block is on the table, the blue block is on top of the red block, the hand is currently holding orange block",
+      "the blue block is clear, the red block is on the table, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the red block, the orange block is on top of the yellow block",
+      "the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table, the orange block is on top of the yellow block"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "the yellow block is on top of the blue block"
+  },
+  {
+    "id": "instance-30.pddl",
+    "query_state": "the orange block is on top of the red block, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "the yellow block is on top of the orange block"
+  },
+  {
+    "id": "instance-1.pddl",
+    "query_state": "the blue block is clear, the orange block is clear, the yellow block is on the table, the orange block is on top of the yellow block, the blue block is on the table, the hand is currently holding red block",
+    "previous_states": [
+      "the orange block is on the table, the red block is on top of the blue block, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table",
+      "the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the yellow block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the orange block is clear, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": 2,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the yellow block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-26.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the hand is empty, the blue block is on top of the red block, the yellow block is on top of the orange block",
+      "the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the hand is currently holding blue block, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the orange block and the red block is on top of the blue block and the blue block is on top of the yellow block"
+  },
+  {
+    "id": "instance-44.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the red block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the yellow block is clear, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the yellow block is on the table, the blue block is on top of the orange block, the hand is currently holding red block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the blue block and the red block is on top of the yellow block"
+  },
+  {
+    "id": "instance-43.pddl",
+    "query_state": "the blue block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the orange block is on top of the yellow block, the red block is on the table, the blue block is on top of the red block",
+    "previous_states": [
+      "the blue block is clear, the red block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is on the table, the hand is currently holding red block, the blue block is on top of the orange block, the orange block is on top of the yellow block",
+      "the red block is on top of the blue block, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the orange block, the orange block is on top of the yellow block",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table, the orange block is on top of the yellow block"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "the orange block is on top of the yellow block and the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-13.pddl",
+    "query_state": "the orange block is on top of the red block, the blue block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+    "previous_states": [
+      "the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding red block, the orange block is on top of the blue block",
+      "the blue block is clear, the red block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on the table, the hand is currently holding orange block",
+      "the red block is clear, the orange block is clear, the hand is empty, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on the table, the orange block is on top of the blue block",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the red block is on top of the blue block and the orange block is on top of the red block"
+  },
+  {
+    "id": "instance-42.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on top of the orange block, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the yellow block",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block, the orange block is on top of the yellow block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the red block is on top of the orange block, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the orange block and the orange block is on top of the blue block"
+  },
+  {
+    "id": "instance-36.pddl",
+    "query_state": "the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the yellow block is clear, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+    "previous_states": [
+      "the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the blue block, the yellow block is on top of the orange block",
+      "the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+      "the yellow block is clear, the red block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is on top of the orange block"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the red block is on top of the yellow block and the orange block is on top of the red block"
+  },
+  {
+    "id": "instance-49.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the orange block, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the red block is on the table, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the orange block is on top of the yellow block",
+      "the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is on the table, the hand is currently holding red block, the blue block is on top of the orange block, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the orange block is on top of the yellow block",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "the yellow block is on top of the red block"
+  },
+  {
+    "id": "instance-40.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is on top of the red block, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the yellow block is on top of the red block, the orange block is on the table, the blue block is clear, the orange block is clear, the hand is empty, the blue block is on top of the yellow block, the red block is on the table",
+      "the yellow block is on top of the red block, the blue block is clear, the blue block is on top of the yellow block, the red block is on the table, the hand is currently holding orange block",
+      "the yellow block is on top of the red block, the orange block is on the table, the yellow block is clear, the orange block is clear, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table",
+      "the yellow block is on top of the red block, the orange block is clear, the blue block is on top of the yellow block, the hand is empty, the red block is on the table, the orange block is on top of the blue block"
+    ],
+    "novelty": 2,
+    "instance_width": 2,
+    "goal_atoms": "the orange block is on top of the red block"
+  },
+  {
+    "id": "instance-3.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the red block is on the table, the hand is currently holding yellow block, the orange block is clear, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the red block is on the table, the blue block is on top of the red block",
+      "the blue block is clear, the red block is on the table, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the orange block is on top of the yellow block",
+      "the yellow block is clear, the yellow block is on top of the blue block, the red block is on the table, the blue block is on top of the red block, the hand is currently holding orange block",
+      "the blue block is clear, the yellow block is clear, the red block is on the table, the yellow block is on the table, the blue block is on top of the red block, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the yellow block is on top of the blue block, the hand is empty, the orange block is clear, the red block is on the table, the blue block is on top of the red block, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the red block is on the table, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the red block"
+  },
+  {
+    "id": "instance-29.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the red block is clear, the hand is empty, the yellow block is clear, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block",
+      "the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the hand is currently holding blue block, the yellow block is on top of the orange block"
+    ],
+    "novelty": 1,
+    "instance_width": 3,
+    "goal_atoms": "the orange block is on top of the yellow block and the red block is on top of the blue block and the yellow block is on top of the red block"
+  },
+  {
+    "id": "instance-2.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the red block is clear, the hand is empty, the yellow block is clear, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+    "previous_states": [
+      "the orange block is on the table, the red block is on top of the blue block, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table",
+      "the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the yellow block is on top of the red block, the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the orange block is clear, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the yellow block is on top of the orange block",
+      "the yellow block is on top of the red block, the yellow block is clear, the red block is on top of the blue block, the blue block is on the table, the hand is currently holding orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block",
+      "the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is clear, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": 2,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the red block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-22.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding red block",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block",
+      "the orange block is on the table, the red block is on top of the blue block, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the red block is on top of the orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the red block and the orange block is on top of the blue block"
+  },
+  {
+    "id": "instance-31.pddl",
+    "query_state": "the yellow block is on top of the red block, the yellow block is clear, the blue block is on the table, the red block is on top of the blue block, the hand is currently holding orange block",
+    "previous_states": [
+      "the yellow block is on top of the red block, the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the orange block is clear, the hand is empty, the blue block is on the table",
+      "the orange block is on the table, the red block is on top of the blue block, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the blue block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-11.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is on the table, the blue block is on top of the yellow block, the hand is currently holding red block",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the yellow block, the red block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the red block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-50.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the orange block is clear, the hand is empty, the yellow block is on top of the red block, the yellow block is clear, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the yellow block is on top of the red block, the orange block is on the table, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the yellow block is on top of the red block, the orange block is on the table, the yellow block is clear, the orange block is clear, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the blue block is on top of the orange block, the red block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the blue block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-8.pddl",
+    "query_state": "the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the yellow block is clear, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+    "previous_states": [
+      "the blue block is clear, the yellow block is on top of the red block, the yellow block is clear, the blue block is on the table, the red block is on the table, the hand is currently holding orange block",
+      "the yellow block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+      "the blue block is clear, the orange block is on the table, the yellow block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+      "the blue block is clear, the yellow block is on top of the red block, the orange block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the orange block is on top of the yellow block and the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-12.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on top of the yellow block, the blue block is on top of the red block",
+    "previous_states": [
+      "the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the red block is on top of the yellow block, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the red block, the orange block is on top of the blue block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block",
+      "the blue block is clear, the red block is on top of the yellow block, the yellow block is on the table, the blue block is on top of the red block, the hand is currently holding orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-5.pddl",
+    "query_state": "the red block is clear, the yellow block is on the table, the yellow block is clear, the red block is on top of the blue block, the blue block is on the table, the hand is currently holding orange block",
+    "previous_states": [
+      "the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "the orange block is on top of the blue block"
+  },
+  {
+    "id": "instance-21.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the yellow block is clear, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the orange block is on the table, the red block is on top of the blue block, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the orange block is clear, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the red block is on top of the yellow block and the orange block is on top of the blue block"
+  },
+  {
+    "id": "instance-4.pddl",
+    "query_state": "the orange block is on top of the red block, the orange block is clear, the yellow block is on the table, the yellow block is clear, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the red block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on the table, the hand is currently holding orange block",
+      "the orange block is on top of the red block, the blue block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the orange block is on top of the yellow block"
+  },
+  {
+    "id": "instance-25.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block",
+    "previous_states": [
+      "the red block is on top of the blue block, the red block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block",
+      "the orange block is on the table, the red block is on top of the blue block, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the red block is on top of the orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the orange block"
+  },
+  {
+    "id": "instance-7.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on top of the yellow block, the blue block is on the table",
+    "previous_states": [
+      "the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "the red block is on top of the yellow block and the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-24.pddl",
+    "query_state": "the blue block is clear, the yellow block is clear, the yellow block is on the table, the red block is on the table, the blue block is on top of the red block, the hand is currently holding orange block",
+    "previous_states": [
+      "the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "the blue block is on top of the orange block and the orange block is on top of the yellow block"
+  },
+  {
+    "id": "instance-45.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the blue block is on the table, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on top of the blue block, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the orange block is clear, the blue block is on the table, the red block is on the table"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the blue block and the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-20.pddl",
+    "query_state": "the blue block is clear, the yellow block is clear, the yellow block is on the table, the red block is on the table, the blue block is on top of the red block, the hand is currently holding orange block",
+    "previous_states": [
+      "the orange block is on the table, the red block is on top of the blue block, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table",
+      "the yellow block is on top of the red block, the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the orange block is clear, the hand is empty, the blue block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table",
+      "the yellow block is on top of the red block, the yellow block is clear, the red block is on top of the blue block, the blue block is on the table, the hand is currently holding orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block",
+      "the yellow block is on top of the red block, the red block is on top of the blue block, the orange block is clear, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-19.pddl",
+    "query_state": "the orange block is on the table, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the yellow block is clear, the red block is on top of the blue block, the blue block is on the table",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the blue block is on the table, the red block is on top of the orange block",
+      "the yellow block is on top of the red block, the orange block is on the table, the yellow block is clear, the hand is currently holding blue block, the red block is on top of the orange block",
+      "the yellow block is on top of the red block, the orange block is on the table, the blue block is clear, the hand is empty, the blue block is on top of the yellow block, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the yellow block is on top of the red block, the orange block is on the table, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the orange block is clear, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the blue block and the orange block is on top of the red block"
+  },
+  {
+    "id": "instance-23.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding red block",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block",
+      "the orange block is on the table, the red block is on top of the blue block, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the red block is on top of the orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the orange block is on top of the yellow block and the red block is on top of the blue block"
+  },
+  {
+    "id": "instance-18.pddl",
+    "query_state": "the hand is empty, the orange block is on the table, the blue block is on the table, the red block is on top of the yellow block, the orange block is clear, the red block is clear, the yellow block is on top of the blue block",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table",
+      "the red block is on top of the yellow block, the red block is clear, the yellow block is on top of the blue block, the blue block is on the table, the hand is currently holding orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the orange block is clear, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the yellow block and the yellow block is on top of the red block"
+  },
+  {
+    "id": "instance-38.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the yellow block is clear, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on top of the orange block",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the blue block is on top of the red block, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the red block is on top of the orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the orange block and the orange block is on top of the blue block"
+  },
+  {
+    "id": "instance-6.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the red block is on top of the yellow block, the red block is clear, the hand is empty, the blue block is on the table, the orange block is on top of the blue block, the yellow block is on top of the orange block",
+      "the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the blue block",
+      "the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the blue block, the yellow block is on top of the orange block",
+      "the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+      "the yellow block is clear, the red block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on top of the orange block, the orange block is on top of the blue block",
+      "the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the red block is on top of the yellow block and the orange block is on top of the red block"
+  },
+  {
+    "id": "instance-47.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the red block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on the table, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the orange block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is currently holding blue block, the yellow block is on the table, the red block is on the table",
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table"
+    ],
+    "novelty": 2,
+    "instance_width": 1,
+    "goal_atoms": "the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-17.pddl",
+    "query_state": "the blue block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the orange block is on top of the yellow block, the red block is on the table, the blue block is on top of the red block",
+    "previous_states": [
+      "the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the red block is on the table, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the yellow block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the yellow block is clear, the red block is on the table, the yellow block is on the table, the blue block is on top of the red block, the hand is currently holding orange block",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table, the orange block is on top of the yellow block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the red block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-37.pddl",
+    "query_state": "the orange block is on top of the red block, the hand is currently holding blue block, the yellow block is clear, the red block is on the table, the yellow block is on top of the orange block",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+      "the orange block is on top of the red block, the blue block is clear, the hand is currently holding yellow block, the orange block is clear, the blue block is on the table, the red block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the orange block and the orange block is on top of the red block"
+  },
+  {
+    "id": "instance-10.pddl",
+    "query_state": "the orange block is on top of the red block, the blue block is clear, the blue block is on top of the orange block, the red block is on the table, the hand is currently holding yellow block",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the orange block is on top of the red block, the yellow block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the orange block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is currently holding blue block, the yellow block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on top of the red block, the blue block is clear, the hand is currently holding yellow block, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "the red block is on top of the blue block"
+  },
+  {
+    "id": "instance-27.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the red block is on the table, the hand is currently holding yellow block, the orange block is clear, the blue block is on top of the red block",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the hand is empty, the orange block is clear, the red block is on the table, the blue block is on top of the red block",
+      "the blue block is clear, the orange block is on the table, the blue block is on top of the yellow block, the hand is currently holding red block, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the hand is currently holding blue block, the red block is on the table, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the blue block is on the table, the hand is currently holding red block, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the hand is empty, the blue block is on the table, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the hand is empty, the blue block is on top of the yellow block, the red block is on the table, the yellow block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the red block is on the table, the blue block is on top of the red block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the hand is empty, the red block is on the table, the blue block is on top of the red block, the yellow block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the red block is on top of the blue block, the red block is clear, the blue block is on top of the yellow block, the hand is empty, the yellow block is on top of the orange block"
+    ],
+    "novelty": 2,
+    "instance_width": 3,
+    "goal_atoms": "the orange block is on top of the yellow block and the yellow block is on top of the blue block and the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-39.pddl",
+    "query_state": "the orange block is on the table, the red block is clear, the hand is empty, the blue block is on top of the orange block, the yellow block is clear, the yellow block is on top of the blue block, the red block is on the table",
+    "previous_states": [
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the blue block is on top of the orange block, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the hand is currently holding red block, the blue block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the orange block, the red block is on the table"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "the yellow block is on top of the blue block and the red block is on top of the yellow block"
+  },
+  {
+    "id": "instance-16.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the yellow block is clear, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the blue block is on the table, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the orange block is clear, the yellow block is on top of the blue block, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the yellow block",
+      "the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on the table, the red block is on top of the orange block, the orange block is on top of the yellow block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the orange block is clear, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the orange block is on top of the blue block"
+  },
+  {
+    "id": "instance-9.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on top of the blue block, the blue block is on the table, the hand is currently holding red block",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the blue block is on the table, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the yellow block is on top of the blue block, the hand is empty, the blue block is on the table, the red block is on top of the orange block",
+      "the blue block is clear, the orange block is on the table, the hand is currently holding yellow block, the red block is clear, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on top of the orange block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the yellow block is on top of the blue block, the orange block is clear, the blue block is on the table, the hand is currently holding red block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the yellow block and the yellow block is on top of the red block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-35.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the orange block is clear, the yellow block is on the table, the hand is empty, the yellow block is clear, the red block is on the table, the blue block is on top of the red block",
+    "previous_states": [
+      "the red block is on top of the blue block, the red block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding orange block",
+      "the orange block is on top of the red block, the red block is on top of the blue block, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty",
+      "the orange block is on the table, the red block is on top of the blue block, the red block is clear, the orange block is clear, the hand is empty, the blue block is on top of the yellow block, the yellow block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is currently holding red block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the orange block is on top of the yellow block and the blue block is on top of the red block"
+  },
+  {
+    "id": "instance-33.pddl",
+    "query_state": "the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block",
+    "previous_states": [
+      "the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the red block is on top of the yellow block, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on top of the red block, the orange block is on top of the blue block",
+      "the blue block is clear, the orange block is on the table, the red block is on top of the yellow block, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the red block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the red block is on top of the yellow block, the yellow block is on the table, the blue block is on top of the red block, the hand is currently holding orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 1,
+    "goal_atoms": "the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-32.pddl",
+    "query_state": "the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the orange block is on top of the yellow block, the red block is on top of the blue block, the blue block is on the table",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the orange block is on top of the red block, the yellow block is clear, the red block is on top of the blue block, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the yellow block is clear, the red block is on top of the blue block, the red block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding orange block",
+      "the orange block is on top of the red block, the red block is on top of the blue block, the hand is currently holding yellow block, the orange block is clear, the blue block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 1,
+    "goal_atoms": "the yellow block is on top of the orange block and the red block is on top of the blue block"
+  },
+  {
+    "id": "instance-48.pddl",
+    "query_state": "the orange block is on top of the red block, the blue block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the yellow block is clear, the red block is on the table",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the blue block is clear, the red block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the red block is on the table, the hand is currently holding orange block",
+      "the blue block is clear, the orange block is on the table, the red block is clear, the orange block is clear, the blue block is on top of the yellow block, the yellow block is on the table, the hand is empty, the red block is on the table",
+      "the orange block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is currently holding blue block, the yellow block is on the table, the red block is on the table",
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the orange block and the red block is on top of the yellow block"
+  },
+  {
+    "id": "instance-15.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+    "previous_states": [
+      "the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the orange block is on top of the yellow block",
+      "the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the blue block",
+      "the yellow block is on top of the red block, the yellow block is clear, the hand is empty, the blue block is on the table, the red block is on top of the orange block, the orange block is on top of the blue block",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the orange block is on the table, the yellow block is clear, the red block is on top of the blue block, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the yellow block is clear, the red block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on top of the orange block, the orange block is on top of the blue block",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the red block is on the table, the blue block is on top of the red block",
+      "the hand is currently holding yellow block, the red block is clear, the blue block is on the table, the red block is on top of the orange block, the orange block is on top of the blue block",
+      "the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the blue block",
+      "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the blue block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": -1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the yellow block and the orange block is on top of the red block"
+  },
+  {
+    "id": "instance-41.pddl",
+    "query_state": "the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is currently holding blue block, the red block is on the table",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the yellow block is on the table, the hand is empty, the blue block is on top of the orange block, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table",
+      "the orange block is on top of the red block, the yellow block is clear, the orange block is clear, the hand is currently holding blue block, the yellow block is on the table, the red block is on the table",
+      "the blue block is clear, the orange block is on the table, the yellow block is clear, the orange block is clear, the yellow block is on the table, the blue block is on the table, the hand is currently holding red block",
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the blue block is on the table, the red block is on the table",
+      "the blue block is clear, the red block is clear, the orange block is clear, the yellow block is on the table, the hand is empty, the blue block is on the table, the red block is on the table, the orange block is on top of the yellow block",
+      "the blue block is clear, the yellow block is clear, the red block is clear, the yellow block is on the table, the blue block is on the table, the red block is on the table, the hand is currently holding orange block"
+    ],
+    "novelty": 2,
+    "instance_width": 3,
+    "goal_atoms": "the orange block is on top of the yellow block and the yellow block is on top of the blue block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-28.pddl",
+    "query_state": "the orange block is on top of the red block, the blue block is clear, the orange block is clear, the hand is empty, the yellow block is on the table, the yellow block is clear, the blue block is on the table, the red block is on the table",
+    "previous_states": [
+      "the orange block is on top of the red block, the blue block is clear, the yellow block is clear, the hand is empty, the blue block is on the table, the red block is on the table, the yellow block is on top of the orange block",
+      "the orange block is on top of the red block, the blue block is clear, the hand is currently holding yellow block, the orange block is clear, the blue block is on the table, the red block is on the table",
+      "the orange block is on top of the red block, the yellow block is clear, the hand is currently holding blue block, the red block is on the table, the yellow block is on top of the orange block"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the yellow block is on top of the red block and the red block is on top of the orange block"
+  },
+  {
+    "id": "instance-14.pddl",
+    "query_state": "the blue block is clear, the orange block is on the table, the orange block is clear, the hand is empty, the yellow block is on the table, the yellow block is clear, the red block is on the table, the blue block is on top of the red block",
+    "previous_states": [
+      "the orange block is on the table, the yellow block is clear, the orange block is clear, the hand is empty, the yellow block is on top of the blue block, the red block is on the table, the blue block is on top of the red block",
+      "the blue block is clear, the orange block is on the table, the red block is on the table, the hand is currently holding yellow block, the orange block is clear, the blue block is on top of the red block",
+      "the yellow block is clear, the yellow block is on top of the blue block, the red block is on the table, the blue block is on top of the red block, the hand is currently holding orange block"
+    ],
+    "novelty": 1,
+    "instance_width": 2,
+    "goal_atoms": "the blue block is on top of the orange block and the red block is on top of the yellow block"
+  }
+]

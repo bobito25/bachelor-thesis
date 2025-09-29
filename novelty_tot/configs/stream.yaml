@@ -1,0 +1,7 @@
+mode: stream
+stream_prompt: 'You are a smart assistant that answers concisely.
+
+  You will be given a problem / question to solve.
+
+  Output [FINISHED] when you are done. This is your problem statement:'
+novelty: False

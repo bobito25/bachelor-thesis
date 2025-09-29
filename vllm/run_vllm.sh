@@ -110,8 +110,8 @@ pip install "bitsandbytes>=0.44.0"
 # export VLLM_TRACE_FUNCTION=1
 echo uninstalling flash attantion
 pip uninstall flash-attn -y
-echo installing transformers
-pip install --no-cache-dir transformers==4.48.1
+#echo installing transformers
+#pip install --no-cache-dir transformers==4.48.1
 
 echo starting the server
 

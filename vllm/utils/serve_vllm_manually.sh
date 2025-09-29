@@ -98,5 +98,11 @@ export VLLM_USE_V1=1
 # Log the constructed command
 log "Executing command: ${COMMAND[*]}"
 
+echo "Current ulimit -n:"
+ulimit -n
+# Set ulimit to a higher value if necessary
+echo "Setting ulimit -n to 65536"
+ulimit -n 65536
+
 # Execute the command
 "${COMMAND[@]}"
